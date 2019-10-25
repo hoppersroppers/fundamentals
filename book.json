@@ -24,7 +24,7 @@
   "pluginsConfig": {
     "search-pro": {
       "cutWordLib": "nodejieba",
-      "defineWord" : ["Gitbook Use"]
+      "defineWord": ["Gitbook Use"]
     },
     "anchor-navigation-ex": {
       "showLevel": false
@@ -68,8 +68,8 @@
       "path": "/"
     },
     "donate": {
-      "wechat": "https://ws1.sinaimg.cn/large/8e495e65ly1fz0myv9povj20u00u0wfr.jpg",
-      "alipay": "https://ws1.sinaimg.cn/large/8e495e65ly1fz0myv9emlj20p011idib.jpg",
+      "wechat": "./wechat.jpg",
+      "alipay": "./alipay.jpg",
       "title": "",
       "button": "赏",
       "alipayText": "支付宝打赏",
