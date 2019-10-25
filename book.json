@@ -68,8 +68,8 @@
       "path": "/"
     },
     "donate": {
-      "wechat": "./wechat.jpg",
-      "alipay": "./alipay.jpg",
+      "wechat": "https://riskers.github.io/gitbook-template/wechat.jpg",
+      "alipay": "https://riskers.github.io/gitbook-template/alipay.jpg",
       "title": "",
       "button": "赏",
       "alipayText": "支付宝打赏",
