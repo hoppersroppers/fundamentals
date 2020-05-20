@@ -6,7 +6,6 @@
     "-search",
     "search-pro",
     "-sharing",
-    "disqus",
     "github-buttons",
     "editlink",
     "ga",
@@ -29,9 +28,7 @@
     "anchor-navigation-ex": {
       "showLevel": false
     },
-    "disqus": {
-      "shortName": "gitbook-template"
-    },
+
     "github-buttons": {
       "buttons": [{
         "user": "hoppersroppers",
@@ -47,7 +44,7 @@
       "multilingual": false
     },
     "ga": {
-      "token": ""
+      "token": "UA-151638088-2"
     },
     "prism": {
       "ignore": [
