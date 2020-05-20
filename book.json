@@ -34,20 +34,20 @@
     },
     "github-buttons": {
       "buttons": [{
-        "user": "riskers",
-        "repo": "gitbook-template",
+        "user": "hoppersroppers",
+        "repo": "ctf",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
     "editlink": {
-      "base": "https://github.com/riskers/gitbook-template/blob/master",
+      "base": "https://github.com/hoppersroppers/ctf/blob/master",
       "label": "Edit",
       "multilingual": false
     },
     "ga": {
-      "token": "UA-131910384-3"
+      "token": ""
     },
     "prism": {
       "ignore": [
@@ -59,21 +59,14 @@
       ]
     },
     "page-footer-ex": {
-      "copyright": "By [riskers](https://github.com/riskers)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
+      "copyright": "Hoppers Roppers 2020",
       "markdown": true,
-      "update_label": "此页面修订于：",
+      "update_label": "Date：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     },
     "bibtex-indexed-cite": {
       "path": "/"
     },
-    "donate": {
-      "wechat": "https://riskers.github.io/gitbook-template/wechat.jpg",
-      "alipay": "https://riskers.github.io/gitbook-template/alipay.jpg",
-      "title": "",
-      "button": "赏",
-      "alipayText": "支付宝打赏",
-      "wechatText": "微信打赏"
-    }
+
   }
 }
