@@ -1,20 +1,20 @@
 # Summary
 
 
-## chapter_0
+## Capture the Flags
 
 * [The Competitive Team](chapter_0/0-thecompetitiveteam.md) 
 * [Jeopardy Style](chapter_0/1-jeopardystyle.md) 
 * [Join the Team](chapter_0/2-jointheteam.md) 
 * [What You Will Learn](chapter_0/3-whatyouwilllearn.md) 
 
-## chapter_1
+## CTF Meta
 
 * [Basic Principles](chapter_1/0-basicprinciples.md) 
 * [Linux and VMs](chapter_1/1-linuxandvms.md) 
 * [Programming and Scripting ](chapter_1/2-programmingandscripting.md) 
 
-## chapter_2
+## File Forensics
 
 * [CTF Meta](chapter_2/0-ctfmeta.md) 
 * [Representing Data 1](chapter_2/1-representingdata1.md) 
@@ -30,15 +30,15 @@
 * [Steganography 2](chapter_2/14-steganography2.md) 
 * [User Testimonial](chapter_2/17-usertestimonial.md) 
 
-## chapter_3
+## Host Forensics
 
 * [Host Forensics](chapter_3/0-hostforensics.md) 
 
-## chapter_4
+## Memory Forensics
 
 * [Memory Forensics](chapter_4/0-memoryforensics.md) 
 
-## chapter_5
+## Network Forensics
 
 * [CTF Meta ](chapter_5/0-ctfmeta.md) 
 * [Wireshark](chapter_5/1-wireshark.md) 
@@ -53,7 +53,7 @@
 * [NetForensics 6](chapter_5/11-netforensics6.md) 
 * [NetForensics 7](chapter_5/12-netforensics7.md) 
 
-## chapter_6
+## Cryptography
 
 * [CTF Meta ](chapter_6/0-ctfmeta.md) 
 * [Classical Ciphers](chapter_6/1-classicalciphers.md) 
@@ -71,7 +71,7 @@
 * [RSA](chapter_6/14-rsa.md) 
 * [Things You Shouldnt Try to Do](chapter_6/16-thingsyoushouldnttrytodo.md) 
 
-## chapter_7
+## Web Exploitation
 
 * [CTF Meta](chapter_7/0-ctfmeta.md) 
 * [How Website](chapter_7/1-howwebsite.md) 
@@ -83,11 +83,11 @@
 * [Cross Site Scripting](chapter_7/8-crosssitescripting.md) 
 * [Server Side Request Forgery](chapter_7/9-serversiderequestforgery.md) 
 
-## chapter_8
+## Reversing and Binary Exploitation
 
 * [You Wont Learn That Here](chapter_8/0-youwontlearnthathere.md) 
 
-## chapter_9
+## picoCTF
 
 * [Compete and Learn](chapter_9/0-competeandlearn.md) 
 * [User Testimonial](chapter_9/2-usertestimonial.md) 
