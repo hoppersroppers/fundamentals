@@ -1,6 +1,6 @@
 # Linux and VMs
 
-[Check out our free CTF Course!](https://academy.hoppersroppers.org/mod/page/view.php?id=565) 
+<div class="text-center> <button onclick="document.location = 'https://academy.hoppersroppers.org/mod/page/view.php?id=565'">Check out the course!</button> </div>
 
 You should have validated this prior to registering for the course. There is a huge range of experience someone can have with Linux and VMs, so I don't make any attempt at pre-scribing what skills you should have.
 
