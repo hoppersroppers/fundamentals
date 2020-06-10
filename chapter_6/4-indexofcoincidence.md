@@ -1,6 +1,6 @@
 # Index of Coincidence
 
-<Button href="https://academy.hoppersroppers.org/mod/page/view.php?id=611">Check out our free CTF Course!</Button>
+<Button href="https://academy.hoppersroppers.org/mod/page/view.php?id=611" target="_blank">Check out our free CTF Course!</Button>
 
 Read this: <https://www.dcode.fr/index-coincidence>
 
@@ -10,4 +10,4 @@ Read this: <https://www.dcode.fr/index-coincidence>
 2. What is a transposition cipher?
 3. What is a monoalphabetic cipher?
 4. What is a polyalphabetic cipher?
-<Button href="https://academy.hoppersroppers.org/mod/page/view.php?id=611" size="lg">Check out our free CTF Course!</Button>
+<Button href="https://academy.hoppersroppers.org/mod/page/view.php?id=611" target="_blank" size="lg">Check out our free CTF Course!</Button>
