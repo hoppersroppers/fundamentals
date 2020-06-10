@@ -1,22 +1,19 @@
 # Summary
 
 
-## chapter_0
+## Mindset
 
 * [Starting an Infosec Career](chapter_0/0-startinganinfoseccareer.md)
 * [This Stuff is Hard](chapter_0/1-thisstuffishard.md)
 * [Hacker Attitude](chapter_0/2-hackerattitude.md)
 * [Hacker Ethic](chapter_0/3-hackerethic.md)
 * [RTFM](chapter_0/4-rtfm.md)
-* [Questions Hidden](chapter_0/5-questionshidden.md)
 * [Questions](chapter_0/6-questions.md)
-* [Brainwashing and Learning Hidden](chapter_0/7-brainwashingandlearninghidden.md)
 * [Brainwashing and Learning](chapter_0/8-brainwashingandlearning.md)
 * [Motivation](chapter_0/9-motivation.md)
 
-## chapter_1
+## Build a Lab
 
-* [Virtualization Hidden](chapter_1/0-virtualizationhidden.md)
 * [Virtualization](chapter_1/1-virtualization.md)
 * [Install Virtualization Software](chapter_1/2-installvirtualizationsoftware.md)
 * [Install Ubuntu](chapter_1/3-installubuntu.md)
@@ -42,7 +39,7 @@
 * [History](chapter_1/23-history.md)
 * [Maintaining Motivation](chapter_1/24-maintainingmotivation.md)
 
-## chapter_2
+## Hardware
 
 * [History](chapter_2/0-history.md)
 * [Storage](chapter_2/1-storage.md)
@@ -55,7 +52,7 @@
 * [Machine Code and Assembly Code](chapter_2/8-machinecodeandassemblycode.md)
 * [Memory](chapter_2/9-memory.md)
 
-## chapter_3
+## Programming
 
 * [How to Type](chapter_3/0-howtotype.md)
 * [Programming Languages](chapter_3/1-programminglanguages.md)
@@ -65,7 +62,7 @@
 * [More Programming](chapter_3/5-moreprogramming.md)
 * [User Testimonial](chapter_3/6-usertestimonial.md)
 
-## chapter_4
+## Operating Systems
 
 * [Operating Systems Part 1 ](chapter_4/0-operatingsystemspart1.md)
 * [Operating Systems Part 2](chapter_4/1-operatingsystemspart2.md)
@@ -73,7 +70,7 @@
 * [File Systems](chapter_4/3-filesystems.md)
 * [Disc Partitioning and Backing Up Data](chapter_4/4-discpartitioningandbackingupdata.md)
 
-## chapter_5
+## Windows
 
 * [History](chapter_5/0-history.md)
 * [Windows Command Line](chapter_5/1-windowscommandline.md)
@@ -83,7 +80,7 @@
 * [Boot Process](chapter_5/5-bootprocess.md)
 * [Logs](chapter_5/6-logs.md)
 
-## chapter_6
+## Linux
 
 * [History](chapter_6/0-history.md)
 * [Command Line](chapter_6/1-commandline.md)
@@ -93,7 +90,7 @@
 * [Boot Process](chapter_6/5-bootprocess.md)
 * [Logs](chapter_6/6-logs.md)
 
-## chapter_7
+## Networking
 
 * [Networking 1](chapter_7/0-networking1.md)
 * [Networking 2](chapter_7/1-networking2.md)
@@ -104,7 +101,7 @@
 * [RFCS 2](chapter_7/6-rfcs2.md)
 * [TCPIP Book](chapter_7/7-tcpipbook.md)
 
-## chapter_8
+## The Internet
 
 * [History](chapter_8/0-history.md)
 * [How it Works Hosting](chapter_8/1-howitworkshosting.md)
