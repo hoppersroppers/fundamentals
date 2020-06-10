@@ -1,6 +1,6 @@
 # Automated Frequency Analysis
 
-[Check out our free CTF Course!](https://academy.hoppersroppers.org/mod/page/view.php?id=610) 
+[Check out our free course!](https://academy.hoppersroppers.org/mod/page/view.php?id=610)
 
 Read this: <https://planetcalc.com/8047/>
 
@@ -16,4 +16,6 @@ Crypto has a lot of math, but luckily, because it is math, someone else has usua
 2. Explain how frequency analysis can be used to automatically detect the correct decryption of a ciphertext.
 3. What is leet speak?
 4. How would this break a text fitness calculation?
-[Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=610) 
+
+[Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=610)
+ 

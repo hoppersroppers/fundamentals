@@ -1,6 +1,6 @@
 # Basic Principles
 
-[Check out our free CTF Course!](https://academy.hoppersroppers.org/mod/page/view.php?id=564) 
+[Check out our free course!](https://academy.hoppersroppers.org/mod/page/view.php?id=564)
 
 ## Flag Format
 
@@ -15,7 +15,7 @@ Always check for:
 * Character encoding
 * Trailing whitespace/newlines
 * Date/Time formats
-* Hex address formats (0x0042 vs 0042 vs 00000042) 
+* Hex address formats (0x0042 vs 0042 vs 00000042)
 
 Sometimes the flag will require you to submit a hash of a variety of information that you have found. Be especially careful with these problems to verify what you are putting into your hashing algorithm, and that you are using the right algo.
 
@@ -29,14 +29,14 @@ Some common mechanics for Jeopardy-style CTFs:
 
 Just like Jeopardy, the more difficult problems are worth more points, and the easier or higher-variance trivia and guessing problems worth fewer points. This encourages people to look at the difficult problems and learn the more hardcore security skills!
 
-Therefore, any CTF scoring system--however complex--must strongly tend to reward the teams that demonstrate the best security skills. Think hard on your game mechanics, and try to keep them from being exploitable or distracting too much from the core challenges. (Not that that can't be fun, but little in this document would apply to such a competition!) 
+Therefore, any CTF scoring system--however complex--must strongly tend to reward the teams that demonstrate the best security skills. Think hard on your game mechanics, and try to keep them from being exploitable or distracting too much from the core challenges. (Not that that can't be fun, but little in this document would apply to such a competition!)
 
 Some common mechanics for Jeopardy-style CTFs:
 
 1. Often solving the easier challenges will unlock harder, higher point challenges.
   * Binary Exploitation problems wind up having some of the highest general point values because they are the most difficult skills to learn.
-2. There are usually extra "first blood" points (usually only a small number that allow for tie-breaking)  given to the first few teams who solve a challenge. This discourages "flag hoarding", where a team holds on to their flags and submits them all at the very end of the competition.
-   * (This is a fairly advanced move, but flag hoarding allows a team to hide their true score on the scoreboard, causing other teams to feel that they have comfortable leads and don't need to be working to the last minutes. Then the flag hoarders can drop their stored flags and pull ahead in the last few seconds. Awesome when you do it, pretty terrible when it is done to you.) .
+2. There are usually extra "first blood" points (usually only a small number that allow for tie-breaking) given to the first few teams who solve a challenge. This discourages "flag hoarding", where a team holds on to their flags and submits them all at the very end of the competition.
+   * (This is a fairly advanced move, but flag hoarding allows a team to hide their true score on the scoreboard, causing other teams to feel that they have comfortable leads and don't need to be working to the last minutes. Then the flag hoarders can drop their stored flags and pull ahead in the last few seconds. Awesome when you do it, pretty terrible when it is done to you.).
 
 
 ## Communication 
@@ -50,4 +50,5 @@ Organizers also usually have an official, non-real time channel like a Twitter o
 ## References:
 * <http://captf.com/maxims.html>
 * <https://github.com/pwning/docs/blob/master/suggestions-for-running-a-ctf.markdown>
+
 [Visit the course page!](https://academy.hoppersroppers.org/mod/page/view.php?id=564) 

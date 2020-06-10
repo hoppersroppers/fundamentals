@@ -1,6 +1,6 @@
 # Vigenere Ciphers
 
-[Check out our free CTF Course!](https://academy.hoppersroppers.org/mod/page/view.php?id=613)
+[Check out our free course!](https://academy.hoppersroppers.org/mod/page/view.php?id=613)
 
 Read this: <https://www.boxentriq.com/code-breaking/vigenere-cipher>
 
@@ -15,7 +15,9 @@ Solve using <https://www.dcode.fr/vigenere-cipher>
 
 Most flags in competitions for all challenges, not just crypto will be obfuscated in the same way to prevent someone from bruteforcing.
 
-6. "ms5yr 32e ud0s 5rdw1yq dg2e6 gnqdvrsobb dy7upnx, u81g k2b brz!"
+6. "ms5yr 32e ud0s 5rdw1yq dg2e6 gnqdvrsobb dy7upnx, u81g k2b brz!" 
    * This file was encrypted with a dictionary word. Use the dictionary solver.
-7. Why are wordlists useful for cracking ciphers?
+7. Why are wordlists useful for cracking ciphers? 
+
 [Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=613)
+ 

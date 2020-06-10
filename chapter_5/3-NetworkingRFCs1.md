@@ -1,6 +1,6 @@
 # Networking RFCs 1
 
-[Check out our free CTF Course!](https://academy.hoppersroppers.org/mod/page/view.php?id=596) 
+[Check out our free course!](https://academy.hoppersroppers.org/mod/page/view.php?id=596)
 
 RFCs or Request for Comments, is the way that the internet develops standards. Read this to learn more: <https://www.lifewire.com/what-is-internet-request-for-comments-rfc-4092366> We talked about them a bit in the Representing Data section.
 
@@ -16,4 +16,6 @@ Now the important thing is how to read an RFC.
 4. What is a GET request and what does it look like?
 5. What is a User-Agent?
 6. What RFC guides "cache-control" in a header?
-[Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=596) 
+
+[Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=596)
+ 
