@@ -12,4 +12,3 @@ Read this: <https://www.dcode.fr/index-coincidence>
 4. What is a polyalphabetic cipher?
 
 [Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=611)
- 
