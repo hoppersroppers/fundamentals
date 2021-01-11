@@ -13,6 +13,13 @@ Read [https://www.redhat.com/en/topics/virtualization](https://www.redhat.com/en
 
 Write up a few sentences on the primary benefits of running a virtualized environment inside of your Windows machine.
 
+<script src="https://utteranc.es/client.js"
+        repo="hoppersroppers/fundamentals"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 [Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=1002)
  
