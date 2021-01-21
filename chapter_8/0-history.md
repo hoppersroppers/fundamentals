@@ -1,17 +1,11 @@
 # History
+Alright, that wasn't enough for most of it to make sense, but it's over now. Sorry to bore you with the rough stuff. Now we are on to the stuff that you will be able to immediately put into use, becoming a power user. The more you know about the operating system you work off of, the more efficient you will be, which lets you learn more and do more which makes you better, which makes you more efficient....
 
-[Check out our free course!](https://academy.hoppersroppers.org/mod/page/view.php?id=730)
+What I am trying to say is get really good at Windows and Linux and your life becomes better.
 
-Read all of this.
+Here is an obligatory comic strip about "The Holy Wars", Windows, vs Linux. <https://dilbert.com/strip/1995-06-24>. You'll be starting with Windows. You've used it for the last decade or two of your life, but you ain't seen nothing yet.
 
-*  <https://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet>
-*  <https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm>
-*  <https://www.zakon.org/robert/internet/timeline/>
-
-
-1. Should I have questions for this? Yes? Did I make them yet? No.
-2. For your response, submit 5 questions that you think would do a good job of assessing someone's knowledge. 
-
-
-[Visit the course page!](https://academy.hoppersroppers.org/mod/assign/view.php?id=730)
- 
+### Windows
+* History of Windows (and Microsoft)
+   * I actually love these videos. <https://www.youtube.com/watch?v=JmtPWvT1vp8>
+   * Part Two: <https://www.youtube.com/watch?v=XDE7QPMBQAU>
