@@ -30,14 +30,14 @@
     "github-buttons": {
       "buttons": [{
         "user": "hoppersroppers",
-        "repo": "ctf",
+        "repo": "fundamentals",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
     "editlink": {
-      "base": "https://github.com/hoppersroppers/ctf/blob/master",
+      "base": "https://github.com/hoppersroppers/fundamentals/blob/master",
       "label": "Edit",
       "multilingual": false
     },
