@@ -1,24 +1,24 @@
 # Hacker Ethic
-From the same site as the Hacker How-To comes this brief description of the hacker ethic. Again, I am in the process of writing something else, but for now this is good enough.?  
-
-Read it: [http://www.catb.org/jargon/html/H/hacker-ethic.html](http://www.catb.org/jargon/html/H/hacker-ethic.html)
-
-It breaks the hacker ethic into two main beliefs that complement one another:?
 
 
-1. The belief that information-sharing is a powerful positive good, and that it is an ethical duty of hackers to share their expertise by writing open-source code and facilitating access to information and to computing resources wherever possible.
+Something named the 'Hacker Ethic' comes from the famous book _Hackers: Heroes of the Computer Revolution_ that you probably should read someday, but there is no rush.
 
-2. The belief that system-cracking for fun and exploration is ethically OK as long as the cracker commits no theft, vandalism, or breach of confidentiality.
+As defined by the author of the book Steven Levy, [the Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_ethic) can be broken down into a few key words:
 
-A longer version of the hacker ethic comes from the famous book _Hackers: Heroes of the Computer Revolution_ that you probably should read someday, but there is no rush. I haven't read the whole thing yet. ?
+* Sharing
+* Openness
+* Decentralization
+* Free access to computers
+* World Improvement
+  * Foremost, upholding democracy and the fundamental laws we live by as a society
 
-The Wikipedia article is pretty good so read it:?[https://en.wikipedia.org/wiki/Hacker_ethic](https://en.wikipedia.org/wiki/Hacker_ethic)
+Explained a little further, the ethic comes out to six key beliefs:
 
-They come out to six key beliefs:
+1. Access to computers and anything which might teach you something about the way the world works should be unlimited and total. Always yield to the Hands-On Imperative!  
+2. All information should be free (A topic of debate, this means free as in free speech, rather than free as in free beer)?
+3. Mistrust authority, promote decentralization
+4. Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, or position.
+5. You can create art and beauty on a computer. The concept of "hack value" is doing something that is worth doing because of the "playful cleverness" required.
+6. Computers can change your life for the better
 
-1. Access to computers?and anything which might teach you something about the way the world works?should be unlimited and total. Always yield to the Hands-On Imperative!  
-2. All information should be free (Often a topic of debate, he means free as in speech, rather than free as in beer)?
-3. ?Mistrust authority?promote decentralization
-4. ?Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, or position.
-5. You can create art and beauty on a computer. The concept of "hack value" is doing something that is worth doing because of the "playful cleverness" required.?
-6. ?Computers can change your life for the better
+This ethic is meant to be a positive one, designed to guide behavior of a large number of very different people in a positive manner. I can't find anything to disagree with and try to generally follow these rules.

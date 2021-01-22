@@ -1,5 +1,5 @@
 # Questions
-We expect you to be constantly coming across words, phrases, and entire concepts that you have never seen before and are totally lost in. When you have to get things done, you'll have to learn more about it and one of the best ways to get those holes in your knowledge filled is to ask questions. 
+We expect you to be constantly coming across words, phrases, and entire concepts that you have never seen before and are totally lost in. When you have to get things done, you'll have to learn more about it and one of the best ways to get those holes in your knowledge filled is to ask questions.
 
 Here are some guidelines for asking questions.
 
@@ -9,7 +9,7 @@ Here are some guidelines for asking questions.
 * Describe the goal, not the step you are on
 * Follow up with a brief note on the solution
 
-You can private message us, post on the forum, throw it on Slack, whatever. No one here will ever get annoyed, because there is really no such thing as a bad question, just one you haven't researched enough.?Even if your question isn't related to our courses, we are happy to help.
+You can private message us, post on the forum, throw it on Slack, whatever. No one here will ever get annoyed, because there is really no such thing as a bad question, just one you haven't researched enough. Even if your question isn't related to our courses, we are happy to help.
 
 If you're in person, just ask. It's faster than Googling and you'll get more out of it.?
 
