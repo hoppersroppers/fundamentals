@@ -1,14 +1,15 @@
 # This Stuff is Hard
-Doing cool things with computers is hard, and sure, there is an aspect that requires technical knowledge, but mostly, it just takes time.
 
-Doing cool things with computers is less of a technical challenge and more of an attitude and a willingness to work hard and teach yourself what you need to know in order to succeed. Our curriculum here is meant to give you the basic tools you will need to understand the challenges you face, but solving them is going to be on you.
+I'm beating a dead horse here, but I want to make sure that you won't be surprised.
 
-We'll be honest, this isn't easy. This isn't something that will take you a month or two to get the hang of. One of the primary curses of doing cool things with computers is that each time you learn something, you immediately realize a new pile of things that you do not know. There's nothing wrong with not knowing things, and no one could ever expect you to. Even "experts" will only know a small slice of the greater field that is doing cool things with computers. Expecting anyone to be good at everything is ridiculous, but it is even more ridiculous for anyone to think a beginner should know everything... or really, anything. There's a lot of acronyms, slang, in-jokes, and domain specific knowledge. One of the promises we will make to you is that we will not ever put in an acronym, slang, or in-joke without explaining it.
+There is an idea out there known as "Effort Shock" popularized by an article titled "How the Karate Kid Ruined the Entire World". If that sounds interesting to you, [read it](https://www.cracked.com/article_18544_how-the-karate-kid-ruined-modern-world.html), but to summarize, most things worth doing take a very long time to get good at. What "good" is defined as changes, but I don't want you to be surprised at the amount of time it will take before you feel like you know what is going on.
 
-When you stick with and complete this course, you will be armed with the baseline knowledge and attitude you need to be able to learn anything. Probably the most important skill you will learn is how to use all of your resources effectively, whether that is your notes, classmates, teachers, reference pages, or Google.
+This course will probably take around 100 hours, probably more. When you're done, you'll be able to do things, but you will likely feel like you know less than when you started. The whole wide world will have opened itself up to you, and right now, "You don't know what you don't know". By building your foundation and focusing on learning how to do things, you open yourself up to learn any subject you need to, depending on your interests or the requirements of your job.
 
-Mostly, Google.
+100 hours isn't enough to make an expert, but on the plus side, 10,000 hours is wayyy more than you will need. If you spend two hours a day learning (~500 hours a year) it will probably take a year or two before you get comfortable. If you do it right, the moment you stop feeling totally lost you'll just start working on harder problems and you'll wind up more confused than you could imagine now.
 
-It will take a year or two before you get comfortable and stop feeling totally lost every day, but then you'll just start working on harder problems and you'll wind up more confused than you could imagine now. Being good with computers is a long term process of reinforcing and building on the basic knowledge we will teach you in this course, and it will never end until you decide the computers have won.
+The most important skill you will learn is how to use all of your resources effectively to solve problems you've never seen before, whether that is your notes, classmates, teachers, reference pages, or Google.
+
+Mostly, Google. Being able to do things with computers is a long term process of reinforcing and building on the basic knowledge we will teach you in this course, and it will never end until you decide the computers have won.
 
 Don't let the computers win, and keep learning everything you can.

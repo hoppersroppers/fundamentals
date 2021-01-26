@@ -13,8 +13,20 @@ Post a message in the channel #helloworld with a brief introduction to let the R
 
 ### Optional:
 ## Twitter
-Unsurprisingly, information security Twitter is a very exciting place. In the modern age, where information flows at the speed of light, Twitter is the place to be if you want to stay informed and on the cutting edge. It is an overwhelming amount of information, so you want to start off following only a few accounts. It is going to be a lot for you right now to actually try to read and understand the firehose, so start slow and with a small number of beginner-friendly follows that really only post news. If you don't want to do Twitter yet, just skip it, [tis a silly place](https://www.youtube.com/watch?v=a55hIGmMzuE).
+Unsurprisingly, information security Twitter is a very exciting place. In the modern age, where information flows at the speed of light, Twitter is the place to be if you want to stay informed and on the cutting edge. It is an overwhelming amount of information, so you want to start off following only a few accounts. It is going to be a lot for you right now to actually try to read and understand the firehose, so start slow and with a small number of beginner-friendly follows that really only post news. If you don't want to do Twitter yet, skip it, [tis a silly place](https://www.youtube.com/watch?v=a55hIGmMzuE).
 
-If you want to, create a "professional" twitter account! Remember, no matter how hard you try, this account will be able to be associated with you, even if you want to stay pseudo-anonymous. Always keep it fun and professional.
+If you decided you want to start wasting time on there, create a "professional" Twitter account! Remember, no matter how hard you try, this account will be able to be associated with you, even if you want to stay pseudo-anonymous. Always keep it fun and professional.
 
 Follow <a href="https://twitter.com/hoppersroppers">@HoppersRoppers</a> on twitter so we can follow you. Again, if you don't want to do Twitter yet, just skip it. It is mostly just a giant waste of time, but it is very interesting and you learn a ton.
+
+If you want to, share that you started your journey with us on social media! This is called "growth hacking" by people who do marketing, and in theory it will help new students find Roppers. (No pressure at all, I wouldn't do it.)
+
+<a href="https://twitter.com/share?url=https://hoppersroppers.org/course.html&text=I started learning security fundamentals today @HoppersRoppers!">Begin Editing a Post on Twitter!</a>
+
+### Facebook
+
+We have just started a Facebook Group for Roppers at <https://www.facebook.com/groups/hoppersroppers>. Check us out and join our group there!
+
+### LinkedIn
+
+We recently made a LinkedIn page! Follow us here and share with your connections! <https://www.linkedin.com/company/hoppersroppers/>

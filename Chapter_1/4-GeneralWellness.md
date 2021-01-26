@@ -36,4 +36,17 @@ The more you know about these concerns and their symptoms, the better you can un
   * [Depression](https://www.nimh.nih.gov/health/topics/depression/index.shtml)
   * [Suicide Prevention](https://www.nimh.nih.gov/health/topics/suicide-prevention/index.shtml)
 
-There is a group named the [Mental Health Hackers](https://twitter.com/hackershealth) who are pretty cool and worth a look.
+Visit [this link](https://www.psychologytoday.com/us/therapists) for resources on how to find a therapy provider. A ton of my friends say therapy can be life changing.
+
+If you are interested in more things like this there is a group named the [Mental Health Hackers](https://twitter.com/hackershealth) who are pretty cool and worth a look.
+
+#### More
+
+  * [National Sexual Assault Hotline](https://www.rainn.org/)
+  * National Domestic Violence Hotline
+     * If you have any concerns that your internet activity may be monitored, call 800.799.SAFE (7233) for the National DV Hotline
+     * For more information about internet safety in the context of DV, [click here](https://www.thehotline.org/plan-for-safety/internet-safety/)
+  * [Trans Lifeline](https://translifeline.org/)
+
+
+If you have recommendations for other links or improved resources, let me know at d.m.devey@gmail.com.

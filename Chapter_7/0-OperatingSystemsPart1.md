@@ -1,4 +1,7 @@
-# Operating Systems Part 1 
+https://www.javatpoint.com/os-tutorial
+https://www.tutorialspoint.com/operating_system/index.htm
+
+# Operating Systems Part 1
 What is an operating system? From your current understanding, you have a pretty good idea about how to use Windows and Linux. However, what we are about to go over is what is actually occurring under the hood. For the every day user of a computer, there is no need to know just about any of this, but without a strong base in the things that operating systems do for you and how they do them, you'll have a lot of misconceptions and blind spots that will limit your ability to grow. The technical word for this is "abstraction". Operating Systems abstract away the requirement for end users to be able to program or know how to set up a network connection. Everything is handled for the average user by the Operating System... but you are no longer the average user and you are going to need to get everything you can out of the system that you are using. And that is why you need to understand operating systems. At some point you will likely take a class specifically on this, but for now, this gives you enough to be dangerous. In this section we will go over the basics of operating systems as well as work towards becoming a Windows and Linux power user.
 
 ## Operating Systems
