@@ -7,7 +7,7 @@ The technical word for these blind spots is "abstraction". Operating Systems abs
 There is a later course on this site specifically for Operating systems, but for now, this section will give you enough to be dangerous, which is all we can ask for.
 
 ## Basics
-In short, an OS is the interface between the end user and the computer hardware. The hardware is generally controlled by something known as firmware, which is the code that tells the individual components how to work together to run. Software, as we think of it, is the code that a user interacts with. This means that the OS is considered software. Running on top of the OS is more software, which is what we think of as processes. These user processes interface with the OS, which then does all the work with hardware to ensure the processes work properly.
+In short, an OS is the interface between the end user and the computer hardware. The hardware is generally controlled by something known as firmware, which is the code that tells the individual components how to work together to run. Software, as we think of it, is the code that a user interacts with. This means that the OS is considered software. Running on top of the OS is more software, which is what we think of as processes. These user processes interface with the OS, which then does all the work with hardware to ensure the processes work properly. The kernel is a special part of the operating system and operates on the lowest level above the hardware. The kernel's specific job is to interface between the hardware and the operating system, writing the instructions that tell the hardware what to do.
 
 ## Responsibilities of an Operating System
 We know that the OS is responsible for ensuring hardware is used appropriately, but what does that look like? First we have to think about what hardware is on a computer. Some important pieces of hardware are:
@@ -70,6 +70,7 @@ Questions:
 1. What is an operating system?
 2. Describe what an operating system is responsible for. (This is a trick question, it's everything.)
 3. What is the world's popular operating system? What are the top desktop operating systems?
+4. What is the kernel?
 
 Resources:
 

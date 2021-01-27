@@ -1,5 +1,6 @@
-# Install Ubuntu
 Install the Linux operating system Ubuntu using your virtualization software of choice!
+
+We are going to use Ubuntu because it is largely agreed upon to be the most beginner-friendly and stable of all the Linux operating systems. There are plenty of other Unix-like OSs that are fine and do generally the same thing, but I strongly recommend you using Ubuntu to learn.
 
 **If you already have a VM with a Linux image on it, you don't need to download a new one just for this course. It will not change any aspect of your experience and there is no need to waste time or space.**
 
@@ -21,4 +22,4 @@ When you're done, submit a screenshot of you running the Linux VM.
 
 ### Tips
 
-If the VM is running slowly, check out how much CPU you have allocated to it, and if the resolution is set too high. By lowering resolution and increasing CPU allocation you can really speed it up. If you are using Hyper-V, turn on "Enhanced Sessions". If you're having trouble with anything or it seems too slow, hit us up in #techsupport in Slack.
+If the VM is running slowly, check out how much RAM and the number of CPUs you have allocated to it. Whatever the recommended settings are is probably good. Another major cause of poor performance is if the resolution is set too high. Lower the resolution and the host OS won't get slammed trying to render the VM window.  If you are using Hyper-V, turn on "Enhanced Sessions" for better performance. If you're having trouble with anything or it is slow/freezes, hit us up in #techsupport in Slack.

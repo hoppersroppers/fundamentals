@@ -4,4 +4,6 @@
     * <https://www.youtube.com/watch?v=flDzURAm8wQ&list=PL6gx4Cwl9DGBI2ZFuyZOl5Q7sptR7PwYN>
 
  I'm sorry. This deserves its own thing but I haven't made it yet.
- 
+
+
+ https://medium.com/@tzhenghao/a-gentle-introduction-to-netcat-3e0b105dfbd9
