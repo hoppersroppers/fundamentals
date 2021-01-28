@@ -49,7 +49,14 @@ If you do not have curl installed, you will have to install it using apt-get. I 
 
 Most of the time, this is all the command you need to download a file.
 ```
-curl  -o image.jpg http://www.example.com/abcdefg123.jpg
+$ curl  -o image.jpg http://www.example.com/abcdefg123.jpg
+```
+
+If you don't have curl on a system, the easiest way to download a system is ```wget```.
+There are a lot fewer features, but that doesn't mean it won't work.
+
+```
+$ wget  -o image.jpg http://www.example.com/abcdefg123.jpg
 ```
 
 
