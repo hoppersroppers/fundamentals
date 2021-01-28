@@ -131,7 +131,7 @@ Resources:
 
 0. Google
 ```
-Respond in this format.
+Respond in the usual format.
 
 ```
  Answers:
