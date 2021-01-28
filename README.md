@@ -12,3 +12,7 @@ All the material is available here, but in order to get the full benefits of our
 If you have any questions, hit us on Twitter @hoppersroppers.
 
 If you have recommended changes or feedback, this is all available on GitHub for anyone to submit issues or pull requests. Thanks for the help!
+
+# LICENSE: 
+
+You do not have permission to do anything with this other than read it. I'm working on an actual license. 
