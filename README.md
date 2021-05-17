@@ -15,4 +15,4 @@ If you have recommended changes or feedback, this is all available on GitHub for
 
 # LICENSE: 
 
-You do not have permission to do anything with this other than read it. I'm working on an actual license. 
+Attribution-NonCommercial-ShareAlike 4.0 International
