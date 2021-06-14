@@ -3,7 +3,7 @@ Here it is: Over the Wire...
 
 You might have heard of this before. It's the big one.
 
-This is a classic set of challenges that every member of our team has fought through, and while it takes some time, you should have had enough experience to figure out what you need to do. It won't be easy, and it might not be the most fun, but completion of this challenge is the single greatest determining factor in whether or now you continue along this journey. This is where you have to grind it out, make things happen, get stuck, learn things, and really spend some quality time with man pages.
+This is a classic set of challenges that every member of our team has fought through, and while it takes some time, you should have had enough experience to figure out what you need to do. It won't be easy, and it might not be the most fun, but completion of this challenge is the single greatest determining factor in whether or not you continue along this journey. This is where you have to grind it out, make things happen, get stuck, learn things, and really spend some quality time with man pages.
 
 Let us know if you get stuck on any challenge for longer than a half hour, we will gladly point you in the right direction. And no cheating, as Hemingway once said, ?There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.? We like Hemingway. He  was a big fan of boats and adventures. We are too.
 
