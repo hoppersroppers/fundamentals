@@ -5,7 +5,7 @@ This the text version of the Hopper's Roppers Introduction to Computing Fundamen
 
 This site is generated from a Moodle course hosted at:
 
-[https://academy.hoppersroppers.org/course/view.php?id=8](https://academy.hoppersroppers.org/course/view.php?id=8) 
+<https://roppers.thinkific.com/courses/computing-fundamentals>
 
 All the material is available here, but in order to get the full benefits of our course we recommend registering so that we can track your progress, grade your submissions, and provide feedback and support when you need it.
 
