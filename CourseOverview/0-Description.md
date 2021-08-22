@@ -27,5 +27,3 @@ Thanks for joining us, see you around!
 - Dennis 
 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Hacker Ethic
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 
 Similar to the Hacker Attitude, something named the 'Hacker Ethic' came from the famous book _Hackers: Heroes of the Computer Revolution_.
 
@@ -24,5 +23,3 @@ Explained a little further, the ethic comes out to six key beliefs:
 This ethic is meant to be a positive one, designed to guide behavior of a large number of very different people in a positive manner. I can't find anything to disagree with and try to generally follow these rules.
 
 As an important note, no one will ever quiz you on the Hacker Ethic or Hacker Attitude, and it isn't like this is common knowledge that people talk about to show off how smart they are. I include this lesson so that you can try to wrap your head around what motivates a great portion of the community and give you time to start thinking about how you feel on these subjects.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -9,4 +9,3 @@ We will start with Python in this course, but the fundamentals remain the same a
 By the end of this chapter you will have completed a few projects and you will earn this certificate! <https://badgr.com/public/badges/XB9JuQmCQaKfJVUvuYNcQg>
 
 Thanks for sticking around so far, let's go crush some Python!
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

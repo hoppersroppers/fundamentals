@@ -1,5 +1,4 @@
 # Over the Wire Bandit 04
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 You might have heard of [Over the Wire](http://overthewire.org/wargames/bandit/) before, it is a very famous online wargame. 
 
 This is a classic set of challenges that every member of our team has fought through, and while it takes some time, you should have had enough experience to figure out what you need to do. It won't be easy, and it might not be the most fun, but completion of this challenge is the single greatest determining factor in whether or now you continue along this journey. This is where you have to grind it out, make things happen, get stuck, learn things, and really spend some quality time with man pages.
@@ -17,4 +16,3 @@ If you're having trouble figuring out what you should do for level 0, check out 
 If you ever get stuck on anything for more than a half hour, message us in #techsupport and we will help you out! Don't worry, I have no problems giving you very specific instructions to get to the next stage. If your googling keeps popping up Bandit walkthroughs instead of references, use the search operator -"bandit" to clean up the search results.
 
 Good luck!!!! We are not going to let you end your journey here!!!
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

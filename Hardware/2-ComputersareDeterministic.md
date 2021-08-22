@@ -1,5 +1,4 @@
 # Computers are Deterministic
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 All that I want you to take away from the next few sections is that computers are, by definition not random, and they are not magic. 
 
 There are some very powerful applications of physics, hidden under pieces of engineering, which themselves are hidden under layers and layers of computer science, but there is no magic. We do not need to understand physics to understand the software. What we do need to understand is that computers are based on the laws of physics, and as a result, the hardware is meant to be deterministic. ***Deterministic means that given the same inputs, there should be the same outputs.***
@@ -19,4 +18,3 @@ Overall, randomness is something we control because we choose to put it into our
 This idea of computers being deterministic is very powerful. It means that computers are not magic. It means that because they do the same thing every time, we should be able to troubleshoot any problems when they occur by running the process again and seeing where the error occurs. If we are on the same hardware, with the same OS, we can expect the software to run the exact same way. We find where the error  (randomness) occurs, correct it, and now the process will run normally. This idea of determinism is critical to seeing computers as something that can be tamed, controlled, and understood. ***Computers want to work.***
 
 We don't need to understand the physics or the hardware, we just need to know it is a constant. It has been abstracted away. We need to understand the OS, and how our interactions with the OS modify it, but we don't need to understand any deeper than that unless we want to. 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Linux Filesystem Hierarchy
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 [<img src="https://imgs.xkcd.com/comics/porn_folder.png">](https://xkcd.com/981/)
 
 Previously we talked about how files are saved in Linux, and we've spent some time making directories. However, we have been generally fairly constrained in our working directory, and it is time to learn what the world outside of our user's directory looks like. 
@@ -63,5 +62,3 @@ Please respond in the appropriate format:
 ```
 
 I know this is a longer assignment but it is very important. 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

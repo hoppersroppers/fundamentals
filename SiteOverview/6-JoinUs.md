@@ -1,5 +1,4 @@
 # Join Us
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Slack
 Instant group messaging has been a cultural staple of the internet community since its inception, as it is truly one of the most important functions that global interconnectedness can serve.
 
@@ -31,5 +30,3 @@ We have just started a Facebook Group for Roppers at <https://www.facebook.com/g
 ### LinkedIn
 
 We recently made a LinkedIn page! Follow us here and share with your connections! <https://www.linkedin.com/company/hoppersroppers/>
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

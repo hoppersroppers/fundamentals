@@ -1,5 +1,4 @@
 # Roppers Your Resume and Portfolio Building
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 While many people take this course to scratch an itch, some people are here so that they can learn the skills required to get a job and make a living in a technical field. 
 
 However, in this day and age, knowing is not enough, you have to prove you know things. 
@@ -45,5 +44,3 @@ Speaking of resumes, once you're done with the free course I'll do a resume revi
 
 Sounds good? Already thinking about what your future resume will look like? Good! Go start the course! 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

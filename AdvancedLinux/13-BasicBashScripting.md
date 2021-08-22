@@ -1,5 +1,4 @@
 # Basic Bash Scripting
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Bash has a built in scripting language, which I guess is pretty cool. These days, you should just use Python for most things instead of writing Bash scripts, but you would be horrified if you knew how much of the internet, nay, how much of the world runs on bash scripts. Most servers? Of course. Water plants? Absolutely. Nuclear reactors? I'd be shocked if there wasn't a cron-jobbed bash script running somewhere in every plant in the world. Don't tell anyone, but a great deal of this site runs on janky cron jobs. 
 
 Because bash and cron jobs (which we'll learn about later) are basically the underpinning of the modern world, you should probably get to know them. 
@@ -94,5 +93,3 @@ Answer in the usual format.
 
 ```
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

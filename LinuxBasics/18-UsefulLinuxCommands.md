@@ -1,5 +1,4 @@
 # Useful Linux Commands
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 There are a ton of commands out there to make you more efficient on the command line, but let's highlight some of the best right now!
 
 ### Tab Autocomplete
@@ -37,4 +36,3 @@ To open a new window, ctrl-shift-n should open a new terminal window.
 With that said, these are very OS specific and might not be the same for you. If that is the case, google for your operating system terminal keyboard shortcuts. 
 
 Of course, there are so many of these and you can always add more, but this is enough to get the most bang for your (free) buck.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

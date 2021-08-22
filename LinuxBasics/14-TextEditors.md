@@ -1,5 +1,4 @@
 # Text Editors
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 When we write programs, edit config files, or even take notes to study later, we will do that with a text editor. Echoing and cating text only gets you so far. 
 
 There are hundreds of text editors, and much like programming languages, each has its own tradeoffs. Some are simple and have a GUI, some are terminal only and are incredibly complex. Many have entire programming languages built into them, or are even shells themselves, capable of executing programs. As a general rule, use what works for you and don't seek out complexity for complexities sake. I used to use the most complicated text editor I could so I looked cool, now I use the simplest ones I can for the job at hand.
@@ -44,5 +43,3 @@ Print out a vim cheatsheet or put it on your desktop so that you can constantly 
 
 For your assignment, submit a picture of your printed out cheatsheet or a screenshot of it on your desktop. Believe me, this is for your own good. 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

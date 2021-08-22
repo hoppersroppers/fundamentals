@@ -15,5 +15,3 @@ If you want to, I can put you on the Roppers job board. It will be a place on ou
 I'm here to educate you, but I'm really here to try and help you out. Now that you have gotten this far, let me know how. 
 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

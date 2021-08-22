@@ -1,5 +1,4 @@
 # Computer Related Health
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 If you're going to be working through this course, competing in a Capture the Flag (CTF), or just binging Netflix because you deserve it, these are a few changes you can put into your life that will make you a happier and healthier person.
 
 ## Ergonomics
@@ -45,5 +44,3 @@ While we are on the subject of investments ***YOU DO NOT NEED TO BUY A NEW COMPU
 ## Dark Mode
 
 I'm sorry, but I'm not a good web developer. HTML and CSS are as hard (or harder) as anything out there. Despite everyone asking for a dark mode (so they can feel like a cool hacker), I don't plan on implementing one with my current skillset. My solution is to tell you to install a dark mode extension for your browser if you want dark modes. I use <https://mybrowseraddon.com/dark-mode.html>. It doesn't work perfectly, but it is easier on the eyes, and you can use it for all websites, not just Roppers. I recommend you use option "blue dark", 10 down on class A of general dark styles. Hopefully y'all aren't here for my web design skills.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

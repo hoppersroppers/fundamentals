@@ -1,5 +1,4 @@
 # Capstone Project and Certificate
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 We generally know how to scrape a website now, and hopefully have a good feeling about our ability to program in Python. We also learned about Linux and completed the first half of the Bandit CTF. 
 
 What better way to bring it all together than to write a python script which solves a couple of the Bandit challenges for you? 
@@ -30,4 +29,3 @@ Once you have it working, submit a link to your Github repo to d.m.devey@gmail.c
 
 
 Good luck!! When you are done, I'll send you the Ropper's Python certificate and you will basically be done with this course!
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # RTFM
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 One of the key parts of the mindset we are trying to develop is sharing knowledge with others. A great quote on the subject is 'There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.'
 
 If you're just starting off, you might not think you have anything to provide, but in fact, you're looking at the world with a different perspective than someone who has done it for years. For example, you can provide feedback on when training makes no sense or isn't as effective as it could be, and help make it easier for the next person to go through it. This site is a work in progress and the more feedback we receive the better it will be.
@@ -38,5 +37,3 @@ Check out how you can use it to look at old versions of sites: <https://web.arch
 For some bonus content, here's me working with Jason Scott, one of the Internet Archivists! Cool dude and a sweet mission.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s <a href="https://twitter.com/DeevNull?ref_src=twsrc%5Etfw">@deevnull</a> with a nice huge screen that&#39;s getting out. Thanks for volunteering! <a href="https://t.co/UaEbFVZ9sD">pic.twitter.com/UaEbFVZ9sD</a></p>&mdash; Jason Scott (@textfiles) <a href="https://twitter.com/textfiles/status/872489715647336448?ref_src=twsrc%5Etfw">June 7, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

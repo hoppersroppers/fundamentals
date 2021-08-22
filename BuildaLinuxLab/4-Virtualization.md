@@ -1,5 +1,4 @@
 # Virtualization
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Introduction
 Building your own home lab is important for a lot of reasons, but most importantly it is fun and teaches you a bunch of valuable information. In this section we will install a virtual machine for us to work on. What you will be making is uniquely yours and will be something that you will work on and refine for the rest of your time doing the computers. This is your new workbench/hangout spot, so take pride in what you are making and make it yours.
 
@@ -69,5 +68,3 @@ Write up a few sentences for each in the usual format.
 1. (any feedback on how the question was asked, the material, really anything)
 
 ```
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

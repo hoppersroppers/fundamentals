@@ -1,5 +1,4 @@
 # Modern IDE
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 
 IDEs or Integrated Development Environments are tools with the ability to run and debug code, as well as write it. They often have deep integrations meant to make you more productive, like code completion and syntax highlighting. 
 
@@ -10,5 +9,3 @@ I used to recommend people turn vim into a mostly fully featured IDE, using a fa
 Instead of configuring vim to do a lot of things it was never meant to do, just install [Visual Studio Code](https://code.visualstudio.com/) for Linux. It is absolutely awesome and you can install all sorts of great syntax checkers and auto-completer extensions for your favorite languages.
 
 For your assignment, install VS Code and submit a screenshot of your nice beautiful IDE, with an HTML Syntax highlighting extension installed.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

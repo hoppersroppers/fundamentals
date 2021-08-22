@@ -1,5 +1,4 @@
 # Motivation
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Motivation
 Entering the field of security is a long journey, with no shortcuts other than to keep moving forward. This means that you will have to maintain motivation over a long period of time, especially when things get hard.
 
@@ -26,5 +25,3 @@ Alright, this was confusing. Turns out humans are way more complicated than comp
 The goal of this course (also life) is to learn yourself and figure out what works for you. Try different techniques and see what works. 
 
 Just remember, there are no shortcuts or ways to force yourself to do this. Don't talk about it, be about it. See what motivation techniques help you out, but at the end of the day, you need to put the time in.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

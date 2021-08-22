@@ -9,4 +9,3 @@ For this assignment, I want you to work through Chapter 9 and write code that wi
 <https://automatetheboringstuff.com/2e/chapter9>
 
 When you are done, submit a link to a Github repo that contains the project you completed. I don't expect this to be easy, so ask questions in #python, look at earlier sections of the book, and make use of Google. This is fairly difficult but you should be ready!
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

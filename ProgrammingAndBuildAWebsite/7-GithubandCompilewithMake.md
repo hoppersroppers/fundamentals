@@ -1,5 +1,4 @@
 # Github and Compile with Make
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 While often we lean on our package managers for installing new programs, every once in a while we will find ourselves forced to build a program from source. 
 
 This can seem very daunting, especially if you don't understand how compilation works. 
@@ -15,4 +14,3 @@ To demonstrate this idea of building a C program with make, follow the README.md
 Once you have cloned the repo, modify the function to print your name, commit your change, and then push the changes to your remote repo. 
 
 Submit a link to your commit as the assignment.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

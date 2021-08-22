@@ -81,4 +81,3 @@ Assignment:
 
 1. Describe machine code and assembly. 
 2. What was Grace Hopper's primary contribution to computing?
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

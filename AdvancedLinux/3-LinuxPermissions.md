@@ -1,5 +1,4 @@
 # Linux Permissions
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Alright, we went over a little bit of this earlier, but let's dive into permissions. Permissions ***are*** security, and is one of the most important things that an OS provides.
 
 We haven't put much time into it yet, but the OS basically segregates user and root process privileges using something known as "Protection Rings". 
@@ -151,4 +150,3 @@ Using [these resources from the Security Fundamentals course]($@ASSIGNVIEWBYID*8
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

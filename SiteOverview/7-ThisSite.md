@@ -1,5 +1,4 @@
 # This Site
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Open Source
 This site is built off of the Moodle open source education platform. I chose it because it allows me the most flexibility and control over the experience I present.
 
@@ -15,5 +14,3 @@ A lot of the material across these courses is repeated. If you are back to a sec
 If you need feedback on your assignments, DM me on Slack with your name and the assignment and I'll read it over and get back to you.
 
 Thank you for your understanding!  
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

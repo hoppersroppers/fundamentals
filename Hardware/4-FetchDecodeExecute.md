@@ -1,5 +1,4 @@
 # Fetch Decode Execute
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Well, we learned what these nand gates and xor is in the last section ... sort of. 
 
 To oversimplify things, because we can build any amount of logic with them if we arrange it properly, we can start building more and more complicated things, like an entire CPU. We'll handwave the steps in between nand gates and a CPU (I wrote all the code for that once, it was miserable and I didn't learn anything useful, so I'll spare you the details) so let's just jump to the idea that CPUs exist and we want to know how they run programs.
@@ -15,4 +14,3 @@ Assignment:
 1. Describe the fetch-decode-execute cycle in words, explaining what all components and registers are doing. Keep it short, but include all the detail needed for you to draw it out and explain to someone. 
 
 Ensure to include Pre-Questions and Post-Questions in the usual form. 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

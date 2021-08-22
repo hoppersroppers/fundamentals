@@ -1,5 +1,4 @@
 # General Wellness
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # General Wellness
 
 Alright, forget about computers for a second, you only get one body and there are some pretty straightforward things you can build into habits to help future you out. Your behavior is the sum of your habits. Do the hard things and take care of yourself.
@@ -52,5 +51,3 @@ If you are interested in more things like this there is a group named the [Menta
 
 
 If you have recommendations for other links or improved resources, let me know at d.m.devey@gmail.com.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

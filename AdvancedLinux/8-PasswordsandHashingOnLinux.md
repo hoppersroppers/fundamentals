@@ -1,5 +1,4 @@
 # Passwords and Hashing On Linux
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 [<img src="https://imgs.xkcd.com/comics/security.png">](https://xkcd.com/538/)
 
 A good deal of security is based around the idea of confidentiality, that someone who is not authorized to read something can't read it. We discussed the idea of permissions earlier, where someone who is not authorized to read something is simply not granted access to it by a computer, but there are situations in which we need to send or otherwise expose sensitive data. To allow data to be exposed without authentication, we need a way to protect that sensitive information from people who don't know some sort of secret. This is where math comes in.  
@@ -137,4 +136,3 @@ Answer in the appropriate format.
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

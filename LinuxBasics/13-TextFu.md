@@ -1,5 +1,4 @@
 # TextFu
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 You've already done a little pipelining text-fu in the last section, so let's learn a few more commands that can be used to view and modify text streams. I'll give you some info about the commands, but in general, any time you want to learn more about these tools, just use the man pages.
 
 Let's start with viewing, because that is pretty straight forward.
@@ -125,4 +124,3 @@ Respond in the usual format.
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

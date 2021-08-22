@@ -1,5 +1,4 @@
 # Regex 
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 So far I've only shown you the exact match operator for grep which uses parentheses, but grep has the ability to do many other forms of pattern matching described in the manpage. One of the most useful is regex. Regex stands for "Regular Expression" (hey remember that from the grep acronym?) Regular expressions are a technical way to define a particular search pattern, and grep is built around them.
 
 As an aside, Regex is everywhere in computing. You can use it for HTML input validation, you can use it to search for data in log files, basically anytime that a standard exact string search won't help. It is implemented in most text editors and programming languages. Regex is very complicated, very powerful, and basically a programming language in itself. 
@@ -133,4 +132,3 @@ Respond in this format.
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

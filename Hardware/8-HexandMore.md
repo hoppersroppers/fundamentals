@@ -1,5 +1,4 @@
 # Hex and More
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 We've talked about enough hardware, but let's go back to the people side of computing. All things considered, you can avoid binary and worrying about CPU stuff most of the time, so let's not focus on them too hard or be too freaked out it is really complicated. If your job is going to require that, you can get good at it.. otherwise... move on.
 
 You've gotten a taste of binary, let's talk about non-binary representation. 1s and 0s really are hard to read, so luckily we have something a bit more 68756d616e207265616461626c65... sorry, human readable. Hexadecimal, base 16, hex, whatever you want to call it, will become a language that you see constantly during your technical journey. Being comfortable working with hex is one of the skills that will help you stand out. 
@@ -104,5 +103,3 @@ It is annoying to do that by hand, but it does help in the long run. ... but her
 
 Fun fact, it is released by GCHQ, Britain's version of the NSA. Great tool and very useful for converting encodings/encryption, but there is so much more. There are about a thousand uses for this thing and many security professionals use it all the time. I love it for CTFs.
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

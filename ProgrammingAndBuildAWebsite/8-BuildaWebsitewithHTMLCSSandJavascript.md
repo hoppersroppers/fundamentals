@@ -1,5 +1,4 @@
 # Build a Website with HTML CSS and Javascript
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Now, learn how to make a website with the Github First Week tutorials.
 
 <https://lab.github.com/githubtraining/first-week-on-github>
@@ -13,5 +12,3 @@ My favorite student made site so far [was this one](https://mrashleyball.github.
 
 1. Submit a link to your github.io site.
 2. Explain what the OnClick event does and how it works. 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

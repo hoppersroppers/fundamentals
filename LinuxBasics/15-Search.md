@@ -1,5 +1,4 @@
 # Search
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## More Grep
 
 We already played with ```grep``` a bit, let's do a little bit more. First, let's learn what grep stands for: Global Regular Expression Print.
@@ -98,4 +97,3 @@ Respond in this format.
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

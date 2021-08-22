@@ -1,5 +1,4 @@
 # Hardware Basics
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 We have come a long way from looms, transistor tubes, and giant building sized calculators. 
 
 
@@ -14,4 +13,3 @@ We have come a long way from looms, transistor tubes, and giant building sized c
 7. Optical Hard Drive
 8. Solid State Hard Drive     
 9. Graphics Card
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Shells
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Shells
 In computing, a shell is a computer program which exposes an operating system's services to a human user or other program. It is named this because it  is the outer layer ("shell") around the OS, and any attempt to modify the OS goes through it. The way users modify the OS is by accessing either a Graphical User Interface (GUI) shell or a Command Line Interface (CLI) shell.
 
@@ -98,4 +97,3 @@ Write up a few sentences for each of the questions. All of the answers are on th
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

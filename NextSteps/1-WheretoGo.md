@@ -1,5 +1,4 @@
 # Where to Go
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 If you have come this far, we believe you are ready for the next step in your journey. 
 
 If you haven't yet, you should check out the [Security Fundamentals: Theory and Practice course]($@COURSEVIEWBYID*9@$). I think it is pretty awesome. 
@@ -11,5 +10,3 @@ If you want to focus on networking you can skip the Introduction to CTF course a
 
 Don't stop your journey here, keep on moving! 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

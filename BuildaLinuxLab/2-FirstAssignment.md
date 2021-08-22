@@ -1,5 +1,4 @@
 # First Assignment
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Right now, I'm not expecting you to have any prior knowledge. If you do, some of the stuff here might be a bit basic, but I guarantee even an expert can learn a bit from each section. If you're brand new to this stuff, expect to learn an incredible amount. 
 
 # Your First Assignment
@@ -144,5 +143,3 @@ Most of this material made sense (except for the kernel diagram) but I don't und
 For your first assignment, submit the text of the answer I provided above (but make sure to fill in the answers!) Feel free to add any Pre-Questions or Post-Questions if you have any.
 
  Note the feedback I gave myself. Despite this being meant to be straightforward, sections of it are too advanced for where we are right now, and that is perfectly okay. Make sure to give honest feedback about how you feel about the different assignments.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

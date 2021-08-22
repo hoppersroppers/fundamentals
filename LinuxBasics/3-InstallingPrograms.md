@@ -1,5 +1,4 @@
 # Installing Programs
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Personalize
 
 Now that the VM is yours, it is time to personalize it. Going forward, I strongly recommend that you do everything in your Linux VM. That means your homework, checking your emails, listening to music, anything. The more time spent immersed the better off you will be.
@@ -22,5 +21,3 @@ Next I am going to have you install programs from a variety of sources. There is
   * When you are done making a meme, post your meme in Slack in the channel #course_computing.
 
 As you can see, there is some surprising complexity in how we install files on Linux... but let's not worry about that too much yet. Hopefully this section gave you some confidence doing uncomfortable activities.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

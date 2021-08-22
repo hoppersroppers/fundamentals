@@ -1,5 +1,4 @@
 # Why Security
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Why Security
 Computer security is the shield of the modern age. Without the constant battle on the frontlines between the people who want to see technology used for good and the people who want to use it for their own gain, or worse, to limit the rights and freedoms of others, the progress that occurs in the real world because of technology would be dramatically slowed. Security allows trust in technology, which leads to adoption, which leads to progress in one direction or another. The more people able to help out with that fight, the faster we can move as a society, and less things will get broken and less people will be hurt on the way. That's why this site exists, and hopefully, if you're here for the right reasons, you'll be able to jump into the fight with the tools you need to succeed.
 
@@ -8,5 +7,3 @@ This course is designed to give you the mindset and fundamental skills necessary
 While I have tried to do everything in my ability to make this course self-guided, there are hundreds of places where a questioning attitude will identify clear shortfalls in the content. Some of these are intentional, most of them are not. Your questions and feedback will guide the development of this course so that it can become the best resource possible.
 
 Surrounding this site is a community to help you and provide guidance as you move along. This community grows with each student who signs up, and our mentors will be there every step of the way to answer questions, explain difficult concepts, and talk about just about anything to help you along the way. Make sure to take full advantage of Slack so that we can all be part of this together.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

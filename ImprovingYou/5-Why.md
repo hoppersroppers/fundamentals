@@ -8,5 +8,3 @@ Well, hopefully your end goal in life is that you become a better person and hav
 If you're going to be doing anything in this world, might as well take care of yourself first. Learning security comes far after you and your well-being.
 
 Now, on to the show!
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

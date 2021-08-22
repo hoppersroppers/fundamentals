@@ -1,5 +1,4 @@
 # This Stuff is Hard
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 I'm beating a dead horse here, but I want to make sure that you won't be surprised.
 
 There is an idea out there known as "Effort Shock" popularized by an article titled "How the Karate Kid Ruined the Entire World". If that sounds interesting to you, [read it](https://www.cracked.com/article_18544_how-the-karate-kid-ruined-modern-world.html), but to summarize, most things worth doing take a very long time to get good at. What "good" is defined as changes, but I don't want you to be surprised at the amount of time it will take before you feel like you know what is going on.
@@ -19,5 +18,3 @@ Don't let the computers win, and keep learning everything you can.
 ![Shit you don't know](https://i.redd.it/epuqhwqxkx331.jpg)
 
 To help learn, I really recommend posting in the #findapartner channel in our slack. If you haven't done it yet, you really should! 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

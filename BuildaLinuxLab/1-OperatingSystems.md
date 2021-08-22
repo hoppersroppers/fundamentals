@@ -1,5 +1,4 @@
 # Operating Systems
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 What is an operating system or OS?
 
 Most likely, just based off of your everyday use you have a pretty good idea about how to use Windows. However, what we are about to go over is what is actually occurring under the hood. For the everyday user of a computer, there is no need to know any of this, but as hacker, with the need to understand the underlying systems, learning the inner workings of operating systems is a necessity. In order to master the system you must remove the blind spots that will limit your ability to grow.
@@ -87,5 +86,3 @@ Windows
   - Win. 8 (2012)
   - Win. 10 (2015)
 ```
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

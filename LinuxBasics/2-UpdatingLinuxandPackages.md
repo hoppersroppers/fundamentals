@@ -1,5 +1,4 @@
 # Updating Linux and Packages
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Just like on any operating system, one of the first things you should do after installing Ubuntu is to make sure all the software is updated. This minimizes the number of bugs we encounter, as well as helps to patch our computer against vulnerabilities. Make sure to update your Host OS as well, and that you install patches to your Virtualization Tool. Having all of these updated ensures a smooth and secure experience.
 
 # Sudo and Privilege
@@ -59,4 +58,3 @@ In the next section we will actually use it for real.
 
 # Assignment
 Submit a screenshot showing that your updates have finished. 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

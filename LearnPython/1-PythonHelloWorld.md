@@ -1,5 +1,4 @@
 # Python Hello World
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 This might require some googling..... don't worry, that is how everyone does it. You find something you need to do, and google how to do it. Then you forget how to do it, and you go and google it again the next time you do it. The next bit will help you set up your python environment on Linux. Setting up environments is very time-consuming, no matter what it is, but you will have to do this for basically every language, and every version of each language, so you will have to get good at it.
 
 # Linux
@@ -55,5 +54,3 @@ Congratulations! Now you know how to program in Python! Sure, there are a few st
 
 1. Submit the code for a python program which adds 1,2,5, and 6 together, then prints the results to the screen. Use comments to explain what is happening. There are multiple ways to do this. 
 2. What is a path in regards to Python. You might have to google around to understand it. Hint: If you mess this up, things get interesting.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

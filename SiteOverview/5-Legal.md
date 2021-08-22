@@ -22,5 +22,3 @@ It should also be mentioned that copyright law is also a good way to get in trou
 
 ## Classification
 Absolutely nothing on this site is classified, in any way, whatsoever. Nothing is derived from classified information.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

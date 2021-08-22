@@ -23,4 +23,3 @@ How do web apps work?
 2. What happens when you type an URL in the browser? Less than 5 sentences.
 3. What are the differences between GET and POST requests? Which one should you use when authenticating? 
 4. What is a 404 response?
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

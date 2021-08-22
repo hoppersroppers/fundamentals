@@ -1,5 +1,4 @@
 # Linux Processes 
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Suggested Soundtrack: [Don't Fear the Reaper](https://www.youtube.com/watch?v=FS8p_F0Stog). Put it on loop.
 
 # Here be dragons! 
@@ -237,4 +236,3 @@ Come on baby, don't fear the reaper..."
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

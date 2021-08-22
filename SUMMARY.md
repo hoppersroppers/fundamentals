@@ -53,7 +53,6 @@
 * [Install Ubuntu](BuildaLinuxLab/6-InstallUbuntu.md)
 * [Install Virtualization Tools](BuildaLinuxLab/7-InstallVirtualizationTools.md)
 * [Long Term Review and Retention](BuildaLinuxLab/9-LongTermReviewandRetention.md)
-* [Burning Questions](BuildaLinuxLab/10-BurningQuestions.md)
 
 ## LinuxBasics
 
@@ -75,7 +74,6 @@
 * [Regex ](LinuxBasics/16-Regex.md)
 * [Over the Wire Bandit 59](LinuxBasics/17-OvertheWireBandit59.md)
 * [Useful Linux Commands](LinuxBasics/18-UsefulLinuxCommands.md)
-* [Burning Questions](LinuxBasics/20-BurningQuestions.md)
 * [User Testimonial](LinuxBasics/21-UserTestimonial.md)
 
 ## Hardware
@@ -89,7 +87,6 @@
 * [Hardware History](Hardware/6-HardwareHistory.md)
 * [Hardware Basics](Hardware/7-HardwareBasics.md)
 * [Hex and More](Hardware/8-HexandMore.md)
-* [Burning Questions](Hardware/10-BurningQuestions.md)
 
 ## AdvancedLinux
 
@@ -108,7 +105,6 @@
 * [Basic Bash Scripting](AdvancedLinux/13-BasicBashScripting.md)
 * [Submit a Writeup and Get a Certificate](AdvancedLinux/14-SubmitaWriteupandGetaCertificate.md)
 * [Linux Self Defense](AdvancedLinux/16-LinuxSelfDefense.md)
-* [Burning Questions](AdvancedLinux/17-BurningQuestions.md)
 * [User Testimonial](AdvancedLinux/18-UserTestimonial.md)
 
 ## ProgrammingAndBuildAWebsite
@@ -123,7 +119,6 @@
 * [Github and Compile with Make](ProgrammingAndBuildAWebsite/7-GithubandCompilewithMake.md)
 * [Build a Website with HTML CSS and Javascript](ProgrammingAndBuildAWebsite/8-BuildaWebsitewithHTMLCSSandJavascript.md)
 * [Internet Self Defense](ProgrammingAndBuildAWebsite/9-InternetSelfDefense.md)
-* [Burning Questions](ProgrammingAndBuildAWebsite/11-BurningQuestions.md)
 * [Add to your Website and More](ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.md)
 
 ## LearnPython
@@ -139,11 +134,9 @@
 * [Automate the Boring Stuff Chapter 12](LearnPython/8-AutomatetheBoringStuffChapter12.md)
 * [Capstone Project and Certificate](LearnPython/9-CapstoneProjectandCertificate.md)
 * [More Programming](LearnPython/10-MoreProgramming.md)
-* [Burning Questions](LearnPython/12-BurningQuestions.md)
 * [User Testimonial](LearnPython/13-UserTestimonial.md)
 
 ## NextSteps
 
 * [Show What You Know](NextSteps/0-ShowWhatYouKnow.md)
 * [Where to Go](NextSteps/1-WheretoGo.md)
-* [Security Fundamentals](NextSteps/2-SecurityFundamentals.md)

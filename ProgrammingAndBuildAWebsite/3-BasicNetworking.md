@@ -1,5 +1,4 @@
 # Basic Networking
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Watch this video on [Networking Fundamentals!](https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29)
 
 The whole series is good, but don't get distracted, get back to this.
@@ -16,4 +15,3 @@ Then read this on [Routing Tables](https://www.geeksforgeeks.org/routing-tables-
 3. What is a MAC address? 
 4. How do routing tables work?
 5. What is a protocol? What are some common protocols?
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

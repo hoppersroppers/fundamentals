@@ -1,5 +1,4 @@
 # Linux History and Ubuntu
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## History of the Linux Kernel
 
 A kernel is the lowest level of the operating system that interacts with the hardware. You can consider the kernel the heart of the operating system. 
@@ -27,5 +26,3 @@ Ubuntu was derived from the Debian family of Unix-like OSs, so under the hood a 
 There are a lot of people who care deeply about Operating Systems and programs and which ones you use, but those people are wrong. Whatever is easiest to use for the task at hand is the correct option, and you should ignore their attempts at being ultra nerds. Smile and wave, especially if they are telling you about "Gentoo" or "Arch", then just go back to Ubuntu until you develop a preference for yourself.
 
 [<img src="https://imgs.xkcd.com/comics/cautionary.png">](https://xkcd.com/456/)
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

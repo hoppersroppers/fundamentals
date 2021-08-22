@@ -1,5 +1,4 @@
 # Man Pages
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 So you've learned a few commands and you generally have an idea how to read manpages, but let's put you over the top. 
 
 How do we learn about ```man```? Well, ```man man``` of course! 
@@ -82,4 +81,3 @@ Go back to the command line with 'q' and check out the man page for the mkdir sy
 Don't read it for understanding, just skim to see what this is showing. This task was meant to illustrate how system calls are defined so that software can make directories by using the OS provided API.  
 
 You don't have to worry about system calls right now, just commands, but keep in mind that is what is going on behind the scenes for all the other software on your computer.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

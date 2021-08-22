@@ -1,5 +1,4 @@
 # Programming Languages
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 There are plenty of people out there who say you can be good at computers and cyber security without knowing how to program. Those people are wrong. I don't mind being a jerk about it because it ain't gatekeeping if I'm pointing you at the door. 
 
 If you can't program, you are going to spend a horrible amount of time clicking things and manually doing things that should be automated. Of course, there are exceptions for people with very specific jobs, but for everyone else, a working knowledge of programming and the ability to script anything will carry you as far as you need to go. You will always be learning and forgetting basic parts of the languages you work with, but it becomes easier to get back into an old language or learn a new one every time. But before you can start writing your own malware and machine learning pipelines, it's time to learn the basics of programming, Git, HTML, and get proficient with Python.
@@ -27,4 +26,3 @@ As a general rule, if you see someone saying that HTML and CSS aren't programmin
 I will write some more about this, but I think it is an excellent read. This is an expert programmer's article on what it takes to learn how to program, with a good discussion of a lot of the ideas that I lean into throughout this course. 
 
 <https://norvig.com/21-days.html>
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

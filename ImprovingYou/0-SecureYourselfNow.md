@@ -18,5 +18,3 @@ You always like to assume you don't already have malware on your computer but if
 I don't care much for VPNs because I don't care about ad tracking and I'm not in a country where I worry about my internet browsing being monitored and getting taken away by the secret police. You don't need a VPN for security no matter how many people are taking marketing money to sell them  (use my code "youdontneedavpn" for 100% off). As long as you are using HTTPS sites and not clicking through bad certificates, you shouldn't have to worry about getting your credit card or passwords stolen no matter how sketchy the public wifi you're on is. If you reeeally want one for privacy, I trust Nord VPN and use them when I'm in countries that annoy me by blocking random parts of the internet. 
 
 While some of this stuff might seem obvious, doing the fundamentals will make you significantly more secure than the average internet citizen. We're not trying to turn you into a cyber warlord yet, we'll start with being a hard target and generally informed.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

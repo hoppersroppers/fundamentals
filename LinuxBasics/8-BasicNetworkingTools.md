@@ -1,5 +1,4 @@
 # Basic Networking Tools
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Basics of Networking
 
 [<img src="https://imgs.xkcd.com/comics/networking_problems.png">](https://xkcd.com/2259/)
@@ -173,5 +172,3 @@ To use ssh, simply run the command: ```ssh username@domain.com```. There are ple
 Now, let's move on to the next section and use SSH.
 
 For the assignment, show a screenshot of you sending messages between two local terminals using ```nc```, as well as a terminal screen showing an ```lsof```output with the nc processes.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

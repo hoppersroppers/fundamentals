@@ -1,5 +1,4 @@
 # Over the Wire Bandit 1015
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Back to OverTheWire again! 
 
 You finished the first ten levels, time to go back for 10-15!  Pay attention to the "Commands you might need to solve this level", but remember, you won't need all of them!
@@ -13,5 +12,3 @@ If you ever get stuck on anything for more than a half hour, message us in #tech
 As a hint, 12-13 is a miserable problem and requires guessing. I'll save you from some guesswork. Did you know ```xxd -r``` exists? Don't say I never did anything for you.
 
 Good luck!!!! 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

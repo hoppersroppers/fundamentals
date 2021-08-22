@@ -1,5 +1,4 @@
 # Resizing Your VM
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 While we are on the topic of storage and drives, let's spend a little time on one of the more stressful and complicated parts of computing, modifying hard drives. 
 
 I mentioned the ```dd``` command, aka disc destroyer, earlier, but now we are going to do one of the easier and more common tasks you can find yourself having to do. When you built your VM the first time, you probably just agreed to whatever the default virtual hard drive space was and that's how your system was built. 
@@ -103,5 +102,3 @@ Answer in the usual format, one or two sentences. This is more about your feelin
 
 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

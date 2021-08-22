@@ -1,5 +1,4 @@
 # Learning
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Learning
 We all want to better at learning... but how do we do that?
 
@@ -27,5 +26,3 @@ While we're on this, I'm going to let you in on one more dirty secret. It is imp
 At the end of this course you will have learned enough to decide what you want to specialize in so that you can learn the skills you need to get a job in that specific skillset. We have courses to help with that as well, and we can provide help with resumes.
 
 As you go through this we will introduce you to other learning techniques, but to sum it all up: take notes, look back over the material regularly, and understand that the only thing that actually will contribute to future success is putting the time in now.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

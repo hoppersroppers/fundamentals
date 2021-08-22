@@ -1,5 +1,4 @@
 # Brainwashing and Learning Hard Things
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Brainwashing
 
 As we said before, hacking is a mindset, not a skillset. We are trying to cultivate that mindset, and yes, we are going to try to subtly brainwash you. We're not sorry about it. Genuine interest and drive are the two best indicators of success in this field, and we want to encourage it as much as we possibly can. How do we teach that? How do we measure that? We don't know. If we were pretentious losers we might say we're trying to hack your brain into becoming a hacker. But we're not. So lets call it brainwashing. Are you okay with being brainwashed?*
@@ -23,5 +22,3 @@ For the rest of your time computering, you should maintain lists for things that
 I also recommend you create study material as you go, so when you finish a topic you can go back later and refresh your knowledge.
 
 Keep track of these things and when you get tired of learning one thing, bounce back over to your lists and see what you do want to learn about. By bouncing between topics you can structure your procrastination towards your long term goals.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Questions
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Alright, you probably didn't expect this line of questioning in this course, and yet, here we are. Serious business time, three quick questions:
 
 1. Have you wished you were dead or wished you could go to sleep and not wake up?
@@ -17,5 +16,3 @@ If you are international, check out this website <http://www.suicide.org/interna
 If you don't want to talk to a stranger, my name is Dennis, email me at d.m.devey@gmail.com, hit me in Slack, or message me on here.
 
 It's okay to not be okay, talk to someone.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

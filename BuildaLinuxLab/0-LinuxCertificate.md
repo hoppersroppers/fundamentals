@@ -7,4 +7,3 @@ This is one of the longest sections, but I consider it the hump you need to get 
 It's a lot of work, but it is worth it. Plus, in the end you get a certificate! <https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA>
 
 Thanks for sticking around so far, let's go crush some Linux.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

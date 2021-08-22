@@ -10,4 +10,3 @@ As the operating system abstracts away a lot of complexity, hardware abstracts a
 
 You can go your entire career and never have to look at memory. Most people never have a need to. So please, believe me when I tell you, there is no need for you to understand anything in this chapter. Know that it exists, know that there are entire fields of study contained in here, and if you were taking this at a university it would be about 2 years of study. We're going to fly through it in a few modules. Consider this training for awareness, not understanding. 
  
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

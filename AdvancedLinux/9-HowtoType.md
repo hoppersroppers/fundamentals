@@ -1,5 +1,4 @@
 # How to Type
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 This is not required... but you should learn how to type with your fingers on the home keys. I'll be honest. I don't do this. I have a very fast words per minute hunting and pecking with all fingers. My hands look like demented spiders when I type. It's not great. I know I should force myself and someday I will.
 
 This is an investment in your productivity, the faster you can type, the better your life will be. 
@@ -13,5 +12,3 @@ However, this matters for everything else you will ever do on a computer, like w
 * <https://www.how-to-type.com/>
 1. If you want to learn how to use the home rows, submit a screenshot of the completion for this, and work to continue doing this for the rest of your damn life. If you don't want to do the home row thing and are dedicated to hunting and pecking like me, submit a screenshot of how fast your Words per Minute are to show off. 
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

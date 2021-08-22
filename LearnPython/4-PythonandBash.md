@@ -1,5 +1,4 @@
 # Python and Bash
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 [<img src=" https://imgs.xkcd.com/comics/universal_install_script.png">](https://xkcd.com/1654/)
 
 So you know a language now, right? Congratulations! The thing to remember is that all skills, if not used, will slowly atrophy. My recommendation is to constantly challenge yourself to maintain your skill level so when you have to write a program, you can whip something up immediately without having to relearn the syntax... or you can just ignore it completely and when the need arises, spend a half hour fumbling until you remember enough to get it working. Both of those are completely valid ways to maintain proficiency in a language. This course won't teach you any more languages, but if you continue in this pipeline you will learn C and some low level assembly.
@@ -34,5 +33,3 @@ Learn how to a run bash command from within a python script here:
 2. Submit the code for a python script that uses bash commands to print out the content of all files in the directory it is run from. Comment this program well. 
 
 Programming and scripting are different but share most of the same principles, and these principles will be shared between all languages. Once you can program well in one language, you can learn any language, it just will take a bit to learn.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

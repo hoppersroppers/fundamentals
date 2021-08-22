@@ -1,5 +1,4 @@
 # Add to your Website and More
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 # Add Content 
 
 Do you know what you should do right now? 
@@ -18,5 +17,3 @@ I recommend NameCheap if you are going to do it.
 
 This is totally unnecessary, but it is interesting and you will learn quite a bit.  
 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Learning Linux Commands
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 [<img src="https://imgs.xkcd.com/comics/tar.png">](https://xkcd.com/1168/)
 
 Over the next few sections you will be learning the basic commands required to operate from the terminal in Linux.
@@ -21,5 +20,3 @@ Finally, if I don't know the command, ~10% of the time I google "how do I do ___
 So yeah, don't worry about memorizing anything now, but know that anything in the next few chapters you will want to memorize at some point. I recommend running through some of the little study guides linked at the bottom of the course to really drive it home.
 
 If you haven't found yourself a group to learn with, I really recommend posting in the #findapartner channel in our slack. If you haven't done it yet, you really should! 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

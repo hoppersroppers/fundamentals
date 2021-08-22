@@ -1,5 +1,4 @@
 # Codecademy Python
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 There are hundreds of languages out there, but the language we are going to start with is Python. Python is a fairly simple and easy to learn language, but more importantly, is fast to write and allows advanced you to throw together scripts whenever you need them. There are a ton of great security references and plugins to the language and it allows you to accomplish just about anything you could need to do using just one language. In the future you will learn plenty other languages, but for right now, Python will suffice.
 
 This is going to take a while, but Codecademy Python is the best way I've found to learn a first programming language. It is all done in an online editor and will let you progress with the appropriate hints. While you are working through this, use the amazing [PythonTutor Visualization](http://www.pythontutor.com/visualize.html#mode=edit) anytime you are trying to understand what is going on behind the scene with your code. It's super helpful and will help you understand debugging in a visual manner.
@@ -21,4 +20,3 @@ Keep us updated in Slack on your progress. When you are done, submit a screensho
 If you get bored... just move on. Codecademy can kind of drag, and if you're bored, just keep moving. I promise you'll be fine without it for now, you'll just have to learn Python for real eventually.
 
 No boredom, no drudgery! 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

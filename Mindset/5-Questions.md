@@ -20,5 +20,3 @@ The biggest thing we want to avoid is you sitting around banging your head again
 
 
 We already told you what RTFM stood for, so now we're gonna have you do it.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

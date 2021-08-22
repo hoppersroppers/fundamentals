@@ -8,4 +8,3 @@ Alright, I'm gonna be honest. Doing all these Linux Journey assignments can be s
 It's a nice change from marching through Linux commands like this and will give you a good base to apply the knowledge you learn in this course to the real world. 
 
 If you think you have good momentum right now, just keep pushing! 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

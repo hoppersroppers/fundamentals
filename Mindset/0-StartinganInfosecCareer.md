@@ -15,5 +15,3 @@ If you want to read a second article, here is one from Daniel Miessler. <https:/
 Now reading those feels good, but listen to me, take everything that they say to heart, and don't look for any more articles on starting an infosec career. When one pops up in your browser, ignore it. When someone posts a list of resources, ignore it. As much fun as they are to read and bookmark, they won't improve your ability.
 
 What will improve your ability is to follow this course and trust that the curriculum will result in the most efficient education possible. Once you're done with this course, read whatever you want.
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

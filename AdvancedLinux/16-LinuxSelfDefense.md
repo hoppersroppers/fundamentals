@@ -1,5 +1,4 @@
 # Linux Self Defense
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 [<img src="https://imgs.xkcd.com/comics/linux_user_at_best_buy.png">](https://xkcd.com/272/)
 
 
@@ -51,5 +50,3 @@ No UID 0
 <https://www.linuxtopia.org/LinuxSecurity/index.html>
 <https://www.computerworld.com/article/3144985/linux-hardening-a-15-step-checklist-for-a-secure-linux-server.html>
 <https://opensource.com/article/19/10/linux-server-security>
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Bash Internals and Unix Philosophy
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Unix will give you enough rope to shoot yourself in the foot. If you didn't think rope would do that, you should have read the man page.&quot;</p>&mdash; mhoye (@mhoye) <a href="https://twitter.com/mhoye/status/694646265657708544?ref_src=twsrc%5Etfw">February 2, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -204,4 +203,3 @@ Resources:
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

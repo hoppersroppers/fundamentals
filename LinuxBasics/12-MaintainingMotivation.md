@@ -1,5 +1,4 @@
 # Maintaining Motivation
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 Read this: <https://jamesclear.com/motivation> 
 
 This section is a work in progress, but it breaks down to a few key ideas:
@@ -12,5 +11,3 @@ This section is a work in progress, but it breaks down to a few key ideas:
 3. Schedule your motivation and do not allow any distractions to occur during this time.
 
 Alright now, time to keep going. Only thing that separates you from your previous self is how much work you are willing to put in. 
-
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

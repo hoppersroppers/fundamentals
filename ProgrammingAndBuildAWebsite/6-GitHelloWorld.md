@@ -1,5 +1,4 @@
 # Git Hello World
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ## Open Source
 You might have heard of Open Source before, as there has been an infinite amount written about the subject, but this is a good place to learn about it. Open source and hacking go hand in hand. You might not feel strongly about it now, but you will eventually.
 
@@ -16,4 +15,3 @@ Assignment:
  
 1. Explain what open source is in a few sentences and what the benefits are.
 2. Submit a link to your first repo. 
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -1,5 +1,4 @@
 # Advanced Bash Shell 
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 On the surface, the bash shell and all the things you can do with it seem very complicated. In what should be unsurprising at this point in the course, it's even more complicated when you try to understand why and how it works. Of course, you don't need to know most of it, just a few key portions that I'll go over right now.
 
 This stuff is pretty hard and honestly, not that important, bordering on trivia. Still, I feel like I should teach it. 
@@ -143,4 +142,3 @@ For your assignment, discuss the process of what happens when you run 'ls', espe
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

@@ -49,4 +49,3 @@ Hyper-V Notes:
 
 1. There are Virtualization Based Security measures on Windows that when enabled, will not allow you to run VMs other than inside of Hyper-V. If you are running Hyper-V and want to learn more, [watch this](https://www.linkedin.com/learning/microsoft-cybersecurity-stack-advanced-identity-and-endpoint-protection/what-is-virtualization-based-security). You won't understand most of it, but it is interesting and will explain why you will not be able to run a Virtual Machine on top of Hyper-V.
 2. Always know what you are disabling or doing before you run random commands off of the internet. In this case, you are disabling a few high level defensive measures that Windows provides for you, notably Credential Guard, Device Guard, and sandbox execution. This isn't terrible, but it does slightly increase your risk.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

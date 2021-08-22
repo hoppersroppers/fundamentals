@@ -1,5 +1,4 @@
 # Hardware History
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 ### History of Computers
 
 Read this: <https://www.explainthatstuff.com/historyofcomputers.html>
@@ -11,4 +10,3 @@ Don't be afraid to rabbit hole but remember, this is all trivia and it's not lik
    4. What is an integrated circuit?
    5. What is a semi-conductor?
    5. Discuss the rise of the personal computer.
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)

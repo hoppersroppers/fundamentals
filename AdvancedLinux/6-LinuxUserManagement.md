@@ -1,5 +1,4 @@
 # Linux User Management
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
 While being a system administrator covers a ton of responsibilities, potentially the most important on the day-to-day is User Management. As people come and go from a network, passwords are forgotten, the organization structure changes and the sysadmin rules over all and ensures everyone has the permissions they need, and perhaps more importantly, doesn't have any permissions they don't need. We manage these using Users and Groups in Linux. 
 
 The Operating System maintains the distinctions between Users and between Groups for us, but as sysadmins, we have to tell the OS what to do. The security provided by the OS is only as good as we define it, so if our permissions we tell the OS to enforce are incorrect, we can have no security at all. 
@@ -107,4 +106,3 @@ Answer in the appropriate format.
  Feedback:
 
 ```
-##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
