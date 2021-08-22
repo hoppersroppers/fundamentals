@@ -1,0 +1,47 @@
+https://courses.cs.vt.edu/csonline/OS/Lessons/Introduction/index.html
+
+
+fix the roadmap
+this stuff is hard pictures?
+dunning kruger?
+hacker attitude pictures
+
+
+
+
+text editor wars
+none shall pass
+
+github logo
+
+
+python logo
+https://sebastien.pittet.org/blog/public/2016/octobre/LinuxLearningCurve/Linux_Learning_curve.jpg
+
+cd downloads https://www.reddit.com/r/linuxmemes/comments/jqca9u/classic_linux/
+
+WINE should be mentioned
+
+https://www.reddit.com/r/linuxmemes/comments/i2i8d5/elitist_linux_users_be_like/
+
+linux updating https://www.reddit.com/r/linuxmemes/comments/lfe81i/discord_gets_how_linux_works/
+
+https://www.reddit.com/r/linuxmemes/comments/i3xr8c/you_know_the_man_and_so_do_i/ linus
+
+https://www.reddit.com/r/linux4noobs/comments/dkoa7s/linux_distribution_block_diagram/
+
+linux ABI simplified
+https://linuxforums.org.uk/index.php?action=media;sa=item;in=262
+
+
+
+
+
+
+https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU)
+
+
+
+https://en.wikipedia.org/wiki/Protection_ring
+
+also negative rings exist

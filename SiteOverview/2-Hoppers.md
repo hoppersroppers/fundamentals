@@ -1,0 +1,14 @@
+# Hoppers 
+##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+This curriculum was initially built for my old school's competitive Cyber Security Team.
+
+I wound up naming the site after Grace Hopper because she is our favorite person in computing history. You might have heard of her before, but if not, [click here](https://news.yale.edu/2017/02/10/grace-murray-hopper-1906-1992-legacy-innovation-and-service) to learn about a pretty awesome person.
+
+Have you ever heard the quote, "It's easier to ask forgiveness than it is to get permission."? That was her.
+
+![alt text](https://images2.minutemediacdn.com/image/upload/c_crop,h_707,w_1259,x_0,y_54/f_auto,q_auto,w_1100/v1554993302/shape/mentalfloss/61416-gracehopper-wikimedia.jpg "img1")
+
+That quote comes from an interview in the July 1986 CHIP's Ahoy Magazine, the Navy's Information Technology Magazine. If you want to read the full interview check [this out](http://www.doncio.navy.mil/chips/ArticleDetails.aspx?id=3563). She was at the cutting edge then and it is a testament to her vision how well this interview stands the test of time. Her passion for knowledge and innovation is the most important thing you can carry with you.
+
+##  [Click Here to Start Learning Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+<br><div id="mc_embed_signup"><form action="https://gmail.us5.list-manage.com/subscribe/post?u=4d03cc5db483966f7e0fe17cc&amp;id=8d9620c4b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>  <div id="mc_embed_signup_scroll"><h2>Join our mailing list to get updates about our courses and our organization!</h2><div class="indicates-required"><span class="asterisk">*</span> indicates required</div><div class="mc-field-group">	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></div>	<div id="mce-responses" class="clear">		<div class="response" id="mce-error-response"style="display:none"></div>		<div class="response" id="mce-success-response" style="display:none"></div>	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4d03cc5db483966f7e0fe17cc_8d9620c4b7" tabindex="-1" value=""></div>    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>    </div></form></div><script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = newArray();fnames[0]="EMAIL";ftypes[0]="email";}(jQuery));var $mcj = jQuery.noConflict(true);</script><!--End mc_embed_signup-->
