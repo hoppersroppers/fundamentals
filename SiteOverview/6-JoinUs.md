@@ -4,7 +4,7 @@ Instant group messaging has been a cultural staple of the internet community sin
 
 Slack has become the messaging platform of choice, allowing group collaboration and real time chat along with various plug-ins and file hosting integration. We use it for many of feedback, support, as a forum, and as our primary instant messaging channel. At some point we might migrate to a self-hosted server, but for now, Slack is the easiest to work with.
 
-Join our channel at <https://join.slack.com/t/hoppersroppers/shared_invite/zt-d66799ci-tZStzuZ5Nb0Coz5O6huKTA> and post a hello!
+Join our channel at <https://join.slack.com/t/hoppersroppers/shared_invite/zt-uqpgyl1e-wbZxSflcPsxQHmauT3TnNA> and post a hello!
 
 Choose a nickname, or what we call online, a "handle" for yourself. Don't worry about it too much, you will come up with something good eventually, and you are not stuck with whatever you start with. As a general rule, don't call yourself something like "Dark Shadow" (Unless you want to, in that case, do that). I probably had a dozen or so before settling on my current one, 'deveynull'. I like mine because it is a nerd joke (that will be explained about halfway through this course) and incorporates my last name.
 
