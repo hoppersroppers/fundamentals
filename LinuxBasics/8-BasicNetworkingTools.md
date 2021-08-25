@@ -48,7 +48,7 @@ How does routing work? How do the packets actually get from Point A to Point B? 
 
 So how does this all tie back into practical application? Well your Virtualization Software will have an option to switch your VM between a NAT'd IP address and a Bridged IP address. 
 
-I don't spend much time on Windows in this course, but run the command ```ifconfig``` in your Windows CMD prompt to get your host computer's IP address.
+I don't spend much time on Windows in this course, but run the command ```ipconfig``` in your Windows CMD prompt to get your host computer's IP address.
 
 Bridged IP addresses are IP addresses assigned by your local router, which will be NAT'd by the router when you try to connect out. NAT'd IP addresses are IP addresses assigned by your virtualization software, which puts that box behind a NAT. This means that if you are NAT'd, another local computer will not be able to connect to you, but if you are Bridged, your IP address will be routable. You're still both behind a router NAT, but it's the same NAT so you'll share the same IP address prefix.
 
