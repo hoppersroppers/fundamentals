@@ -13,3 +13,7 @@ jobs:
       uses: ZanderZhao/gitbook-action@v1.2.4  # -> or ZanderZhao/gitbook-action@master.  If not use master click above, use latest please 
       with:                                   #    or fork this repo and use YourName/gitbook-action@master
         token: ${{ secrets.PERSONAL_TOKEN }}  # -> remember add this in settings/secrets as following
+        gitbook_pdf: true
+        gitbook_pdf_name: Roppers Academy Computing Fundamentals
+ 
+ 
