@@ -1,13 +1,13 @@
 # Summary
 
 
-## CourseOverview
+## Course Overview
 
 * [Description](CourseOverview/0-Description.md)
 * [Course Layout](CourseOverview/1-CourseLayout.md)
 * [Roppers Your Resume and Portfolio Building](CourseOverview/2-RoppersYourResumeandPortfolioBuilding.md)
 
-## ImprovingYou
+## Improving You
 
 * [Secure Yourself Now](ImprovingYou/0-SecureYourselfNow.md)
 * [Learning](ImprovingYou/1-Learning.md)
@@ -20,7 +20,7 @@
 * [Set Your Long Term Goals](ImprovingYou/8-SetYourLongTermGoals.md)
 * [Motivation](ImprovingYou/9-Motivation.md)
 
-## SiteOverview
+## Site Overview
 
 * [Letter from the Author](SiteOverview/0-LetterfromtheAuthor.md)
 * [Why Security](SiteOverview/1-WhySecurity.md)
@@ -42,7 +42,7 @@
 * [Brainwashing and Learning Hard Things](Mindset/6-BrainwashingandLearningHardThings.md)
 * [Motivation](Mindset/7-Motivation.md)
 
-## BuildaLinuxLab
+## Build a LinuxLab
 
 * [Linux Certificate](BuildaLinuxLab/0-LinuxCertificate.md)
 * [Operating Systems](BuildaLinuxLab/1-OperatingSystems.md)
@@ -54,7 +54,7 @@
 * [Install Virtualization Tools](BuildaLinuxLab/7-InstallVirtualizationTools.md)
 * [Long Term Review and Retention](BuildaLinuxLab/9-LongTermReviewandRetention.md)
 
-## LinuxBasics
+## Linux Basics
 
 * [ManPages](LinuxBasics/0-ManPages.md)
 * [Shells](LinuxBasics/1-Shells.md)
@@ -88,7 +88,7 @@
 * [Hardware Basics](Hardware/7-HardwareBasics.md)
 * [Hex and More](Hardware/8-HexandMore.md)
 
-## AdvancedLinux
+## Advanced Linux
 
 * [Linux Filesystem](AdvancedLinux/0-LinuxFilesystem.md)
 * [Linux Filesystem Hierarchy](AdvancedLinux/1-LinuxFilesystemHierarchy.md)
@@ -107,7 +107,7 @@
 * [Linux Self Defense](AdvancedLinux/16-LinuxSelfDefense.md)
 * [User Testimonial](AdvancedLinux/18-UserTestimonial.md)
 
-## ProgrammingAndBuildAWebsite
+## Programming And Build A Website
 
 * [Programming Certificate](ProgrammingAndBuildAWebsite/0-ProgrammingCertificate.md)
 * [Programming Languages](ProgrammingAndBuildAWebsite/1-ProgrammingLanguages.md)
@@ -121,7 +121,7 @@
 * [Internet Self Defense](ProgrammingAndBuildAWebsite/9-InternetSelfDefense.md)
 * [Add to your Website and More](ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.md)
 
-## LearnPython
+## Learn Python
 
 * [Python Basics](LearnPython/0-PythonBasics.md)
 * [Python Hello World](LearnPython/1-PythonHelloWorld.md)
@@ -136,7 +136,7 @@
 * [More Programming](LearnPython/10-MoreProgramming.md)
 * [User Testimonial](LearnPython/13-UserTestimonial.md)
 
-## NextSteps
+## Next Steps
 
 * [Show What You Know](NextSteps/0-ShowWhatYouKnow.md)
 * [Where to Go](NextSteps/1-WheretoGo.md)
