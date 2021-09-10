@@ -1,0 +1,1819 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Basic Networking Tools · title</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="9-OvertheWireBandit04.html" />
+    
+    
+    <link rel="prev" href="7-BashInternalsandUnixPhilosophy.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Course Overview</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../CourseOverview/0-Description.html">
+            
+                <a href="../CourseOverview/0-Description.html">
+            
+                    
+                    Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../CourseOverview/1-CourseLayout.html">
+            
+                <a href="../CourseOverview/1-CourseLayout.html">
+            
+                    
+                    Course Layout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../CourseOverview/2-RoppersYourResumeandPortfolioBuilding.html">
+            
+                <a href="../CourseOverview/2-RoppersYourResumeandPortfolioBuilding.html">
+            
+                    
+                    Roppers Your Resume and Portfolio Building
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Improving You</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ImprovingYou/0-SecureYourselfNow.html">
+            
+                <a href="../ImprovingYou/0-SecureYourselfNow.html">
+            
+                    
+                    Secure Yourself Now
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ImprovingYou/1-Learning.html">
+            
+                <a href="../ImprovingYou/1-Learning.html">
+            
+                    
+                    Learning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ImprovingYou/2-ComputerRelatedHealth.html">
+            
+                <a href="../ImprovingYou/2-ComputerRelatedHealth.html">
+            
+                    
+                    Computer Related Health
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../ImprovingYou/3-GeneralWellness.html">
+            
+                <a href="../ImprovingYou/3-GeneralWellness.html">
+            
+                    
+                    General Wellness
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../ImprovingYou/4-Questions.html">
+            
+                <a href="../ImprovingYou/4-Questions.html">
+            
+                    
+                    Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../ImprovingYou/5-Why.html">
+            
+                <a href="../ImprovingYou/5-Why.html">
+            
+                    
+                    Why
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../ImprovingYou/6-JoinourChatRoom.html">
+            
+                <a href="../ImprovingYou/6-JoinourChatRoom.html">
+            
+                    
+                    Join our Chat Room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../ImprovingYou/7-CheckingIn.html">
+            
+                <a href="../ImprovingYou/7-CheckingIn.html">
+            
+                    
+                    Checking In
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../ImprovingYou/8-SetYourLongTermGoals.html">
+            
+                <a href="../ImprovingYou/8-SetYourLongTermGoals.html">
+            
+                    
+                    Set Your Long Term Goals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../ImprovingYou/9-Motivation.html">
+            
+                <a href="../ImprovingYou/9-Motivation.html">
+            
+                    
+                    Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Site Overview</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../SiteOverview/0-LetterfromtheAuthor.html">
+            
+                <a href="../SiteOverview/0-LetterfromtheAuthor.html">
+            
+                    
+                    Letter from the Author
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../SiteOverview/1-WhySecurity.html">
+            
+                <a href="../SiteOverview/1-WhySecurity.html">
+            
+                    
+                    Why Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../SiteOverview/2-Hoppers.html">
+            
+                <a href="../SiteOverview/2-Hoppers.html">
+            
+                    
+                    Hoppers 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../SiteOverview/3-ROPpers.html">
+            
+                <a href="../SiteOverview/3-ROPpers.html">
+            
+                    
+                     ROPpers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../SiteOverview/4-CoreTenets.html">
+            
+                <a href="../SiteOverview/4-CoreTenets.html">
+            
+                    
+                    Core Tenets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../SiteOverview/5-Legal.html">
+            
+                <a href="../SiteOverview/5-Legal.html">
+            
+                    
+                    Legal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../SiteOverview/6-JoinUs.html">
+            
+                <a href="../SiteOverview/6-JoinUs.html">
+            
+                    
+                    Join Us
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../SiteOverview/7-ThisSite.html">
+            
+                <a href="../SiteOverview/7-ThisSite.html">
+            
+                    
+                    This Site
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Mindset</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../Mindset/0-StartinganInfosecCareer.html">
+            
+                <a href="../Mindset/0-StartinganInfosecCareer.html">
+            
+                    
+                    Starting an Infosec Career
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../Mindset/1-ThisStuffisHard.html">
+            
+                <a href="../Mindset/1-ThisStuffisHard.html">
+            
+                    
+                    This Stuff is Hard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../Mindset/2-HackerAttitude.html">
+            
+                <a href="../Mindset/2-HackerAttitude.html">
+            
+                    
+                    Hacker Attitude
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../Mindset/3-HackerEthic.html">
+            
+                <a href="../Mindset/3-HackerEthic.html">
+            
+                    
+                    Hacker Ethic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../Mindset/4-RTFM.html">
+            
+                <a href="../Mindset/4-RTFM.html">
+            
+                    
+                    RTFM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../Mindset/5-Questions.html">
+            
+                <a href="../Mindset/5-Questions.html">
+            
+                    
+                    Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../Mindset/6-BrainwashingandLearningHardThings.html">
+            
+                <a href="../Mindset/6-BrainwashingandLearningHardThings.html">
+            
+                    
+                    Brainwashing and Learning Hard Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../Mindset/7-Motivation.html">
+            
+                <a href="../Mindset/7-Motivation.html">
+            
+                    
+                    Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Build a LinuxLab</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../BuildaLinuxLab/0-LinuxCertificate.html">
+            
+                <a href="../BuildaLinuxLab/0-LinuxCertificate.html">
+            
+                    
+                    Linux Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../BuildaLinuxLab/1-OperatingSystems.html">
+            
+                <a href="../BuildaLinuxLab/1-OperatingSystems.html">
+            
+                    
+                    Operating Systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../BuildaLinuxLab/2-FirstAssignment.html">
+            
+                <a href="../BuildaLinuxLab/2-FirstAssignment.html">
+            
+                    
+                    First Assignment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../BuildaLinuxLab/3-LinuxHistoryandUbuntu.html">
+            
+                <a href="../BuildaLinuxLab/3-LinuxHistoryandUbuntu.html">
+            
+                    
+                    Linux History and Ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../BuildaLinuxLab/4-Virtualization.html">
+            
+                <a href="../BuildaLinuxLab/4-Virtualization.html">
+            
+                    
+                    Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../BuildaLinuxLab/5-InstallVirtualizationSoftware.html">
+            
+                <a href="../BuildaLinuxLab/5-InstallVirtualizationSoftware.html">
+            
+                    
+                    Install Virtualization Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../BuildaLinuxLab/6-InstallUbuntu.html">
+            
+                <a href="../BuildaLinuxLab/6-InstallUbuntu.html">
+            
+                    
+                    Install Ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../BuildaLinuxLab/7-InstallVirtualizationTools.html">
+            
+                <a href="../BuildaLinuxLab/7-InstallVirtualizationTools.html">
+            
+                    
+                    Install Virtualization Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../BuildaLinuxLab/9-LongTermReviewandRetention.html">
+            
+                <a href="../BuildaLinuxLab/9-LongTermReviewandRetention.html">
+            
+                    
+                    Long Term Review and Retention
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Linux Basics</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="0-ManPages.html">
+            
+                <a href="0-ManPages.html">
+            
+                    
+                    ManPages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="1-Shells.html">
+            
+                <a href="1-Shells.html">
+            
+                    
+                    Shells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="2-UpdatingLinuxandPackages.html">
+            
+                <a href="2-UpdatingLinuxandPackages.html">
+            
+                    
+                    Updating Linux and Packages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="3-InstallingPrograms.html">
+            
+                <a href="3-InstallingPrograms.html">
+            
+                    
+                    Installing Programs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="4-LearningLinuxCommands.html">
+            
+                <a href="4-LearningLinuxCommands.html">
+            
+                    
+                    Learning Linux Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="5-CommandLineBasics.html">
+            
+                <a href="5-CommandLineBasics.html">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="6-ManPages.html">
+            
+                <a href="6-ManPages.html">
+            
+                    
+                    Man Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="7-BashInternalsandUnixPhilosophy.html">
+            
+                <a href="7-BashInternalsandUnixPhilosophy.html">
+            
+                    
+                    Bash Internals and Unix Philosophy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.9" data-path="8-BasicNetworkingTools.html">
+            
+                <a href="8-BasicNetworkingTools.html">
+            
+                    
+                    Basic Networking Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="9-OvertheWireBandit04.html">
+            
+                <a href="9-OvertheWireBandit04.html">
+            
+                    
+                    Over the Wire Bandit 04
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="10-BurningQuestions.html">
+            
+                <a href="10-BurningQuestions.html">
+            
+                    
+                    Burning Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="12-MaintainingMotivation.html">
+            
+                <a href="12-MaintainingMotivation.html">
+            
+                    
+                    Maintaining Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="13-TextFu.html">
+            
+                <a href="13-TextFu.html">
+            
+                    
+                    TextFu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="14-TextEditors.html">
+            
+                <a href="14-TextEditors.html">
+            
+                    
+                    Text Editors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="15-Search.html">
+            
+                <a href="15-Search.html">
+            
+                    
+                    Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="16-Regex.html">
+            
+                <a href="16-Regex.html">
+            
+                    
+                    Regex 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" data-path="17-OvertheWireBandit59.html">
+            
+                <a href="17-OvertheWireBandit59.html">
+            
+                    
+                    Over the Wire Bandit 59
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="18-UsefulLinuxCommands.html">
+            
+                <a href="18-UsefulLinuxCommands.html">
+            
+                    
+                    Useful Linux Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="21-UserTestimonial.html">
+            
+                <a href="21-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Hardware</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../Hardware/0-Abstraction.html">
+            
+                <a href="../Hardware/0-Abstraction.html">
+            
+                    
+                    Abstraction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../Hardware/1-BitsandBinary.html">
+            
+                <a href="../Hardware/1-BitsandBinary.html">
+            
+                    
+                    Bits and Binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../Hardware/2-ComputersareDeterministic.html">
+            
+                <a href="../Hardware/2-ComputersareDeterministic.html">
+            
+                    
+                    Computers are Deterministic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../Hardware/3-DigitalLogic.html">
+            
+                <a href="../Hardware/3-DigitalLogic.html">
+            
+                    
+                    Digital Logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../Hardware/4-FetchDecodeExecute.html">
+            
+                <a href="../Hardware/4-FetchDecodeExecute.html">
+            
+                    
+                    Fetch Decode Execute
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="../Hardware/5-MachineCodeandAssemblyCode.html">
+            
+                <a href="../Hardware/5-MachineCodeandAssemblyCode.html">
+            
+                    
+                    Machine Code and Assembly Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="../Hardware/6-HardwareHistory.html">
+            
+                <a href="../Hardware/6-HardwareHistory.html">
+            
+                    
+                    Hardware History
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" data-path="../Hardware/7-HardwareBasics.html">
+            
+                <a href="../Hardware/7-HardwareBasics.html">
+            
+                    
+                    Hardware Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" data-path="../Hardware/8-HexandMore.html">
+            
+                <a href="../Hardware/8-HexandMore.html">
+            
+                    
+                    Hex and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Advanced Linux</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../AdvancedLinux/0-LinuxFilesystem.html">
+            
+                <a href="../AdvancedLinux/0-LinuxFilesystem.html">
+            
+                    
+                    Linux Filesystem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../AdvancedLinux/1-LinuxFilesystemHierarchy.html">
+            
+                <a href="../AdvancedLinux/1-LinuxFilesystemHierarchy.html">
+            
+                    
+                    Linux Filesystem Hierarchy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../AdvancedLinux/2-ResizingYourVM.html">
+            
+                <a href="../AdvancedLinux/2-ResizingYourVM.html">
+            
+                    
+                    Resizing Your VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="../AdvancedLinux/3-LinuxPermissions.html">
+            
+                <a href="../AdvancedLinux/3-LinuxPermissions.html">
+            
+                    
+                    Linux Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="../AdvancedLinux/4-PermissionsandUmask.html">
+            
+                <a href="../AdvancedLinux/4-PermissionsandUmask.html">
+            
+                    
+                    Permissions and Umask
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="../AdvancedLinux/5-Boredyet.html">
+            
+                <a href="../AdvancedLinux/5-Boredyet.html">
+            
+                    
+                    Bored yet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="../AdvancedLinux/6-LinuxUserManagement.html">
+            
+                <a href="../AdvancedLinux/6-LinuxUserManagement.html">
+            
+                    
+                    Linux User Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="../AdvancedLinux/8-PasswordsandHashingOnLinux.html">
+            
+                <a href="../AdvancedLinux/8-PasswordsandHashingOnLinux.html">
+            
+                    
+                    Passwords and Hashing On Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="../AdvancedLinux/9-HowtoType.html">
+            
+                <a href="../AdvancedLinux/9-HowtoType.html">
+            
+                    
+                    How to Type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="../AdvancedLinux/10-LinuxProcesses.html">
+            
+                <a href="../AdvancedLinux/10-LinuxProcesses.html">
+            
+                    
+                    Linux Processes 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="../AdvancedLinux/11-OvertheWireBandit1015.html">
+            
+                <a href="../AdvancedLinux/11-OvertheWireBandit1015.html">
+            
+                    
+                    Over the Wire Bandit 1015
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="../AdvancedLinux/12-AdvancedBashShell.html">
+            
+                <a href="../AdvancedLinux/12-AdvancedBashShell.html">
+            
+                    
+                    Advanced Bash Shell 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.13" data-path="../AdvancedLinux/13-BasicBashScripting.html">
+            
+                <a href="../AdvancedLinux/13-BasicBashScripting.html">
+            
+                    
+                    Basic Bash Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.14" data-path="../AdvancedLinux/14-SubmitaWriteupandGetaCertificate.html">
+            
+                <a href="../AdvancedLinux/14-SubmitaWriteupandGetaCertificate.html">
+            
+                    
+                    Submit a Writeup and Get a Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.15" data-path="../AdvancedLinux/16-LinuxSelfDefense.html">
+            
+                <a href="../AdvancedLinux/16-LinuxSelfDefense.html">
+            
+                    
+                    Linux Self Defense
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.16" data-path="../AdvancedLinux/18-UserTestimonial.html">
+            
+                <a href="../AdvancedLinux/18-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programming And Build A Website</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../ProgrammingAndBuildAWebsite/0-ProgrammingCertificate.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/0-ProgrammingCertificate.html">
+            
+                    
+                    Programming Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../ProgrammingAndBuildAWebsite/1-ProgrammingLanguages.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/1-ProgrammingLanguages.html">
+            
+                    
+                    Programming Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../ProgrammingAndBuildAWebsite/2-ModernIDE.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/2-ModernIDE.html">
+            
+                    
+                    Modern IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../ProgrammingAndBuildAWebsite/3-BasicNetworking.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/3-BasicNetworking.html">
+            
+                    
+                    Basic Networking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="../ProgrammingAndBuildAWebsite/4-HowtheInternetWorks.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/4-HowtheInternetWorks.html">
+            
+                    
+                    How the Internet Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="../ProgrammingAndBuildAWebsite/5-HowtheWebWorks.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/5-HowtheWebWorks.html">
+            
+                    
+                    How the Web Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="../ProgrammingAndBuildAWebsite/6-GitHelloWorld.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/6-GitHelloWorld.html">
+            
+                    
+                    Git Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.8" data-path="../ProgrammingAndBuildAWebsite/7-GithubandCompilewithMake.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/7-GithubandCompilewithMake.html">
+            
+                    
+                    Github and Compile with Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.9" data-path="../ProgrammingAndBuildAWebsite/8-BuildaWebsitewithHTMLCSSandJavascript.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/8-BuildaWebsitewithHTMLCSSandJavascript.html">
+            
+                    
+                    Build a Website with HTML CSS and Javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.10" data-path="../ProgrammingAndBuildAWebsite/9-InternetSelfDefense.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/9-InternetSelfDefense.html">
+            
+                    
+                    Internet Self Defense
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.11" data-path="../ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.html">
+            
+                    
+                    Add to your Website and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Learn Python</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../LearnPython/0-PythonBasics.html">
+            
+                <a href="../LearnPython/0-PythonBasics.html">
+            
+                    
+                    Python Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../LearnPython/1-PythonHelloWorld.html">
+            
+                <a href="../LearnPython/1-PythonHelloWorld.html">
+            
+                    
+                    Python Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../LearnPython/2-CodecademyPython.html">
+            
+                <a href="../LearnPython/2-CodecademyPython.html">
+            
+                    
+                    Codecademy Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../LearnPython/3-Readyforsomesecurity.html">
+            
+                <a href="../LearnPython/3-Readyforsomesecurity.html">
+            
+                    
+                    Ready for some security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../LearnPython/4-PythonandBash.html">
+            
+                <a href="../LearnPython/4-PythonandBash.html">
+            
+                    
+                    Python and Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../LearnPython/5-AutomatetheBoringStuffChapter9.html">
+            
+                <a href="../LearnPython/5-AutomatetheBoringStuffChapter9.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../LearnPython/6-AutomatetheBoringStuffChapter10.html">
+            
+                <a href="../LearnPython/6-AutomatetheBoringStuffChapter10.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.8" data-path="../LearnPython/7-AutomatetheBoringStuffChapter11.html">
+            
+                <a href="../LearnPython/7-AutomatetheBoringStuffChapter11.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.9" data-path="../LearnPython/8-AutomatetheBoringStuffChapter12.html">
+            
+                <a href="../LearnPython/8-AutomatetheBoringStuffChapter12.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 12
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.10" data-path="../LearnPython/9-CapstoneProjectandCertificate.html">
+            
+                <a href="../LearnPython/9-CapstoneProjectandCertificate.html">
+            
+                    
+                    Capstone Project and Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.11" data-path="../LearnPython/10-MoreProgramming.html">
+            
+                <a href="../LearnPython/10-MoreProgramming.html">
+            
+                    
+                    More Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.12" data-path="../LearnPython/13-UserTestimonial.html">
+            
+                <a href="../LearnPython/13-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Next Steps</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../NextSteps/0-ShowWhatYouKnow.html">
+            
+                <a href="../NextSteps/0-ShowWhatYouKnow.html">
+            
+                    
+                    Show What You Know
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../NextSteps/1-WheretoGo.html">
+            
+                <a href="../NextSteps/1-WheretoGo.html">
+            
+                    
+                    Where to Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Basic Networking Tools</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="basic-networking-tools">Basic Networking Tools</h1>
+<h1 id="basics-of-networking">Basics of Networking</h1>
+<p><a href="https://xkcd.com/2259/" target="_blank"><img src="https://imgs.xkcd.com/comics/networking_problems.png"></a></p>
+<p>Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.</p>
+<p>I am going to handwave a bunch of things, just trust me, what I&apos;m handwaving doesn&apos;t matter that much for now. This is all part of some kind of plan.</p>
+<h2 id="ip-addresses-and-basic-networking">IP Addresses and Basic Networking</h2>
+<p>You might have heard the word IP address before, but we aren&apos;t going to dive too deep into it yet. Just think of it as the way other computers know who you are, and based off of a complicated routing system, how computers in between you and whatever you are talking to knows how to transport things back and forth. There will be plenty more on this in the Networking Course which you are going to do next anyway, so don&apos;t worry about how it works.</p>
+<p>To find out your IP address, run the command &quot;ip addr&quot;. This will print out a list of things called interface and some other stuff, don&apos;t worry too much. For now, focus on the IP addresses, the items in the form 127.0.0.1, 192.168.20.45, 182.16.10.100, 10.2.5.24 etc.... addresses in that form are known as IPV4 addresses. (There&apos;s another format known as IPV6 that looks like but we aren&apos;t going to worry about them right now)</p>
+<p>You should only have a few of them, so look for your 127.0.01 address. This is called your localhost, aka, your computer&apos;s local IP address. It is completely internal, and all computers have a localhost at 127.0.0.1. This means that you can&apos;t talk to someone else&apos;s localhost address and it is non-routable.</p>
+<p>You should have at least one more IP address listed, likely in the format 10.x.x.x, 192.168.x.x, or 172.x.x.x. These address ranges are known as &quot;local&quot; addresses. Long story short, there aren&apos;t enough IPV4 addresses. If you want to read more about this, <a href="https://en.wikipedia.org/wiki/IPv4_address_exhaustion" target="_blank">the wikipedia article</a> is decent. </p>
+<p>To get around the lack of IPV4 addresses, most private networks use these local addresses for all the computers on it, so that they don&apos;t need to own all the IP address space required for all of their computers (what? people own IP addresses? Yeah it&apos;s super complicated, we&apos;re gonna ignore that for now)</p>
+<p>So when you see those local IPV4 addresses, what you are seeing is the IPV4 address your network has assigned to you to use locally (and only locally).</p>
+<h2 id="routing">Routing</h2>
+<p>How do we connect to the internet then? Well, there&apos;s some magic called routing we aren&apos;t going to worry about too much for now, other than to be confident that it works. </p>
+<p>Let&apos;s trace our route to google.com to confirm that routing is working properly. In linux, this uses the command <code>tracepath</code>. Windows uses <code>tracert</code>.  </p>
+<pre class="language-"><code>$ tracepath google.com
+</code></pre><p>You should see a nice fancy print out of all the servers you&apos;ve hopped across, starting with your gateway router and ending with the google.com server. This family of commands is especially useful for troubleshooting networking problems. </p>
+<p>(For a fun hack, try <code>tracepath bad.horse</code>. Gotta love abusing protocols to do cool things)</p>
+<p>So what does google see you as when you make a request? </p>
+<p>I recommend a quick trip to  a website to find that out! <a href="https://nordvpn.com/what-is-my-ip/" target="_blank">Click here to find your public IP</a>.</p>
+<p>As you can see, your public IP is completely different than what your local IP is when you run <code>ip addr</code>. </p>
+<p>The reason for that is something called NAT, or Network Address Translation which is a method of mapping one IP address to another by modifying packets while they are in transit. It&apos;s hella complicated how it works, but what matters to us, the end users, is that our local address is stored by some NAT server which ensures that any responses to traffic from us that leaves our network, comes back to our locally assigned IP. On the other hand, nobody should be able to connect into a box behind NAT because they will not know the local IP address and either way, a local address shouldn&apos;t be routed across the internet. So just remember for now, NAT allows connections out and responses back, but does not allow connections in. (Just smile and wave, nobody understands NAT, but we&apos;ll go over it a bit more in the Networking Course). </p>
+<p>How does routing work? How do the packets actually get from Point A to Point B? Patience my friend. Later in the course in the web section we will talk about it. </p>
+<h2 id="vm-networking">VM Networking</h2>
+<p>So how does this all tie back into practical application? Well your Virtualization Software will have an option to switch your VM between a NAT&apos;d IP address and a Bridged IP address. </p>
+<p>I don&apos;t spend much time on Windows in this course, but run the command <code>ipconfig</code> in your Windows CMD prompt to get your host computer&apos;s IP address.</p>
+<p>Bridged IP addresses are IP addresses assigned by your local router, which will be NAT&apos;d by the router when you try to connect out. NAT&apos;d IP addresses are IP addresses assigned by your virtualization software, which puts that box behind a NAT. This means that if you are NAT&apos;d, another local computer will not be able to connect to you, but if you are Bridged, your IP address will be routable. You&apos;re still both behind a router NAT, but it&apos;s the same NAT so you&apos;ll share the same IP address prefix.</p>
+<p>Depending on your Virtualization Software, switch between the different networking modes and see how your IP address (and routing) changes. Run the <code>ip addr</code> command to check. If you are having trouble switching, assume that it is because Windows Hyper-V is doing bad things (even if you aren&apos;t using it). It&apos;s possible to fix Hyper-V issues by &quot;disable network interfaces hyper-v&quot; (there&apos;s your search term), but it&apos;s mostly a pain that pops up every once in a while. </p>
+<ul>
+<li><a href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html" target="_blank">VMWare</a></li>
+<li><a href="https://wiki.dave.eu/index.php/VirtualBox_Network_Configuration" target="_blank">Virtual Box</a></li>
+<li><a href="https://docs.microsoft.com/en-us/archive/blogs/virtual_pc_guy/using-hyper-v-with-a-wireless-network-adapter" target="_blank">Hyper V</a> <ul>
+<li>Don&apos;t try to do the HyperV one, it&apos;s a nightmare. Just install VMWare.</li>
+</ul>
+</li>
+</ul>
+<p>Over the next few sections, think about how changes in your local address will effect routing.</p>
+<h2 id="netcat">Netcat</h2>
+<p>Netcat is known as the &quot;Swiss Army Knife&quot; of networking tools. Whatever you want to do, you can probably do it with netcat. It comes pre-installed on most Linux machines, which makes it a common troubleshooting tool. While there are many features, the most common use is that you can use it to send and receive arbitrary data across a network. The way we send data across a network is with things named &quot;protocols&quot;. Netcat speaks the TCP and UDP protocols, but that doesn&apos;t matter all that much right now. Protocols run everything online, but we are going to save learning how they work for later.</p>
+<p>Using pipes and redirectors that we learned about in the last lesson, we can choose the input that is sent via the network, as well as what we do with the data once we receive them. On the command line we can use <code>nc</code> as a short name for the netcat program.</p>
+<pre class="language-"><code>$ echo &apos;Hello World&apos; | nc 127.0.0.1 1337
+</code></pre><p>When we run this first commnd, we take the STDOUT of echo and pipe it as the STDIN of netcat. The first argument for netcat is the IP address we want to send it to, and the second number is the port we want to send it to. Netcat will then send &apos;Hello World&apos; off to the correct location. Networking is hard, but we will skip a lot of the hard stuff for now. At this time, just know that most computers have an IP address and have thousands of ports. If two computers want to pass data over a network, they have to know the correct IP address and port to send data to.</p>
+<p>In this case, we are using netcat to send &apos;Hello World&apos; to IP address 127.0.0.1 to port 1337. IP address 127.0.0.1 is often known as localhost, and is our current computer. You can also write that command as:</p>
+<pre class="language-"><code>$ echo &apos;Hello World&apos; | nc localhost 1337
+</code></pre><p>If you noticed, nothing happened, which is kind of expected. How can we see if data was sent without setting up something to listen? Now we get to see what netcat can really do! Open up a new terminal and set up a listener on localhost port 1337 with this command.</p>
+<pre class="language-"><code>$ nc -l 1337
+</code></pre><p>Now you have set up a listener, go and run the first command again from your other terminal to send &apos;Hello World&apos;.</p>
+<p>Look at that! You have NETWORKED!!!!! To stop listening, press ctrl-c. That generally closes out or &quot;interrupts&quot; most processes in the terminal.</p>
+<p>Let&apos;s talk about what just happened. First, you set up a &quot;server&quot;, the listener. Then you had the &quot;client&quot; send data to the listener. This is about the most basic client-server setup you can get, but the principles remain generally the same all the way up to the complexity of web pages.</p>
+<h2 id="send-a-file">Send a File</h2>
+<p>For more fun, we can even send files around using redirectors because of how well Linux handles streams.</p>
+<p>First modify your listener to output to a file using &apos;&gt;&apos;.
+Then, use <code>cat</code> to read an existing file into a stream and then use &apos;|&apos; to pass it into netcat.</p>
+<p>Now you should have transported the file into the new location where your listener was pointing!</p>
+<p>Alright, so that wasn&apos;t magic, though it is pretty cool. In the future we will look at this traffic as it moves around the network so you can get a better understanding. For now, just know there are rules that govern exactly how it works and soon you will fully understand it.</p>
+<h2 id="rainbow-connection">Rainbow Connection</h2>
+<p>To do something really cool, make a clone of your current virtual machine and run two VMs side by side at once (You&apos;ll need at least 4GB of RAM). Once you have them both spun up, run &quot;ip addr&quot; to get each box&apos;s local IP address. Get the networking going properly that you are able to connect between the two boxes using those netcat tricks. If you are with a friend, get their IP and just try to connect to each other&apos;s box, no clones needed!</p>
+<p>You might need some Google but it is pretty cool. </p>
+<p>If you don&apos;t want to do this, or your computer doesn&apos;t have the space, don&apos;t do it. Just make sure you have an idea of what would be going on.</p>
+<h2 id="curl">curl</h2>
+<p>There are plenty of tools (like <code>wget</code> which we used earlier in the course) to download a file from the terminal, but I prefer to teach curl as it is able to support the most protocols (and can upload too if you need it). Curl is super useful to quickly grab resources if you have the URL. There are a ton of flags to let you do whatever you need, but don&apos;t worry, there are also plenty of great cheat sheets like <a href="https://devhints.io/curl" target="_blank">this one</a></p>
+<p>If you do not have curl installed, you will have to install it using apt-get. I think you can do that by yourself now.</p>
+<p>Most of the time, this is all the command you need to download a file.</p>
+<pre class="language-"><code>$ curl  -o image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
+</code></pre><p>If you don&apos;t have curl on a system, the easiest way to download a file is <code>wget</code>. 
+There are a lot fewer features, but that doesn&apos;t mean it won&apos;t work. </p>
+<pre class="language-"><code>$ wget  -o image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
+</code></pre><h2 id="see-what-is-doing-what">See What Is Doing What</h2>
+<p>For something I am going to hand-wave, but at least is very interesting, I&apos;ll introduce two commands that show you what is making connections on your computer and tell you basically nothing else about them. They are cool but a bit overkill for what we are doing right now. </p>
+<p>Before we run them, set up a nc listener and connect to it. After you run the commands, go look for the nc processes... You should be able to find them!</p>
+<pre class="language-"><code>$ netstat --inet -ap
+</code></pre><pre class="language-"><code>$ lsof -i
+</code></pre><p>For a pro-tip, anytime you want to look like a hacker, run these commands and you&apos;ll have a very cool looking display up.</p>
+<h2 id="telnet">Telnet</h2>
+<p>Telnet is an old fashioned protocol that usually provides nice and easy shell access to anyone running a telnet server, which is often unauthenticated.  It&apos;s a hacker&apos;s dream! </p>
+<p>Too bad you don&apos;t see many of them these days, but they are common in CTFs, and on critical infrastructure (jokes?).</p>
+<p>Here&apos;s a fun telnet demo to show what it is capable of:</p>
+<pre class="language-"><code>$ telnet towel.blinkenlights.nl
+</code></pre><p>Hackers gonna hack. And bored people... well they&apos;re gonna bored people.</p>
+<h2 id="ssh">SSH</h2>
+<p>Another very important tool is Secure SHell or SSH. They are basically the secure successor to Telnet for providing remote shells. </p>
+<p>We won&apos;t go into the networking specifics of this yet, but SSH is a networking protocol that allows encrypted access to remote computers. How this works in effect is a remote computer, the SSH server, will listen for an incoming connection. The local computer, which is the client we are trying to SSH from, sends a request via the SSH protocol to log in to the SSH server. If the password supplied is correct, the server will then create a shell on the remote computer and then pass back the stream from that shell to the client. From there, the client who just logged in via SSH is able to have access to the remote computer in an encrypted manner.</p>
+<p>I hand waved a ton of complexity there, but it doesn&apos;t matter yet. We&apos;ll spend some more time on this in the networking course, but you honestly don&apos;t need to know the specifics, I certainly don&apos;t. </p>
+<p>To SSH, you can either use a password or a key. Most of the time you will have a password, and that is what we will focus on in this course. The networking course will have more info on keys and SSH.</p>
+<p>To use ssh, simply run the command: <code>ssh username@domain.com</code>. There are plenty more options, but this one will get you through 90% of use cases. </p>
+<p>Now, let&apos;s move on to the next section and use SSH.</p>
+<p>For the assignment, show a screenshot of you sending messages between two local terminals using <code>nc</code>, as well as a terminal screen showing an <code>lsof</code>output with the nc processes.</p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2021-09-10 20:53:02 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="7-BashInternalsandUnixPhilosophy.html" class="navigation navigation-prev " aria-label="Previous page: Bash Internals and Unix Philosophy">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="9-OvertheWireBandit04.html" class="navigation navigation-next " aria-label="Next page: Over the Wire Bandit 04">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Basic Networking Tools","level":"6.9","depth":1,"next":{"title":"Over the Wire Bandit 04","level":"6.10","depth":1,"path":"LinuxBasics/9-OvertheWireBandit04.md","ref":"LinuxBasics/9-OvertheWireBandit04.md","articles":[]},"previous":{"title":"Bash Internals and Unix Philosophy","level":"6.8","depth":1,"path":"LinuxBasics/7-BashInternalsandUnixPhilosophy.md","ref":"LinuxBasics/7-BashInternalsandUnixPhilosophy.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"title","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/8-BasicNetworkingTools.md","mtime":"2021-09-10T20:53:02.790Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-10T20:53:47.216Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

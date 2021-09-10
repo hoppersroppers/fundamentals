@@ -1,0 +1,1800 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Resizing Your VM · title</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3-LinuxPermissions.html" />
+    
+    
+    <link rel="prev" href="1-LinuxFilesystemHierarchy.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Course Overview</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../CourseOverview/0-Description.html">
+            
+                <a href="../CourseOverview/0-Description.html">
+            
+                    
+                    Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../CourseOverview/1-CourseLayout.html">
+            
+                <a href="../CourseOverview/1-CourseLayout.html">
+            
+                    
+                    Course Layout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../CourseOverview/2-RoppersYourResumeandPortfolioBuilding.html">
+            
+                <a href="../CourseOverview/2-RoppersYourResumeandPortfolioBuilding.html">
+            
+                    
+                    Roppers Your Resume and Portfolio Building
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Improving You</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ImprovingYou/0-SecureYourselfNow.html">
+            
+                <a href="../ImprovingYou/0-SecureYourselfNow.html">
+            
+                    
+                    Secure Yourself Now
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ImprovingYou/1-Learning.html">
+            
+                <a href="../ImprovingYou/1-Learning.html">
+            
+                    
+                    Learning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ImprovingYou/2-ComputerRelatedHealth.html">
+            
+                <a href="../ImprovingYou/2-ComputerRelatedHealth.html">
+            
+                    
+                    Computer Related Health
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../ImprovingYou/3-GeneralWellness.html">
+            
+                <a href="../ImprovingYou/3-GeneralWellness.html">
+            
+                    
+                    General Wellness
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../ImprovingYou/4-Questions.html">
+            
+                <a href="../ImprovingYou/4-Questions.html">
+            
+                    
+                    Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../ImprovingYou/5-Why.html">
+            
+                <a href="../ImprovingYou/5-Why.html">
+            
+                    
+                    Why
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../ImprovingYou/6-JoinourChatRoom.html">
+            
+                <a href="../ImprovingYou/6-JoinourChatRoom.html">
+            
+                    
+                    Join our Chat Room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../ImprovingYou/7-CheckingIn.html">
+            
+                <a href="../ImprovingYou/7-CheckingIn.html">
+            
+                    
+                    Checking In
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../ImprovingYou/8-SetYourLongTermGoals.html">
+            
+                <a href="../ImprovingYou/8-SetYourLongTermGoals.html">
+            
+                    
+                    Set Your Long Term Goals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../ImprovingYou/9-Motivation.html">
+            
+                <a href="../ImprovingYou/9-Motivation.html">
+            
+                    
+                    Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Site Overview</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../SiteOverview/0-LetterfromtheAuthor.html">
+            
+                <a href="../SiteOverview/0-LetterfromtheAuthor.html">
+            
+                    
+                    Letter from the Author
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../SiteOverview/1-WhySecurity.html">
+            
+                <a href="../SiteOverview/1-WhySecurity.html">
+            
+                    
+                    Why Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../SiteOverview/2-Hoppers.html">
+            
+                <a href="../SiteOverview/2-Hoppers.html">
+            
+                    
+                    Hoppers 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../SiteOverview/3-ROPpers.html">
+            
+                <a href="../SiteOverview/3-ROPpers.html">
+            
+                    
+                     ROPpers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../SiteOverview/4-CoreTenets.html">
+            
+                <a href="../SiteOverview/4-CoreTenets.html">
+            
+                    
+                    Core Tenets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../SiteOverview/5-Legal.html">
+            
+                <a href="../SiteOverview/5-Legal.html">
+            
+                    
+                    Legal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../SiteOverview/6-JoinUs.html">
+            
+                <a href="../SiteOverview/6-JoinUs.html">
+            
+                    
+                    Join Us
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../SiteOverview/7-ThisSite.html">
+            
+                <a href="../SiteOverview/7-ThisSite.html">
+            
+                    
+                    This Site
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Mindset</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../Mindset/0-StartinganInfosecCareer.html">
+            
+                <a href="../Mindset/0-StartinganInfosecCareer.html">
+            
+                    
+                    Starting an Infosec Career
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../Mindset/1-ThisStuffisHard.html">
+            
+                <a href="../Mindset/1-ThisStuffisHard.html">
+            
+                    
+                    This Stuff is Hard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../Mindset/2-HackerAttitude.html">
+            
+                <a href="../Mindset/2-HackerAttitude.html">
+            
+                    
+                    Hacker Attitude
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../Mindset/3-HackerEthic.html">
+            
+                <a href="../Mindset/3-HackerEthic.html">
+            
+                    
+                    Hacker Ethic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../Mindset/4-RTFM.html">
+            
+                <a href="../Mindset/4-RTFM.html">
+            
+                    
+                    RTFM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../Mindset/5-Questions.html">
+            
+                <a href="../Mindset/5-Questions.html">
+            
+                    
+                    Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../Mindset/6-BrainwashingandLearningHardThings.html">
+            
+                <a href="../Mindset/6-BrainwashingandLearningHardThings.html">
+            
+                    
+                    Brainwashing and Learning Hard Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../Mindset/7-Motivation.html">
+            
+                <a href="../Mindset/7-Motivation.html">
+            
+                    
+                    Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Build a LinuxLab</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../BuildaLinuxLab/0-LinuxCertificate.html">
+            
+                <a href="../BuildaLinuxLab/0-LinuxCertificate.html">
+            
+                    
+                    Linux Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../BuildaLinuxLab/1-OperatingSystems.html">
+            
+                <a href="../BuildaLinuxLab/1-OperatingSystems.html">
+            
+                    
+                    Operating Systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../BuildaLinuxLab/2-FirstAssignment.html">
+            
+                <a href="../BuildaLinuxLab/2-FirstAssignment.html">
+            
+                    
+                    First Assignment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../BuildaLinuxLab/3-LinuxHistoryandUbuntu.html">
+            
+                <a href="../BuildaLinuxLab/3-LinuxHistoryandUbuntu.html">
+            
+                    
+                    Linux History and Ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../BuildaLinuxLab/4-Virtualization.html">
+            
+                <a href="../BuildaLinuxLab/4-Virtualization.html">
+            
+                    
+                    Virtualization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../BuildaLinuxLab/5-InstallVirtualizationSoftware.html">
+            
+                <a href="../BuildaLinuxLab/5-InstallVirtualizationSoftware.html">
+            
+                    
+                    Install Virtualization Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../BuildaLinuxLab/6-InstallUbuntu.html">
+            
+                <a href="../BuildaLinuxLab/6-InstallUbuntu.html">
+            
+                    
+                    Install Ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../BuildaLinuxLab/7-InstallVirtualizationTools.html">
+            
+                <a href="../BuildaLinuxLab/7-InstallVirtualizationTools.html">
+            
+                    
+                    Install Virtualization Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../BuildaLinuxLab/9-LongTermReviewandRetention.html">
+            
+                <a href="../BuildaLinuxLab/9-LongTermReviewandRetention.html">
+            
+                    
+                    Long Term Review and Retention
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Linux Basics</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../LinuxBasics/0-ManPages.html">
+            
+                <a href="../LinuxBasics/0-ManPages.html">
+            
+                    
+                    ManPages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../LinuxBasics/1-Shells.html">
+            
+                <a href="../LinuxBasics/1-Shells.html">
+            
+                    
+                    Shells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../LinuxBasics/2-UpdatingLinuxandPackages.html">
+            
+                <a href="../LinuxBasics/2-UpdatingLinuxandPackages.html">
+            
+                    
+                    Updating Linux and Packages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../LinuxBasics/3-InstallingPrograms.html">
+            
+                <a href="../LinuxBasics/3-InstallingPrograms.html">
+            
+                    
+                    Installing Programs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../LinuxBasics/4-LearningLinuxCommands.html">
+            
+                <a href="../LinuxBasics/4-LearningLinuxCommands.html">
+            
+                    
+                    Learning Linux Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../LinuxBasics/5-CommandLineBasics.html">
+            
+                <a href="../LinuxBasics/5-CommandLineBasics.html">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../LinuxBasics/6-ManPages.html">
+            
+                <a href="../LinuxBasics/6-ManPages.html">
+            
+                    
+                    Man Pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../LinuxBasics/7-BashInternalsandUnixPhilosophy.html">
+            
+                <a href="../LinuxBasics/7-BashInternalsandUnixPhilosophy.html">
+            
+                    
+                    Bash Internals and Unix Philosophy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="../LinuxBasics/8-BasicNetworkingTools.html">
+            
+                <a href="../LinuxBasics/8-BasicNetworkingTools.html">
+            
+                    
+                    Basic Networking Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="../LinuxBasics/9-OvertheWireBandit04.html">
+            
+                <a href="../LinuxBasics/9-OvertheWireBandit04.html">
+            
+                    
+                    Over the Wire Bandit 04
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="../LinuxBasics/10-BurningQuestions.html">
+            
+                <a href="../LinuxBasics/10-BurningQuestions.html">
+            
+                    
+                    Burning Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="../LinuxBasics/12-MaintainingMotivation.html">
+            
+                <a href="../LinuxBasics/12-MaintainingMotivation.html">
+            
+                    
+                    Maintaining Motivation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="../LinuxBasics/13-TextFu.html">
+            
+                <a href="../LinuxBasics/13-TextFu.html">
+            
+                    
+                    TextFu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="../LinuxBasics/14-TextEditors.html">
+            
+                <a href="../LinuxBasics/14-TextEditors.html">
+            
+                    
+                    Text Editors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="../LinuxBasics/15-Search.html">
+            
+                <a href="../LinuxBasics/15-Search.html">
+            
+                    
+                    Search
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="../LinuxBasics/16-Regex.html">
+            
+                <a href="../LinuxBasics/16-Regex.html">
+            
+                    
+                    Regex 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" data-path="../LinuxBasics/17-OvertheWireBandit59.html">
+            
+                <a href="../LinuxBasics/17-OvertheWireBandit59.html">
+            
+                    
+                    Over the Wire Bandit 59
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="../LinuxBasics/18-UsefulLinuxCommands.html">
+            
+                <a href="../LinuxBasics/18-UsefulLinuxCommands.html">
+            
+                    
+                    Useful Linux Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="../LinuxBasics/21-UserTestimonial.html">
+            
+                <a href="../LinuxBasics/21-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Hardware</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../Hardware/0-Abstraction.html">
+            
+                <a href="../Hardware/0-Abstraction.html">
+            
+                    
+                    Abstraction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../Hardware/1-BitsandBinary.html">
+            
+                <a href="../Hardware/1-BitsandBinary.html">
+            
+                    
+                    Bits and Binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../Hardware/2-ComputersareDeterministic.html">
+            
+                <a href="../Hardware/2-ComputersareDeterministic.html">
+            
+                    
+                    Computers are Deterministic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../Hardware/3-DigitalLogic.html">
+            
+                <a href="../Hardware/3-DigitalLogic.html">
+            
+                    
+                    Digital Logic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../Hardware/4-FetchDecodeExecute.html">
+            
+                <a href="../Hardware/4-FetchDecodeExecute.html">
+            
+                    
+                    Fetch Decode Execute
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="../Hardware/5-MachineCodeandAssemblyCode.html">
+            
+                <a href="../Hardware/5-MachineCodeandAssemblyCode.html">
+            
+                    
+                    Machine Code and Assembly Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="../Hardware/6-HardwareHistory.html">
+            
+                <a href="../Hardware/6-HardwareHistory.html">
+            
+                    
+                    Hardware History
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" data-path="../Hardware/7-HardwareBasics.html">
+            
+                <a href="../Hardware/7-HardwareBasics.html">
+            
+                    
+                    Hardware Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" data-path="../Hardware/8-HexandMore.html">
+            
+                <a href="../Hardware/8-HexandMore.html">
+            
+                    
+                    Hex and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Advanced Linux</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="0-LinuxFilesystem.html">
+            
+                <a href="0-LinuxFilesystem.html">
+            
+                    
+                    Linux Filesystem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="1-LinuxFilesystemHierarchy.html">
+            
+                <a href="1-LinuxFilesystemHierarchy.html">
+            
+                    
+                    Linux Filesystem Hierarchy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="8.3" data-path="2-ResizingYourVM.html">
+            
+                <a href="2-ResizingYourVM.html">
+            
+                    
+                    Resizing Your VM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="3-LinuxPermissions.html">
+            
+                <a href="3-LinuxPermissions.html">
+            
+                    
+                    Linux Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="4-PermissionsandUmask.html">
+            
+                <a href="4-PermissionsandUmask.html">
+            
+                    
+                    Permissions and Umask
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="5-Boredyet.html">
+            
+                <a href="5-Boredyet.html">
+            
+                    
+                    Bored yet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="6-LinuxUserManagement.html">
+            
+                <a href="6-LinuxUserManagement.html">
+            
+                    
+                    Linux User Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="8-PasswordsandHashingOnLinux.html">
+            
+                <a href="8-PasswordsandHashingOnLinux.html">
+            
+                    
+                    Passwords and Hashing On Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="9-HowtoType.html">
+            
+                <a href="9-HowtoType.html">
+            
+                    
+                    How to Type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="10-LinuxProcesses.html">
+            
+                <a href="10-LinuxProcesses.html">
+            
+                    
+                    Linux Processes 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="11-OvertheWireBandit1015.html">
+            
+                <a href="11-OvertheWireBandit1015.html">
+            
+                    
+                    Over the Wire Bandit 1015
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="12-AdvancedBashShell.html">
+            
+                <a href="12-AdvancedBashShell.html">
+            
+                    
+                    Advanced Bash Shell 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.13" data-path="13-BasicBashScripting.html">
+            
+                <a href="13-BasicBashScripting.html">
+            
+                    
+                    Basic Bash Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.14" data-path="14-SubmitaWriteupandGetaCertificate.html">
+            
+                <a href="14-SubmitaWriteupandGetaCertificate.html">
+            
+                    
+                    Submit a Writeup and Get a Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.15" data-path="16-LinuxSelfDefense.html">
+            
+                <a href="16-LinuxSelfDefense.html">
+            
+                    
+                    Linux Self Defense
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.16" data-path="18-UserTestimonial.html">
+            
+                <a href="18-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programming And Build A Website</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../ProgrammingAndBuildAWebsite/0-ProgrammingCertificate.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/0-ProgrammingCertificate.html">
+            
+                    
+                    Programming Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../ProgrammingAndBuildAWebsite/1-ProgrammingLanguages.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/1-ProgrammingLanguages.html">
+            
+                    
+                    Programming Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../ProgrammingAndBuildAWebsite/2-ModernIDE.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/2-ModernIDE.html">
+            
+                    
+                    Modern IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../ProgrammingAndBuildAWebsite/3-BasicNetworking.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/3-BasicNetworking.html">
+            
+                    
+                    Basic Networking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="../ProgrammingAndBuildAWebsite/4-HowtheInternetWorks.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/4-HowtheInternetWorks.html">
+            
+                    
+                    How the Internet Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="../ProgrammingAndBuildAWebsite/5-HowtheWebWorks.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/5-HowtheWebWorks.html">
+            
+                    
+                    How the Web Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="../ProgrammingAndBuildAWebsite/6-GitHelloWorld.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/6-GitHelloWorld.html">
+            
+                    
+                    Git Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.8" data-path="../ProgrammingAndBuildAWebsite/7-GithubandCompilewithMake.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/7-GithubandCompilewithMake.html">
+            
+                    
+                    Github and Compile with Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.9" data-path="../ProgrammingAndBuildAWebsite/8-BuildaWebsitewithHTMLCSSandJavascript.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/8-BuildaWebsitewithHTMLCSSandJavascript.html">
+            
+                    
+                    Build a Website with HTML CSS and Javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.10" data-path="../ProgrammingAndBuildAWebsite/9-InternetSelfDefense.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/9-InternetSelfDefense.html">
+            
+                    
+                    Internet Self Defense
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.11" data-path="../ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.html">
+            
+                <a href="../ProgrammingAndBuildAWebsite/12-AddtoyourWebsiteandMore.html">
+            
+                    
+                    Add to your Website and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Learn Python</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../LearnPython/0-PythonBasics.html">
+            
+                <a href="../LearnPython/0-PythonBasics.html">
+            
+                    
+                    Python Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../LearnPython/1-PythonHelloWorld.html">
+            
+                <a href="../LearnPython/1-PythonHelloWorld.html">
+            
+                    
+                    Python Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../LearnPython/2-CodecademyPython.html">
+            
+                <a href="../LearnPython/2-CodecademyPython.html">
+            
+                    
+                    Codecademy Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../LearnPython/3-Readyforsomesecurity.html">
+            
+                <a href="../LearnPython/3-Readyforsomesecurity.html">
+            
+                    
+                    Ready for some security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../LearnPython/4-PythonandBash.html">
+            
+                <a href="../LearnPython/4-PythonandBash.html">
+            
+                    
+                    Python and Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../LearnPython/5-AutomatetheBoringStuffChapter9.html">
+            
+                <a href="../LearnPython/5-AutomatetheBoringStuffChapter9.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../LearnPython/6-AutomatetheBoringStuffChapter10.html">
+            
+                <a href="../LearnPython/6-AutomatetheBoringStuffChapter10.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.8" data-path="../LearnPython/7-AutomatetheBoringStuffChapter11.html">
+            
+                <a href="../LearnPython/7-AutomatetheBoringStuffChapter11.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.9" data-path="../LearnPython/8-AutomatetheBoringStuffChapter12.html">
+            
+                <a href="../LearnPython/8-AutomatetheBoringStuffChapter12.html">
+            
+                    
+                    Automate the Boring Stuff Chapter 12
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.10" data-path="../LearnPython/9-CapstoneProjectandCertificate.html">
+            
+                <a href="../LearnPython/9-CapstoneProjectandCertificate.html">
+            
+                    
+                    Capstone Project and Certificate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.11" data-path="../LearnPython/10-MoreProgramming.html">
+            
+                <a href="../LearnPython/10-MoreProgramming.html">
+            
+                    
+                    More Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.12" data-path="../LearnPython/13-UserTestimonial.html">
+            
+                <a href="../LearnPython/13-UserTestimonial.html">
+            
+                    
+                    User Testimonial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Next Steps</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../NextSteps/0-ShowWhatYouKnow.html">
+            
+                <a href="../NextSteps/0-ShowWhatYouKnow.html">
+            
+                    
+                    Show What You Know
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../NextSteps/1-WheretoGo.html">
+            
+                <a href="../NextSteps/1-WheretoGo.html">
+            
+                    
+                    Where to Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Resizing Your VM</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="resizing-your-vm">Resizing Your VM</h1>
+<p>While we are on the topic of storage and drives, let&apos;s spend a little time on one of the more stressful and complicated parts of computing, modifying hard drives. </p>
+<p>I mentioned the <code>dd</code> command, aka disc destroyer, earlier, but now we are going to do one of the easier and more common tasks you can find yourself having to do. When you built your VM the first time, you probably just agreed to whatever the default virtual hard drive space was and that&apos;s how your system was built. </p>
+<p>But now, you&apos;re installing all these new packages, downloading all these memes, and you will find yourself running out of space. Running out of space can look very weird on Linux, from not being able to log in, to random bugs in programs, to just getting notifications that you can&apos;t make any new files. </p>
+<p>Let&apos;s learn how to resolve that by expanding our virtual hard disc! </p>
+<h1 id="best-practices">Best Practices</h1>
+<p>Any time, and I mean, any time you are playing around with hard disc stuff, just make a backup of your filesystem ahead of time. Usually you&apos;d do this with <code>dd</code> but because we are a VM it is as easy as taking a snapshot. Go play through your virtualization software&apos;s settings to take a snapshot. </p>
+<p>Once you have expanded your disk and nothing is broken, then you can delete the snapshot. Look at you, following best practices. </p>
+<h1 id="expand-your-virtual-disk">Expand Your Virtual Disk</h1>
+<p>Starting from what we already know, let&apos;s think about this in terms of partitions. We know we only have one partition in our virtual disk right now. Let&apos;s say it looks like this.</p>
+<pre class="language-"><code>__ Virtual Disc: 20 GB_______________
+|__Ubuntu Partition __20 GB_______|
+</code></pre><p>So all 20 GB of the virtual disc are occupied by our partition, which means our first action is to expand our Virtual Disc size. This will change based off of your Virtualization software, so here are some links. For now, let&apos;s just increase your VM disk size by 2 GB.</p>
+<ol>
+<li><a href="https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-73BEB4E6-A1B9-41F4-BA37-364C4B067AA8.html" target="_blank">VMWare Expand</a></li>
+<li><a href="https://askubuntu.com/questions/88647/how-do-i-increase-the-hard-disk-size-of-the-virtual-machine" target="_blank">VirtualBox Expand</a></li>
+<li><a href="https://www.nakivo.com/blog/increase-disk-size-hyper-v-complete-guide/" target="_blank">HyperV Expand</a></li>
+</ol>
+<p>It&apos;s all pretty straightforward for the virtualization software, but you will notice you have to turn off the VM. Once you&apos;re done, your virtual hard drive will look something like this.</p>
+<pre class="language-"><code>
+__ Virtual Disc: 22 GB______________________
+|__Ubuntu Partition __20 GB_______| _______|
+</code></pre><p>Those extra 2 GB hanging out are called &quot;unallocated space&quot;. Sounds badass right?</p>
+<p>So even though you resized the disc, your partition is still the same size and you&apos;ll still have out of disk space errors. The next step to fix this is to expand the partition out to fill the entire space. </p>
+<p>As a side note, there&apos;s a <a href="https://www.unallocatedspace.org/" target="_blank">Maryland hackerspace named Unallocated Space</a> and they&apos;re really cool folks.</p>
+<h1 id="expanding-your-partition">Expanding Your Partition</h1>
+<p>Now there are hundreds of ways to expand your partition, most of which involve <code>gparted</code> which would be my recommendation if you were doing something more complicated... but we are not. </p>
+<p>For now, we will use <a href="https://askubuntu.com/questions/116351/increase-partition-size-on-which-ubuntu-is-installed" target="_blank">this sequence of commands</a>, which I found in a StackOverflow post. To the best of my knowledge, this is the easiest way to expand your partition out there. </p>
+<ol>
+<li>Use <code>df -h</code> to find the name of your partition. Look for the one that is the largest.</li>
+<li>enter the command <code>cfdisk</code>.</li>
+<li>Choose the partition to extend and select &quot;Resize&quot;. </li>
+</ol>
+<p><img src="https://i.stack.imgur.com/RXYeh.png" alt="SO Resize"></p>
+<ol>
+<li>Set the &quot;New size&quot;, filling up the rest of the available area.</li>
+<li>After pressing enter, you&apos;ll see screen with the following note &quot;Partition [someNumber] resized&quot;: </li>
+</ol>
+<p><img src="https://i.stack.imgur.com/IFWXb.png" alt="SO Resized"></p>
+<ol>
+<li>Next you&apos;ll need to &quot;Write&quot; to save your changes. Type &quot;yes&quot;.</li>
+<li>Quit cfdisk. When you exit you may see message &quot;syncing disks&quot;, but either way good things are happening.</li>
+</ol>
+<ol>
+<li>Get filesystem name again for next step with <code>df -h</code>. Nothing should have changed yet.</li>
+</ol>
+<p>Now using the name you found for the filesystem, run the following command with <code>resize2fs</code>.  This command will automatically match the size of the partition to the size of the available disc space. Magic!</p>
+<pre class="language-"><code> $ resize2fs /dev/nameOfFilesystem
+ resize2fs 1.42.13 (17-May-2015)
+ Filesystem at /dev/nameOfFilesystem is mounted on /; on-line resizing required
+ old_desc_blocks = 1, new_desc_blocks = 2
+ The filesystem on /dev/nameOfFilesystem is now 4854784 (4k) blocks long.
+</code></pre><ol>
+<li>Then verify everything worked using <code>df -h</code> again to see the size change.</li>
+</ol>
+<pre class="language-"><code>__ Virtual Disc: 22 GB______________________
+|__Ubuntu Partition __22 GB_______________|
+</code></pre><p>Now you have changed your VM size, which is a huge win for something that is usually very stressful. The next time you have to do this, or help someone else, refer back to this!</p>
+<h1 id="add-more-processing-power-to-your-vm">Add More Processing Power to Your VM</h1>
+<p>While we are here, let&apos;s also look at what we can do to speed up your VM. If you haven&apos;t tried it already, play around in the options to add another CPU, or add some extra RAM. See what the constraints are. We don&apos;t need to worry too much about the effects of adding another vCPU or extra RAM are to our system, but it&apos;s worth checking out for the knowledge.</p>
+<h2 id="assignment">Assignment:</h2>
+<ol>
+<li>What is a snapshot?  Why are they useful? </li>
+<li>Why do you think we have to turn off the VM to resize the virtual hard disk?</li>
+<li>Why do you think we can expand the partition while the VM is running?</li>
+<li>Why do you think we don&apos;t have to turn off the VM to resize the RAM? </li>
+</ol>
+<p>Answer in the usual format, one or two sentences. This is more about your feelings and what you can find in 5 minutes of research than a perfect answer. Don&apos;t research this too deeply or you might lose your mind!</p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2021-09-10 20:53:02 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1-LinuxFilesystemHierarchy.html" class="navigation navigation-prev " aria-label="Previous page: Linux Filesystem Hierarchy">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3-LinuxPermissions.html" class="navigation navigation-next " aria-label="Next page: Linux Permissions">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Resizing Your VM","level":"8.3","depth":1,"next":{"title":"Linux Permissions","level":"8.4","depth":1,"path":"AdvancedLinux/3-LinuxPermissions.md","ref":"AdvancedLinux/3-LinuxPermissions.md","articles":[]},"previous":{"title":"Linux Filesystem Hierarchy","level":"8.2","depth":1,"path":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","ref":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"title","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/2-ResizingYourVM.md","mtime":"2021-09-10T20:53:02.786Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-09-10T20:53:47.216Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
