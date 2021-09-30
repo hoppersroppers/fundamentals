@@ -13,8 +13,6 @@
 * [Learning](ImprovingYou/1-Learning.md)
 * [Computer Related Health](ImprovingYou/2-ComputerRelatedHealth.md)
 * [General Wellness](ImprovingYou/3-GeneralWellness.md)
-* [Questions](ImprovingYou/4-Questions.md)
-* [Why](ImprovingYou/5-Why.md)
 * [Join our Chat Room](ImprovingYou/6-JoinourChatRoom.md)
 * [Checking In](ImprovingYou/7-CheckingIn.md)
 * [Set Your Long Term Goals](ImprovingYou/8-SetYourLongTermGoals.md)
