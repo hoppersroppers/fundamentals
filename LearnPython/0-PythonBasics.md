@@ -1,5 +1,5 @@
 # Python Basics
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 It's time for you to learn your first programming language!
 
 Let me get this out of the way: I don't think Python is the best language to learn how to program with. Python is a programming language that has found incredible success, largely due to the fact that code written in it is readable and things just work. Programming is an exacting art, and Python doesn't force you to work very hard to understand why things are the way they are. Other languages, specifically C are better for learning the nitty-gritty, which so far has been what this course focused on.

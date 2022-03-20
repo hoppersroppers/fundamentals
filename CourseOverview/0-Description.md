@@ -1,9 +1,9 @@
 # Description
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 # Course Description
 Hey! [I'm Dennis](https://www.hoppersroppers.org/about.html), the person behind Hopper's Roppers. 
 
-This is our introductory course, teaching everything, and I mean everything, that a student needs to know about computers to have a successful career in a technical field. More information can be found [here](https://www.hoppersroppers.org/course.html). 
+This is our introductory course, teaching everything, and I mean everything, that a student needs to know about computers to have a successful career in a technical field. More information can be found [here](https://www.roppers.org/courses/computing-fundamentals). 
 
 This is the first course in our [roadmap](https://www.hoppersroppers.org/roadmap/) which is our way of guiding students towards the best resources available, instead of overloading them with options and list of websites. 
 

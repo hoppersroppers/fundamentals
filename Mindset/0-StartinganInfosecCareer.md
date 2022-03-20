@@ -1,6 +1,6 @@
 # Starting an Infosec Career
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
-There are hundreds, maybe even thousands of resources on the subject of starting an infosec career. Hell, [even I wrote one](https://www.hoppersroppers.org/library/breakIntoSecurity.html). 
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+There are hundreds, maybe even thousands of resources on the subject of starting an infosec career. Hell, [even I wrote one](https://www.hoppersroppers.org/library/breakIntoSecurity.html).
 
 There are even more on what it takes to be a hacker, how to get a job, what to learn, where to learn it, how to learn it....
 

@@ -1,5 +1,5 @@
 # Show What You Know
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 I talk a big game about all of this being about what you know and what you can do, but there is something I have to tell you.
 
 If you do not prepare the way you present yourself, put yourself out there, and be willing to fail, or be ignored, or be turned down, you're never going to be able to put the skills and knowledge to work. 

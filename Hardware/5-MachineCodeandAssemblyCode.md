@@ -1,5 +1,5 @@
 # Machine Code and Assembly Code
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called 'Machine Code' and consists of 1s and 0s. As a note, there are various families of CPU "architectures" which require different machine codes to operate properly. Don't worry about this now.
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/800px-Von_Neumann_Architecture.svg.png">](https://wikipedia.org)

@@ -1,5 +1,5 @@
 # Linux Certificate
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 Welcome to the Linux section of the Ropper's Fundamentals course.
 
 This is one of the longest sections, but I consider it the hump you need to get over for you to go from being someone who wants to learn things and someone who is really out there learning. 

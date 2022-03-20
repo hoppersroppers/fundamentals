@@ -1,5 +1,5 @@
 # Letter from the Author
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 ## Dedication
 This training is dedicated to the memories of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz), [Bassel Khartabil](https://en.wikipedia.org/wiki/Bassel_Khartabil) and those named on the [National Cryptologic Memorial](https://www.nsa.gov/about/cryptologic-heritage/cryptologic-memorial/cryptologic-memorial-list.shtml).
 

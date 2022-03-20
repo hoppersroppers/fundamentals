@@ -1,5 +1,5 @@
 # Command Line Basics
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 [<img src="https://imgs.xkcd.com/comics/command_line_fu.png">](https://xkcd.com/196/)
 
 Pull up your terminal (ctrl-alt-t for the cool kids) and let's get after it!

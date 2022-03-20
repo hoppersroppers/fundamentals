@@ -1,5 +1,5 @@
 # Install Virtualization Software
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 The major step we need to take is to begin using Linux in our everyday life so that we can get comfortable in the environment we will be working from. If you are already using a Linux box as your home operating system, or already have a VM installed, skip this section: we are only building a VM so that we can learn in it. We will not do anything in this course that will break anything.
 
 If you are on  Windows 10 Enterprise, Pro, or Education, you can use Hyper-V, which is virtualization software built directly into the Windows operating system. Read [this](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) if you want to know more. Windows 10 Home edition (which you probably have) does not have Hyper-V. All things considered, I really don't like Hyper-V and I do not recommend it, even if you have it available.

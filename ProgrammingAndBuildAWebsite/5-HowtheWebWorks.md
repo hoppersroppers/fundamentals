@@ -1,5 +1,5 @@
 # How the Web Works
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 How do websites work? 
 
 Read all of this: 
