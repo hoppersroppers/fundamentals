@@ -1,5 +1,5 @@
 # Why
-##  [Register for the Free Course Today!](https://roppers.thinkific.com/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
 # Why
 You thought you were here to learn how to get better at computers, so what is all this?
 
