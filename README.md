@@ -5,7 +5,7 @@ This the text version of the Roppers Academy Introduction to Computing Fundament
 
 This site is generated from a course hosted at:
 
-<https://www.roppers.org/courses/computing-fundamentals>
+[<https://www.roppers.org/courses/fundamentals>](https://www.roppers.org/courses/fundamentals)
 
 All the material is available here, but in order to get the full benefits of our course we recommend registering so that we can track your progress, grade your submissions, and provide feedback and support when you need it.
 
