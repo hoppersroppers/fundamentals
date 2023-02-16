@@ -1,5 +1,5 @@
 # Secure Yourself Now
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 # Secure Yourself Now
 You signed up for this course to improve yourself, to learn how to secure yourself online, and to help others. That's what this section is dedicated to. If you finish this section and don't do anything else, your participation in this course will be a success in my eyes.
 

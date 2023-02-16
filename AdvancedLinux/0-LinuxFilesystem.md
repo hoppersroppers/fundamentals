@@ -1,5 +1,5 @@
 # Linux Filesystem
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 # Linux  Filesystem
 
 Here there be dragons! Anytime you start playing with the filesystem, especially the ```dd``` aka "disc destroyer" command, you are playing with fire. Do not allow bad things to happen to yourself, always always always triple check what drive you are reading from and writing to. Do not be a victim... I've done it multiple times if we are being honest, but... not recommended. 

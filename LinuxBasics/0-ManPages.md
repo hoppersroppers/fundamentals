@@ -1,5 +1,5 @@
 # ManPages
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 At one point, this was the first assignment in the course. That's how important I believe man-pages are. 
 
 I've since moved it back a bit until you have access to a Linux command line so you can see it in all its glory.
