@@ -1,5 +1,5 @@
 # Legal
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 ## Community Guidelines
 Our community guidelines are available here: <https://www.hoppersroppers.org/guidelines.html>. I'll enforce them even if you didn't read them, so please read them over. Long story short, if you do anything that makes the community feel unsafe to any member, you will be banned. If you mention anything illegal, you will be banned. If you are an asshole, I'll call you an asshole, and then I'll ban you.
 

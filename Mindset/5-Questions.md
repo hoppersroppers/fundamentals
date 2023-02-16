@@ -1,5 +1,5 @@
 # Questions
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 We expect you to be constantly coming across words, phrases, and entire concepts that you have never seen before and are totally lost in. When you have to get things done, you'll have to learn more about it and one of the best ways to get those holes in your knowledge filled is to ask questions.
 
 Here are some guidelines for asking questions.

@@ -1,5 +1,5 @@
 # Programming Certificate
-##  [Register for the Free Course Today!](https://www.roppers.org/courses/computing-fundamentals)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/fundamentals)
 Welcome to the Programming section of the Ropper's Fundamentals course.
 
 When you learn how to program, you learn how to use one of the greatest tools that humanity has ever had. It is the lever that has built the computer you are on now, the internet, and most of the modern world. Once you learn how to program, you are no longer one person, and can do just about anything. 
