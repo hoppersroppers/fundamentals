@@ -1,7 +1,7 @@
 # Build a Website with HTML CSS and Javascript
 Now, learn how to make a website with the Github First Week tutorials.
 
-<https://lab.github.com/githubtraining/first-week-on-github>
+[https://lab.github.com/githubtraining/first-week-on-github](https://github.com/githubtraining/first-week-on-github)
 
 Feel free to make it as complicated or basic as you would like, and have fun playing around with it. 
    
