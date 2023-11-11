@@ -1,4 +1,11 @@
----
-layout: forward
-target: https://www.hoppersroppers.org/fundamentals/LinuxBasics/9-TextFu.html
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Old Page</title>
+     <meta charset="UTF-8" />
+     <meta http-equiv="refresh" content="3; URL=https://www.hoppersroppers.org/fundamentals/LinuxBasics/9-TextFu.html#" />
+   </head>
+   <body>
+     <p>This page has been moved. If you are not redirected within 3 seconds, click <a href="https://www.hoppersroppers.org/fundamentals/LinuxBasics/9-TextFu.html#">here</a> to go to the page that should be here.</p>
+   </body>
+</html>
