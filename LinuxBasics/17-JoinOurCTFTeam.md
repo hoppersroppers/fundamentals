@@ -1,3 +1,5 @@
+# Join Our CTF Team!
+
 You've made it far enough into our Fundamentals course that you are now
 formally invited to the Roppers CTF team! 
 

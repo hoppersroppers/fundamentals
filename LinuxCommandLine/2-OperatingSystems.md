@@ -1,4 +1,7 @@
-What is an operating system or OS?
+# Operating Systems
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/UoaR2bzFDKE?wmode=opaque" width="640"></iframe>What
+is an operating system or OS?
 
 Most likely, just based off of your everyday use you have a pretty good
 idea about how to use Windows. However, what we are about to go over is
@@ -36,7 +39,11 @@ understand the underlying technology to do great work.
 We don't have to care about any of this to be great, which is pretty
 amazing.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/9d6/486/5b5/1629584983605.jpg)](https://en.wikipedia.org/wiki/Linux)
+<a href="https://en.wikipedia.org/wiki/Linux" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/9d6/486/5b5/1629584983605.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/9d6/486/5b5/1629584983605.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/9d6/486/5b5/1629584983605.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/9d6/486/5b5/1629584983605.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 ## Basics
 
@@ -49,7 +56,11 @@ all how to run as individual components. Firmware is the OS for the
 hardware, but on a normal computer, is not considered part of the OS the
 user interacts with.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/344/f30/406/1629584981534.jpg)](https://en.wikipedia.org/wiki/Operating_system)
+<a href="https://en.wikipedia.org/wiki/Operating_system" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/344/f30/406/1629584981534.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/344/f30/406/1629584981534.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/344/f30/406/1629584981534.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/344/f30/406/1629584981534.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Coordinating individual hardware components is the kernel, the core of
 the operating system, which coordinates those individual components so
@@ -139,7 +150,11 @@ UNIX-> Unix-Like
 For a visual depiction of the Unix family:
 ```
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/a8f/ea2/09c/1629584982269.jpg)](https://en.wikipedia.org/wiki/Unix)
+<a href="https://en.wikipedia.org/wiki/Unix" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/a8f/ea2/09c/1629584982269.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/a8f/ea2/09c/1629584982269.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/a8f/ea2/09c/1629584982269.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/a8f/ea2/09c/1629584982269.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Windows is less interesting, but still worth pointing out the
 highlights.

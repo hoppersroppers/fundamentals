@@ -1,6 +1,10 @@
-You might have heard of [Over the
-Wire](http://overthewire.org/wargames/bandit/) before, it is a very
-famous online wargame.
+# Over the Wire: Bandit 0-4
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/8ShdVhAv6ro?wmode=opaque" width="640"></iframe>You
+might have heard of
+<a href="http://overthewire.org/wargames/bandit/" rel="noopener"
+target="_blank">Over the Wire</a> before, it is a very famous online
+wargame.
 
 This is a classic set of challenges that every member of our team has
 fought through, and while it takes some time, you should have had enough
@@ -26,8 +30,10 @@ SSH into : `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 With the password `bandit0`
 
 If you're having trouble figuring out what you should do for level 0,
-check out [this video](https://www.youtube.com/watch?v=2wozdVl3psY). I'd
-make my own, but I hate making videos.
+check out
+<a href="https://www.youtube.com/watch?v=2wozdVl3psY" rel="noopener"
+target="_blank">this video</a>. I'd make my own, but I hate making
+videos.
 
 If you ever get stuck on anything for more than a half hour, message us
 in \#techsupport and we will help you out! Don't worry, I have no

@@ -1,12 +1,14 @@
-##  If you're going to be working through this course, competing in a Capture the Flag (CTF), or just binging Netflix because you deserve it, these are a few changes you can put into your life that will make you a happier and healthier person.
+# Computer Related Health
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/VTQZ2_N1LEQ?wmode=opaque" width="640"></iframe> If you're going to be working through this course, competing in a Capture the Flag (CTF), or just binging Netflix because you deserve it, these are a few changes you can put into your life that will make you a happier and healthier person.
 
 ## Ergonomics
 
 We spend too much time in front of our computers, and over a long enough
 period of time, this can have negative effects on our bodies. We will
-summarize this [quick
-guide](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169)
-to get you set up right.
+summarize this <a
+href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169"
+rel="noopener" target="_blank">quick guide</a> to get you set up right.
 
 -   Monitor
     -   We want our monitors to be at an arms distance away, right at
@@ -64,12 +66,16 @@ care what you are on, it just cares that you are putting in the work.
     all agree about the effects on eyesight, they're pretty confident
     about impact on sleep cycles.
 
-    -   Windows 10has a built in [Blue Light
-        Filter](https://support.microsoft.com/en-us/windows/set-your-display-for-night-time-in-windows-10-18fe903a-e0a1-8326-4c68-fd23d7aaf136)
-    -   Mac has [Night Shift](https://support.apple.com/en-us/HT207513)
-    -   If you are on Linux use [this
-        link](https://itsfoss.com/night-shift-flux-ubuntu-linux/) to
-        find a method you're comfortable with.
+    -   Windows 10has a built in <a
+        href="https://support.microsoft.com/en-us/windows/set-your-display-for-night-time-in-windows-10-18fe903a-e0a1-8326-4c68-fd23d7aaf136"
+        rel="noopener" target="_blank">Blue Light Filter</a>
+    -   Mac
+        has <a href="https://support.apple.com/en-us/HT207513" rel="noopener"
+        target="_blank">Night Shift</a>
+    -   If you are on Linux use
+        <a href="https://itsfoss.com/night-shift-flux-ubuntu-linux/"
+        rel="noopener" target="_blank">this link</a> to find a method
+        you're comfortable with.
     -   If you are on an old version of Windows that doesn't have it
         yet, just update to Windows 10 please.
     -   If you are a crazy person like me, go into the monitor settings
@@ -80,9 +86,10 @@ care what you are on, it just cares that you are putting in the work.
 -   It is also an option to get blue light filtering glasses if you have
     money to blow, they're definitely not needed. If you want them, you
     should buy a pair from
-    [Blenders](https://www.blenderseyewear.com/collections/blue-light).
-    I'm not sponsored, but I used to live next to them and they're a
-    chill team so they deserve money.
+    <a href="https://www.blenderseyewear.com/collections/blue-light"
+    rel="noopener" target="_blank">Blenders</a>. I'm not sponsored, but
+    I used to live next to them and they're a chill team so they deserve
+    money.
 
     -   If we're really being honest, you can get cheap pairs from
         Amazon and they'll be like 1/5 the price and do basically the

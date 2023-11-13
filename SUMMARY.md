@@ -38,7 +38,8 @@
 * [Hacker Attitude](Mindset/1-HackerAttitude.md)
 * [RTFM](Mindset/2-RTFM.md)
 * [Questions](Mindset/3-Questions.md)
-* [LLMs and Roppers](Mindset/4-LLMsandRoppers.md)
+* [Learning Hard Things](Mindset/4-LearningHardThings.md)
+* [LLMs and Roppers](Mindset/5-LLMsandRoppers.md)
 
 ## Linux Command Line
 
@@ -71,7 +72,6 @@
 * [Little Bit More Networking](LinuxBasics/4-LittleBitMoreNetworking.md)
 * [Over the Wire Bandit 04](LinuxBasics/5-OvertheWireBandit04.md)
 * [Starting an Infosec Career](LinuxBasics/6-StartinganInfosecCareer.md)
-* [MidChapter Survey 4](LinuxBasics/7-MidChapterSurvey4.md)
 * [Maintaining Motivation](LinuxBasics/8-MaintainingMotivation.md)
 * [TextFu](LinuxBasics/9-TextFu.md)
 * [Text Editors](LinuxBasics/10-TextEditors.md)
@@ -91,8 +91,9 @@
 * [Fetch Decode Execute](Hardware/4-FetchDecodeExecute.md)
 * [Machine Code and Assembly](Hardware/5-MachineCodeandAssemblyCode.md)
 * [Hardware History](Hardware/6-HardwareHistory.md)
-* [Modern Hardware](Hardware/7-ModernHardware.md)
-* [Hex and More](Hardware/8-HexandMore.md)
+* [Hardware History](Hardware/7-HardwareHistory.md)
+* [Modern Hardware](Hardware/8-ModernHardware.md)
+* [Hex and More](Hardware/9-HexandMore.md)
 
 ## Advanced Linux
 

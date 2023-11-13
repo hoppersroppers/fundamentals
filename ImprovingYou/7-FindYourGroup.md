@@ -1,3 +1,5 @@
+# Find Your Group!
+
 It's time for you to find the group of students you will be working
 through this course with! 
 

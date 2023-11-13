@@ -1,4 +1,6 @@
-## Install the Linux operating system Ubuntu using your virtualization software of choice!
+# Install Ubuntu
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/vGq5KkuufV8?wmode=opaque" width="640"></iframe>Install the Linux operating system Ubuntu using your virtualization software of choice!
 
 We are going to use Ubuntu because it is largely agreed upon to be the
 most beginner-friendly and stable of all the Linux operating systems.
@@ -14,7 +16,8 @@ format that can be run off of a disc, usually having a .iso extension.
 We can download .iso's and boot off of the disc or using a USB, but it's
 generally easier to use a VM.
 
-[https://www.ubuntu.com/download/desktop](https://www.ubuntu.com/download/desktop)
+<a href="https://www.ubuntu.com/download/desktop" rel="noopener"
+target="_blank">https://www.ubuntu.com/download/desktop</a>
 
 I could give you more information on what to do for this, but there are
 a ton of tutorials and Youtube videos out there. Should be an easy
@@ -23,10 +26,15 @@ have any problems, but I recommend going step by step through a
 tutorial. This is your first challenge that we are really telling you to
 figure it out yourself.
 
-![alt
-text](https://files.cdn.thinkific.com/file_uploads/429463/images/efb/2c3/9e4/1629586040160.jpg "flybitch")
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/efb/2c3/9e4/1629586040160.jpg"
+title="flybitch" class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/efb/2c3/9e4/1629586040160.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/efb/2c3/9e4/1629586040160.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/efb/2c3/9e4/1629586040160.jpg?width=1920&amp;dpr=3 3x"
+alt="alt text" />
 
-Source: [TheSquareComics](https://www.instagram.com/thesquarecomics/)
+Source:
+<a href="https://www.instagram.com/thesquarecomics/" rel="noopener"
+target="_blank">TheSquareComics</a>
 
 We always try to link to the source of things, even dank memes. It's a
 weird thing to care about, but the internet makes it so easy to repost

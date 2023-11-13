@@ -1,7 +1,14 @@
-## ![alt text](https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg "img3")
+# Core Tenets
 
-This site is designed around a series of ideas that we think will make
-your experience as a learner as positive as possible.
+## <img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg"
+title="img3" class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=3 3x"
+alt="alt text" />
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/j3zXTthcaWo?wmode=opaque" width="640"></iframe>This
+site is designed around a series of ideas that we think will make your
+experience as a learner as positive as possible.
 
 1.  No initial expectation of knowledge
 2.  Everyone moves at their own pace

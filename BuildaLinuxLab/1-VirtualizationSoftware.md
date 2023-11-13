@@ -1,9 +1,12 @@
-The major step we need to take is to begin using Linux in our everyday
-life so that we can get comfortable in the environment we will be
-working from. If you are already using a Linux box as your home
-operating system, or already have a VM installed, skip this section: we
-are only building a VM so that we can learn in it. We will not do
-anything in this course that will break anything.
+# Virtualization Software
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/4UvXPgQv-1w?wmode=opaque" width="640"></iframe>The
+major step we need to take is to begin using Linux in our everyday life
+so that we can get comfortable in the environment we will be working
+from. If you are already using a Linux box as your home operating
+system, or already have a VM installed, skip this section: we are only
+building a VM so that we can learn in it. We will not do anything in
+this course that will break anything.
 
 ## Windows: 
 
@@ -19,29 +22,32 @@ can use Linux tools which require the use of a Graphical User Interface
 
 If you are on Windows 10 Enterprise, Pro, or Education, you can use
 Hyper-V, which is virtualization software built directly into the
-Windows operating system. Read
-[this](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-if you want to know more. Windows 10 Home edition (which you probably
-have) does not have Hyper-V. 
+Windows operating system. Read <a
+href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v"
+rel="noopener" target="_blank">this</a> if you want to know more.
+Windows 10 Home edition (which you probably have) does not have
+Hyper-V. 
 
 If you are on Windows 10 Home or are on an older version of Windows
 (which you shouldn't be because you update your OS), you have to use a
-different virtualization tool. I recommend [VMWare
-Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html),
-as that has been what I have always used, however there are many
-alternatives, primarily VirtualBox. Both VMWare and VirtualBox are
-significantly better than Hyper-V, you can't go wrong with either and
-there is a ton of documentation on both.
+different virtualization tool. I recommend <a
+href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html"
+rel="noopener" target="_blank">VMWare Player</a>, as that has been what
+I have always used, however there are many alternatives, primarily
+VirtualBox. Both VMWare and VirtualBox are significantly better than
+Hyper-V, you can't go wrong with either and there is a ton of
+documentation on both.
 
 ## Macs
 
 If you are on an older Mac you should use VirtualBox because it is free
 and generally works well on Macs.
-[This](https://siytek.com/ubuntu-mac-virtualbox/) is a pretty good link.
-Due to some very complicated computer engineering reasons, Macs running
-on the M1 processor don't work properly with VirtualBox (at this point
-in time). If you are using an M1 (jealous!!!) use the free version of
-VMWare Fusion. 
+<a href="https://siytek.com/ubuntu-mac-virtualbox/" rel="noopener"
+target="_blank">This</a> is a pretty good link. Due to some very
+complicated computer engineering reasons, Macs running on the M1
+processor don't work properly with VirtualBox (at this point in time).
+If you are using an M1 (jealous!!!) use the free version of VMWare
+Fusion. 
 
 ## Chromebook/Other
 
@@ -49,8 +55,9 @@ If you are on a locked-down computer that you can't install anything on
 like a Chromebook, or only have a mobile device, I highly recommend
 going and heading off to "The Cloud". Many companies offer online VMs
 for you to use, with a great free trial offering. I recommend using free
-[Google Cloud](https://cloud.google.com/) for a pretty seamless browser
-based experience, and an app that works great for mobile access.
+<a href="https://cloud.google.com/" rel="noopener"
+target="_blank">Google Cloud</a> for a pretty seamless browser based
+experience, and an app that works great for mobile access.
 
 If you don't can't do any of those things,
 <https://www.hoppersroppers.org/shell/> will work to learn many things,
@@ -108,11 +115,11 @@ Hyper-V Notes:
 
 1.  There are Virtualization Based Security measures on Windows that
     when enabled, will not allow you to run VMs other than inside of
-    Hyper-V. If you are running Hyper-V and want to learn more, [watch
-    this](https://www.linkedin.com/learning/microsoft-cybersecurity-stack-advanced-identity-and-endpoint-protection/what-is-virtualization-based-security).
-    You won't understand most of it, but it is interesting and will
-    explain why you will not be able to run a Virtual Machine on top of
-    Hyper-V.
+    Hyper-V. If you are running Hyper-V and want to learn more, <a
+    href="https://www.linkedin.com/learning/microsoft-cybersecurity-stack-advanced-identity-and-endpoint-protection/what-is-virtualization-based-security"
+    rel="noopener" target="_blank">watch this</a>. You won't understand
+    most of it, but it is interesting and will explain why you will not
+    be able to run a Virtual Machine on top of Hyper-V.
 2.  Always know what you are disabling or doing before you run random
     commands off of the internet. In this case, you are disabling a few
     high level defensive measures that Windows provides for you, notably

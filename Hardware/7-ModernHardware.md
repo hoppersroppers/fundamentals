@@ -1,4 +1,7 @@
-We have come a long way from looms, transistor tubes, and giant building
+# Modern Hardware
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/-VTolcLeAbI?wmode=opaque" width="640"></iframe>We
+have come a long way from looms, transistor tubes, and giant building
 sized calculators.
 
 -   Explain all these modern computer components things. Put it in a

@@ -1,4 +1,7 @@
- Here there be dragons! 
+# Linux Filesystem
+
+ <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/42uXJrg-jLs?wmode=opaque" width="640"></iframe>Here
+there be dragons! 
 
 # Anytime you start playing with the filesystem, especially the `dd` aka "disc destroyer" command, you are playing with fire. Do not allow bad things to happen to yourself, always always always triple check what drive you are reading from and writing to. Do not be a victim... I've done it multiple times if we are being honest, but... not recommended.
 
@@ -23,10 +26,10 @@ for your primary drive, so it is almost certainly the largest. Most
 likely it will be called /dev/sda\_ , but who knows! For the rest of
 this page I will be calling it /dev/DRIVENAME.
 
-'df' does a lot of things ([like expanding hard drives when you run out
-of space in your
-VM](https://askubuntu.com/questions/116351/increase-partition-size-on-which-ubuntu-is-installed)!),
-but we won't worry about that right now.
+'df' does a lot of things (<a
+href="https://askubuntu.com/questions/116351/increase-partition-size-on-which-ubuntu-is-installed"
+rel="noopener" target="_blank">like expanding hard drives when you run
+out of space in your VM</a>!), but we won't worry about that right now.
 
 Filesystems are split up into blocks for ease of navigation.
 
@@ -69,7 +72,11 @@ offset into the Data Blocks required to find the file. This is why inode
 stands for Index Node, because it helps us find where we put all of our
 files.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/2e2/86d/ff2/1629595447390.jpg)](https://en.wikipedia.org/wiki/File_descriptor)
+<a href="https://en.wikipedia.org/wiki/File_descriptor" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/2e2/86d/ff2/1629595447390.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/2e2/86d/ff2/1629595447390.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/2e2/86d/ff2/1629595447390.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/2e2/86d/ff2/1629595447390.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 As we said, each file has its own inode number. We can get it with
 `ls -i fileName`.
@@ -182,10 +189,13 @@ possible to remove the metadata for the file without affecting the way
 the file displays. To find information about metadata for a specific
 file format, check the RFC. To pull the metadata from a file, use a tool
 for it, like this one:
-[http://exif.regex.info/exif.cgi](http://exif.regex.info/exif.cgi)
+<a href="http://exif.regex.info/exif.cgi" rel="noopener"
+target="_blank">http://exif.regex.info/exif.cgi</a>
 
-Check out the metadata for this file:
-[https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/gps/DSCN0029.jpg](https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/gps/DSCN0029.jpg)
+Check out the metadata for this file: <a
+href="https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/gps/DSCN0029.jpg"
+rel="noopener"
+target="_blank">https://raw.githubusercontent.com/ianare/exif-samples/master/jpg/gps/DSCN0029.jpg</a>
 
 Another type of metadata is filesystem metadata. Rather than being
 included in the file itself, it is stored in the inode table. Use
@@ -196,9 +206,9 @@ file, including the filesystem metadata.
 A third type of metadata is information about who sends and receives
 information. Even if the content can't be decrypted, just knowing who
 sends to who is useful information and can be dangerous depending on the
-context. This [article from the
-EFF](https://www.eff.org/deeplinks/2013/06/why-metadata-matters) is
-great.
+context. This
+<a href="https://www.eff.org/deeplinks/2013/06/why-metadata-matters"
+rel="noopener" target="_blank">article from the EFF</a> is great.
 
 # Assignment
 

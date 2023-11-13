@@ -1,4 +1,6 @@
-##  
+# Course Layout
+
+## <iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/9pXs41HpO_s?wmode=opaque" width="640"></iframe> 
 
 ## This self-guided course is designed to take around 100 hours and teach the most important things required to move on with your journey into computing and security. It is easy to get bogged down in details, but this course attempts to follow the most efficient path possible towards being able to accomplish whatever you need to do with Linux and programming.
 
@@ -35,29 +37,6 @@ next:
 -   Networking Fundamentals
 
 Thank you for joining us!
-
-  
-
-## Guided Course
-
-With thousands of students, I can't grade every assignment that gets
-submitted in the free courses because it winds up being about a hundred
-submissions a day! 
-
-If you want to check out the paid [Guided Fundamentals
-Course](https://www.roppers.org/courses/guided-fundamentals), it is $50
-dollars a month and in return, I grade all your assignments and you get
-exclusive access to me and the highly exclusive Daquiri Lounge
-community. I think it is a pretty good trade. 
-
-The only difference between the free version vs. guided is that if you
-are enrolled in the guided course, I will be tracking your progress,
-grading your assignments, and making sure you are following along the
-timeline you set for yourself. If you are in the free version, I still
-care about you deeply and will answer questions you have in support
-channels, but I won't have the time to provide as much-individualized
-attention. I promise that myself and the community will take care of you
-no matter what. 
 
   
 

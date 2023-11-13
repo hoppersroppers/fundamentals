@@ -1,4 +1,6 @@
- 
+# Fetch, Decode, Execute
+
+ <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/Wwl1W6CrUb8?wmode=opaque" width="640"></iframe>
 
 ## Well, we learned what these nand gates and xor is in the last section ... sort of.
 
@@ -13,6 +15,9 @@ know how they run programs.
 You might have heard of the fetch-decode-execute cycle before, which is
 the basic operation of a CPU. Here is a solid video that will be a
 placeholder for me before I make a video on the cycle.
+
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/Z5JC9Ve1sfI" title="YouTube video player" width="560">
+</iframe>
 
 This part is very complicated and likely will take some thought and
 maybe drawing a diagram for yourself. Don't be afraid to google for more

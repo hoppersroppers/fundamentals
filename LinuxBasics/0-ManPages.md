@@ -1,4 +1,7 @@
-At one point, this was the first assignment in the course. That's how
+# Man-Pages
+
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/SMo441TzRsY?wmode=opaque" width="640"></iframe>At
+one point, this was the first assignment in the course. That's how
 important I believe man-pages are.
 
 I've since moved it back a bit until you have access to a Linux command
@@ -21,11 +24,18 @@ $ man man
 
 That's meta, man.
 
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/kI1PWcTe0W4" title="YouTube video player" width="560"></iframe>
+
 # Always Have a Goal
 
-Look at the output of `man man` (or [this online copy of the man-pages
-if you aren't in a VM](https://man7.org/linux/man-pages/man1/man.1.html)
-) and write down the first three things you don't understand.
+As a note, [hoppersroppers.org/shell](//hoppersroppers.org/shell) does
+not have manpages included. This is because there is so much good
+information in them they take up too much space for a tiny shell!  If
+you are in your own VM, look at the output of `man man.` If you are in
+the online shell or somewhere else without a VM, use
+<a href="https://man7.org/linux/man-pages/man1/man.1.html"
+rel="noopener" target="_blank">this online copy of the man-pages</a> and
+write down the first three things you don't understand.
 
 Once you have found three things you don't understand: STOP READING! It
 will only hurt your head, and there is no need to go any further.
@@ -46,7 +56,10 @@ an idea of what programs can do. Don't read them in their entirety or
 try to memorize the functionality, but if you're having problems, always
 a good idea to RTFM (or you might get stabbed by your toaster).
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/f78/440/2db/1629593096332.jpg)](https://xkcd.com/293/)
+<a href="https://xkcd.com/293/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/f78/440/2db/1629593096332.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/f78/440/2db/1629593096332.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/f78/440/2db/1629593096332.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/f78/440/2db/1629593096332.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 # Assignment
 
@@ -62,7 +75,8 @@ Questions:
 
     Resources:
 
--   [https://en.wikipedia.org/wiki/Man_page](https://en.wikipedia.org/wiki/Man_page)
+-   <a href="https://en.wikipedia.org/wiki/Man_page" rel="noopener"
+    target="_blank">https://en.wikipedia.org/wiki/Man_page</a>
 
 Answer in the usual format. Please only submit .txt files. No .docx
 files, no .odt, no .pdfs please! This makes review easier.

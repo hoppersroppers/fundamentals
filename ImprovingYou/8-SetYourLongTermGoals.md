@@ -1,3 +1,7 @@
+# Set Your Long Term Goals
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/YUkNVGngKkY?wmode=opaque" width="640"></iframe>
+
 The most important thing you can do to increase your ability at a chosen
 task is to trust the process and put the time in. After that, studies
 show that one of the most important things you can do to increase your

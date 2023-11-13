@@ -1,5 +1,8 @@
-You've already done a little pipelining text-fu in the last section, so
-let's learn a few more commands that can be used to view and modify text
+# Text-Fu
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/NmrFM1_9K74?wmode=opaque" width="640"></iframe>You've
+already done a little pipelining text-fu in the last section, so let's
+learn a few more commands that can be used to view and modify text
 streams. I'll give you some info about the commands, but in general, any
 time you want to learn more about these tools, just use the man pages.
 
@@ -163,9 +166,9 @@ $ cat /var/log/syslog | grep "systemd" | awk '{print $3" "$4" "$5" " $10" "$11" 
 Think about what just happened. For your assignment, write out what
 STDIN, STDOUT, and STDERR are and what is happening for each of the
 commands. (Hint: Don't forget about
-[https://explainshell.com/](https://explainshell.com/), but be sure to
-fill in more of your answer using the man pages) Answer in the usual
-format.
+<a href="https://explainshell.com/" rel="noopener"
+target="_blank">https://explainshell.com/</a>, but be sure to fill in
+more of your answer using the man pages) Answer in the usual format.
 
 ``` default
 Questions:

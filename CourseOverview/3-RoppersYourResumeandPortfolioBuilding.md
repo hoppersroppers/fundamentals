@@ -1,4 +1,6 @@
-##  While many people take this course to scratch an itch, some people are here so that they can learn the skills required to get a job and make a living in a technical field.
+# Roppers, Your Resume, and Portfolio Building
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/XGF_BzUVlEU?wmode=opaque" width="640"></iframe> While many people take this course to scratch an itch, some people are here so that they can learn the skills required to get a job and make a living in a technical field.
 
 However, in this day and age, knowing is not enough, you have to prove
 you know things.
@@ -14,29 +16,33 @@ You can earn three certificates by completing this course:
 The first is for completing our Virtualization and Linux sections, which
 will require you to install a VM and become proficient in the use of
 Linux, as well as complete a CTF.  
-[![Ropper's Linux
-Basics](https://files.cdn.thinkific.com/file_uploads/429463/images/2b7/dfa/864/1628002804655.jpg "Ropper's Linux Basics")](https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA)  
+<a href="https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA"
+rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/2b7/dfa/864/1628002804655.jpg"
+title="Ropper&#39;s Linux Basics" class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/2b7/dfa/864/1628002804655.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/2b7/dfa/864/1628002804655.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/2b7/dfa/864/1628002804655.jpg?width=1920&amp;dpr=3 3x"
+alt="Ropper&#39;s Linux Basics" /></a>  
   
   
 
-The [second
-certificate](https://badgr.com/public/badges/XB9JuQmCQaKfJVUvuYNcQg) is
-in the same form and you will receive it after completing our
-Programming section, which will have you build a website with HTML, CSS,
-and Javascript, learn how to use git properly, and complete a variety of
-projects in Python.
+The <a href="https://badgr.com/public/badges/XB9JuQmCQaKfJVUvuYNcQg"
+rel="noopener" target="_blank">second certificate</a> is in the same
+form and you will receive it after completing our Programming section,
+which will have you build a website with HTML, CSS, and Javascript,
+learn how to use git properly, and complete a variety of projects in
+Python.
 
-The [final
-certificate](https://badgr.com/public/badges/OCgMVVYKT82mZZkDah6BBQ) is
-for completing the entire course and states that you know enough to be
-considered dangerous. There aren't many of these badges in the wild yet,
-so don't expect your future employers to know what they represent. What
-will impress them is what your resume will look like once you are done
-with this course.
+The <a href="https://badgr.com/public/badges/OCgMVVYKT82mZZkDah6BBQ"
+rel="noopener" target="_blank">final certificate</a> is for completing
+the entire course and states that you know enough to be considered
+dangerous. There aren't many of these badges in the wild yet, so don't
+expect your future employers to know what they represent. What will
+impress them is what your resume will look like once you are done with
+this course.
 
 ## Resumes and Portfolio Website
 
-  
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/AIcjMQh9RlU?wmode=opaque" width="640"></iframe>  
 
 You can't just sit here and watch videos to earn these certs. This is a
 practical, hands-on challenge that will fill out as many of the weak

@@ -1,3 +1,5 @@
+# Submit a Writeup and Get a Certificate!
+
 One of the best things about CTFs like Bandit is that you can follow
 someone else's writeup and copy what they have done to solve it
 yourself.
@@ -13,4 +15,6 @@ do a writeup on how someone could replicate what you did, then submit
 it! Once you've submitted it, email me a copy at d.m.devey@gmail.com and
 I will send you back the Ropper's Linux Certificate!
 
-[https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA](https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA)
+<a href="https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA"
+rel="noopener"
+target="_blank">https://badgr.com/public/badges/6pOR4egxTpKJQZIgTodbqA</a>

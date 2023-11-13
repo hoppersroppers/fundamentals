@@ -1,3 +1,5 @@
+# Make it Your Own!
+
 For your first trick, we are going to modify your wallpaper entirely
 from the command line.
 
@@ -5,7 +7,9 @@ This only works if you are in a Gnome-based desktop environment, which
 you would have if you installed Ubuntu. I can't promise anything if you
 are in another OS, so run this: 
 
-    echo $XDG_CURRENT_DESKTOP 
+``` default
+echo $XDG_CURRENT_DESKTOP 
+```
 
 If it doesn't say Gnome, just skip this section, or for bonus points,
 figure out how to change your wallpaper from the command line using

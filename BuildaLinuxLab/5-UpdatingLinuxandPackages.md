@@ -1,4 +1,7 @@
-Just like on any operating system, one of the first things you should do
+# Updating Linux and Packages
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/iPwi-aTnlls?wmode=opaque" width="640"></iframe>Just
+like on any operating system, one of the first things you should do
 after installing Ubuntu is to make sure all the software is updated.
 This minimizes the number of bugs we encounter, as well as helps to
 patch our computer against vulnerabilities. Make sure to update your
@@ -43,7 +46,10 @@ That was a long winded response, and believe me, I skipped over some
 detail, but this is what you need to know for now. You'll learn more in
 the Permissions section.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/48c/227/707/1629593263354.jpg)](https://xkcd.com/149/)
+<a href="https://xkcd.com/149/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/48c/227/707/1629593263354.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/48c/227/707/1629593263354.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/48c/227/707/1629593263354.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/48c/227/707/1629593263354.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 ## Packages
 

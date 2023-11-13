@@ -1,9 +1,11 @@
-Virtualization tools are pieces of software that connect your host OS
-with your new VM. You need this for a lot of critical usability things,
-and usually it doesn't come pre-installed. These virtualization tools
-are responsible for passing files and clipboard material back and forth,
-adjusting monitors, and overall ensuring the Host-VM experience is
-stable.
+# Virtualization Tools
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/ziLexImGDQw?wmode=opaque" width="640"></iframe>Virtualization
+tools are pieces of software that connect your host OS with your new VM.
+You need this for a lot of critical usability things, and usually it
+doesn't come pre-installed. These virtualization tools are responsible
+for passing files and clipboard material back and forth, adjusting
+monitors, and overall ensuring the Host-VM experience is stable.
 
 I'll be honest, getting this working can be kind of difficult sometimes,
 but you have to figure your own way through this. Again, if you have any
@@ -20,12 +22,16 @@ and paste a file from your host OS to the VM. If it works, you're good!
 
 If you are using Hyper-V, it should be done.
 
-If you are using VMWare, you need to install VMWare Tools for Ubuntu.
-[https://linuxize.com/post/how-to-install-vmware-tools-in-ubuntu-18-04/](https://linuxize.com/post/how-to-install-vmware-tools-in-ubuntu-18-04/)
+If you are using VMWare, you need to install VMWare Tools for Ubuntu. <a
+href="https://linuxize.com/post/how-to-install-vmware-tools-in-ubuntu-18-04/"
+rel="noopener"
+target="_blank">https://linuxize.com/post/how-to-install-vmware-tools-in-ubuntu-18-04/</a>
 
 If you are using VirtualBox, follow this guide to install the VBox Guest
-Addons.
-[https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/](https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/)
+Addons. <a
+href="https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/"
+rel="noopener"
+target="_blank">https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/</a>
 
 Again, check to make sure it worked by moving files between the Host and
 the VM. My personal recommendation is to open the file browser in your

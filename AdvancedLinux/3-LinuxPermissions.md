@@ -1,3 +1,5 @@
+# Linux Permissions
+
  
 
 Alright, we went over a little bit of this earlier, but let's dive into
@@ -8,7 +10,11 @@ We haven't put much time into it yet, but the OS basically segregates
 user and root process privileges using something known as "Protection
 Rings".
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/026/a9f/247/1629595726315.jpg)](https://en.wikipedia.org/wiki/Protection_ring)
+<a href="https://en.wikipedia.org/wiki/Protection_ring" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/026/a9f/247/1629595726315.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/026/a9f/247/1629595726315.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/026/a9f/247/1629595726315.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/026/a9f/247/1629595726315.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Even though rings 0-3 are shown, basically no major OSs use anything but
 Ring 3, Userspace and Ring 0, Kernel Mode. This is enough separation of
@@ -90,7 +96,10 @@ We haven't made any groups in our VM yet, so most likely when you run
 `ls` you see your name for both user and group. That makes sense, don't
 worry about it.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/831/a45/817/1629595725821.jpg)](https://xkcd.com/838/)
+<a href="https://xkcd.com/838/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/831/a45/817/1629595725821.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/831/a45/817/1629595725821.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/831/a45/817/1629595725821.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/831/a45/817/1629595725821.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 # Modifying Permissions
 

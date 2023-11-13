@@ -1,4 +1,6 @@
-## Click here to register for our Slack where you can ask questions and meet other students! Say hi to everyone in \#helloworld!
+# Join our Chat Room(s)
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/Ugb8drmwQG4?wmode=opaque" width="640"></iframe>Click here to register for our Slack where you can ask questions and meet other students! Say hi to everyone in \#helloworld!
 
 <https://join.slack.com/t/hoppersroppers/shared_invite/zt-uqpgyl1e-wbZxSflcPsxQHmauT3TnNA>
 

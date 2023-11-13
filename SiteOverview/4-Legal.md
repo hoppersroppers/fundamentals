@@ -1,9 +1,12 @@
-## Community Guidelines
+# Legal
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/o-Hi5ot81Es?wmode=opaque" width="640"></iframe>Community Guidelines
 
 Our community guidelines are available here:
-[https://www.hoppersroppers.org/guidelines.html](https://www.hoppersroppers.org/guidelines.html).
-I'll enforce them even if you didn't read them, so please read them
-over. Long story short, if you do anything that makes the community feel
+<a href="https://www.hoppersroppers.org/guidelines.html" rel="noopener"
+target="_blank">https://www.hoppersroppers.org/guidelines.html</a>. I'll
+enforce them even if you didn't read them, so please read them over.
+Long story short, if you do anything that makes the community feel
 unsafe to any member, you will be banned. If you mention anything
 illegal, you will be banned. If you are an asshole, I'll call you an
 asshole, and then I'll ban you.
@@ -11,12 +14,14 @@ asshole, and then I'll ban you.
 ## Privacy Policy
 
 Our privacy policy is available here:
-[https://www.hoppersroppers.org/privacy.html](https://www.hoppersroppers.org/privacy.html).
+<a href="https://www.hoppersroppers.org/privacy.html" rel="noopener"
+target="_blank">https://www.hoppersroppers.org/privacy.html</a>.
 
 ## Terms of Service
 
 Our terms of service are available here:
-[https://www.hoppersroppers.org/tos.html](https://www.hoppersroppers.org/tos.html).
+<a href="https://www.hoppersroppers.org/tos.html" rel="noopener"
+target="_blank">https://www.hoppersroppers.org/tos.html</a>.
 
 ## Legal
 

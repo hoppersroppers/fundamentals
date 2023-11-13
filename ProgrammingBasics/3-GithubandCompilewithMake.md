@@ -1,3 +1,5 @@
+# Github and Compile with Make
+
 While often we lean on our package managers for installing new programs,
 every once in a while we will find ourselves forced to build a program
 from source.
@@ -18,7 +20,8 @@ To demonstrate this idea of building a C program with make, follow the
 README.md in this repo. Before cloning, ensure to "Fork" the repo into
 your own account so you can modify it.
 
-[https://github.com/hoppersroppers/makeDemo](https://github.com/hoppersroppers/makeDemo)
+<a href="https://github.com/hoppersroppers/makeDemo" rel="noopener"
+target="_blank">https://github.com/hoppersroppers/makeDemo</a>
 
 Once you have cloned the repo, modify the function to print your name,
 commit your change, and then push the changes to your remote repo.

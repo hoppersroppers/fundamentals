@@ -1,3 +1,5 @@
+# Linux User Management
+
 While being a system administrator covers a ton of responsibilities,
 potentially the most important on the day-to-day is User Management. As
 people come and go from a network, passwords are forgotten, the
@@ -53,8 +55,9 @@ root:x:0:0:root:/root:/bin/bash dennis:x:1337:1337:Dennis:/home/dennis:/bin/bash
 There will be many more entries than this, but let's ignore them for
 now.
 
-We will learn about how this file is broken down using ["man
-passwd"](https://linux.die.net/man/5/passwd)
+We will learn about how this file is broken down using
+<a href="https://linux.die.net/man/5/passwd" rel="noopener"
+target="_blank">"man passwd"</a>
 
 To break it down, /etc/passwd stores data about users separated by
 colons (:).
@@ -105,7 +108,10 @@ Userdel with the "-r" flag is final and will delete the user along with
 the user's home directory. Make sure you want to do this before running
 the command.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/73b/cc6/99d/1629595887055.jpg)](https://xkcd.com/215/)
+<a href="https://xkcd.com/215/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/73b/cc6/99d/1629595887055.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/73b/cc6/99d/1629595887055.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/73b/cc6/99d/1629595887055.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/73b/cc6/99d/1629595887055.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 ## Set Passwords
 

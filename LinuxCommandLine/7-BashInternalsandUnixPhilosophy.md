@@ -1,10 +1,13 @@
+# Bash Internals and Unix Philosophy
+
 ## Unix Philosophy
 
   
 
-The Unix philosophy is a loose idea on how Unix OSs should be written
-and operate. In order to understand the Bash shell, an appreciation of
-this philosophy is recommended. To be clear, this is not written down
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/q5Le85VOkSs?wmode=opaque" width="640"></iframe>The
+Unix philosophy is a loose idea on how Unix OSs should be written and
+operate. In order to understand the Bash shell, an appreciation of this
+philosophy is recommended. To be clear, this is not written down
 anywhere in an official capacity, but is more of an oral tradition.
 
 From Doug McIlroy, an early Unix developer: *"This is the Unix
@@ -58,7 +61,11 @@ handling data streams, built upon the POSIX standard, allows all
 programs that use STDIO to be able to pass data between them in a
 controlled manner.
 
-![stdioDiagram](https://files.cdn.thinkific.com/file_uploads/429463/images/cf0/719/8d4/1629593578730.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/cf0/719/8d4/1629593578730.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/cf0/719/8d4/1629593578730.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/cf0/719/8d4/1629593578730.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/cf0/719/8d4/1629593578730.jpg?width=1920&amp;dpr=3 3x"
+alt="stdioDiagram" />
 
 Shoutout to a Ropper @Snoepie for writing up this helpful explainer:
 
@@ -104,7 +111,11 @@ file handle of 2, again not sweat about the file handle. "
 Thanks Snoepie for putting that in such a readable format. Here's a more
 complex diagram that should help as well.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/ee3/aca/8b2/1629593579536.jpg)](https://en.wikipedia.org/wiki/Pipeline_(Unix))
+<a href="https://en.wikipedia.org/wiki/Pipeline_(Unix)" rel="noopener"
+target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/ee3/aca/8b2/1629593579536.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/ee3/aca/8b2/1629593579536.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/ee3/aca/8b2/1629593579536.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/ee3/aca/8b2/1629593579536.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 In summary, when an STDIO process begins, three data streams are opened:
 

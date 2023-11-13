@@ -1,4 +1,6 @@
-# Entering the field of security is a long journey, with no shortcuts other than to keep moving forward. This means that you will have to maintain motivation over a long period of time, especially when things get hard.
+# Motivation
+
+# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/dCanXwg40zo?wmode=opaque" width="640"></iframe>Entering the field of security is a long journey, with no shortcuts other than to keep moving forward. This means that you will have to maintain motivation over a long period of time, especially when things get hard.
 
 An interesting way to describe motivation is that it comes from when "At
 some point, the pain of not doing it becomes greater than the pain of
@@ -61,4 +63,4 @@ Just remember, there are no shortcuts or ways to force yourself to do
 this. Don't talk about it, be about it. See what motivation techniques
 help you out, but at the end of the day, you need to put the time in.
 
-  
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/3AbP6eus5k8?wmode=opaque" width="640"></iframe>  

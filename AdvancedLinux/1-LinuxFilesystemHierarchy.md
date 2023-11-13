@@ -1,6 +1,11 @@
+# Linux Filesystem Hierarchy
+
  
 
-## [![](https://files.cdn.thinkific.com/file_uploads/429463/images/b6b/178/99c/1629595564249.jpg)](https://xkcd.com/981/)
+## <a href="https://xkcd.com/981/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/b6b/178/99c/1629595564249.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/b6b/178/99c/1629595564249.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/b6b/178/99c/1629595564249.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/b6b/178/99c/1629595564249.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Previously we talked about how files are saved in Linux, and we've spent
 some time making directories. However, we have been generally fairly

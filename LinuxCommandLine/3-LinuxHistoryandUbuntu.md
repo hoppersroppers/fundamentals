@@ -1,4 +1,6 @@
-## History of the Linux Kernel
+# Linux History and Ubuntu
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/pryAZi8YGVo?wmode=opaque" width="640"></iframe>History of the Linux Kernel
 
 A kernel is the lowest level of the operating system that interacts with
 the hardware. You can consider the kernel the heart of the operating
@@ -9,7 +11,13 @@ you want on top. UNIX, the ancestor of Linux, was written by Ken
 Thompson and Dennis Ritchie at Bell Labs and was the first modern OS.
 They were just absolute studs.
 
-[![](https://computerhistory.org/wp-content/uploads/2020/06/Thompson_and_Ritchie_source_unknown.jpg)](https://computerhistory.org/blog/discovering-dennis-ritchies-lost-dissertation/)
+<a
+href="https://computerhistory.org/blog/discovering-dennis-ritchies-lost-dissertation/"
+rel="noopener" target="_blank"><img
+src="https://computerhistory.org/wp-content/uploads/2020/06/Thompson_and_Ritchie_source_unknown.jpg"
+class="fr-fic fr-dii" data-fr-image-pasted="true"
+srcset="https://computerhistory.org/wp-content/uploads/2020/06/Thompson_and_Ritchie_source_unknown.jpg?width=1920 1x, https://computerhistory.org/wp-content/uploads/2020/06/Thompson_and_Ritchie_source_unknown.jpg?width=1920&amp;dpr=2 2x, https://computerhistory.org/wp-content/uploads/2020/06/Thompson_and_Ritchie_source_unknown.jpg?width=1920&amp;dpr=3 3x"
+style="margin: 5px auto; text-align: initial;" /></a>
 
 It was portable, meaning it could run on different hardware (which was a
 big deal at the time) and quickly became the OS of choice. However,
@@ -17,7 +25,11 @@ because it was commercially licensed, some hackers (remember that
 absolute monstrosity of a Unix family tree?), and specifically a Finn
 named Linus Torvalds thought he could do better. 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/842/d27/083/1643682043502.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/842/d27/083/1643682043502.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/842/d27/083/1643682043502.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/842/d27/083/1643682043502.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/842/d27/083/1643682043502.jpg?width=1920&amp;dpr=3 3x"
+style="width: 300px;" />
 
 Linus began writing a new kernel, now known as the Linux kernel, as a
 one-man show. After sharing it with the world and a few years of
@@ -28,7 +40,11 @@ then, more OS have grown around the Linux kernel, but Linus has held
 tightly to his philosophical and technical control of the kernel. The
 Penguin runs the show now, but in many different forms. 
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/507px-Tux.svg.png)](https://en.wikipedia.org/wiki/Linux)
+<a href="https://en.wikipedia.org/wiki/Linux" rel="noopener"
+target="_blank"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/507px-Tux.svg.png"
+class="fr-fic fr-dii" data-fr-image-pasted="true"
+srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/507px-Tux.svg.png?width=1920 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/507px-Tux.svg.png?width=1920&amp;dpr=2 2x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/507px-Tux.svg.png?width=1920&amp;dpr=3 3x" /></a>
 
 ## Ubuntu
 
@@ -58,4 +74,7 @@ should ignore their attempts at being ultra nerds. Smile and wave,
 especially if they are telling you about "Gentoo" or "Arch", then just
 go back to Ubuntu until you develop a preference for yourself.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/fd8/510/a56/1643682019276.jpg)](https://xkcd.com/456/)
+<a href="https://xkcd.com/456/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/fd8/510/a56/1643682019276.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/fd8/510/a56/1643682019276.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/fd8/510/a56/1643682019276.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/fd8/510/a56/1643682019276.jpg?width=1920&amp;dpr=3 3x" /></a>

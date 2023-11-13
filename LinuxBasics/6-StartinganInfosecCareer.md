@@ -1,8 +1,12 @@
-There are hundreds, maybe even thousands of resources on the subject of
-starting an infosec career. Hell, [even I wrote
-one](https://www.hoppersroppers.org/library/breakIntoSecurity.html).
+# Starting an Infosec Career
 
-  
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DjRlL9JW-q8?wmode=opaque" width="640"></iframe>There
+are hundreds, maybe even thousands of resources on the subject of
+starting an infosec career. Hell,
+<a href="https://www.hoppersroppers.org/library/breakIntoSecurity.html"
+rel="noopener" target="_blank">even I wrote one</a>.
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/KzoJCTc-3YQ?wmode=opaque" width="640"></iframe>  
 
 There are even more on what it takes to be a hacker, how to get a job,
 what to learn, where to learn it, how to learn it....
@@ -18,11 +22,16 @@ give you the best resources possible.
 
 Because reading things makes us feel good and we learn things, if you
 are going to read anything, my recommendation is you read this series of
-essays by Lesley Carhart.
-[https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3?roppers/](https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3?roppers/).
+essays by Lesley Carhart. <a
+href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3?roppers/"
+rel="noopener"
+target="_blank">https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3?roppers/</a>.
 
 If you want to read a second article, here is one from Daniel Miessler.
-[https://danielmiessler.com/blog/build-successful-infosec-career/?roppers](https://danielmiessler.com/blog/build-successful-infosec-career/?roppers)
+<a
+href="https://danielmiessler.com/blog/build-successful-infosec-career/?roppers"
+rel="noopener"
+target="_blank">https://danielmiessler.com/blog/build-successful-infosec-career/?roppers</a>
 
 Now reading those feels good, but listen to me, take everything that
 they say to heart, and don't look for any more articles on starting an

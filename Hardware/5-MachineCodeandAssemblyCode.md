@@ -1,6 +1,11 @@
-## In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called 'Machine Code' and consists of 1s and 0s. As a note, there are various families of CPU "architectures" which require different machine codes to operate properly. Don't worry about this now.
+# Machine Code and Assembly
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg)](https://wikipedia.org/)
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/_YP1EBDFWjU?wmode=opaque" width="640"></iframe>In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called 'Machine Code' and consists of 1s and 0s. As a note, there are various families of CPU "architectures" which require different machine codes to operate properly. Don't worry about this now.
+
+<a href="https://wikipedia.org/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Humans don't like 1s and 0s as much as computers so we prefer to
 abstract ourselves away from the bits as far as possible. We do this
@@ -11,6 +16,9 @@ type of CPU that does a 1 for 1 translation of assembly code into binary
 that can be executed.
 
 I like this video:
+
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/wA2oMRmbrfo" title="YouTube video player" width="560">
+</iframe>
 
 Assemblers do a 1 for 1 translation from assembly to binary, but what if
 we are looking for something that can optimize or simplify the work
@@ -61,10 +69,15 @@ message:    
 We are all agreed we would prefer to write in C and not machine code,
 right?
 
-Read [this about our namesake Grace Hopper and the first
-compiler:](https://web.archive.org/web/20210304184039/https://history-computer.com/grace-hopper-history-of-the-first-compiler-a-0-system/)
+Read <a
+href="https://web.archive.org/web/20210304184039/https://history-computer.com/grace-hopper-history-of-the-first-compiler-a-0-system/"
+rel="noopener" target="_blank">this about our namesake Grace Hopper and
+the first compiler:</a>
 
 Then watch this:
+
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/IhC7sdYe-Jg" title="YouTube video player" width="560">
+</iframe>
 
 Some day, you might write a compiler so all of the things you just
 learned about makes more sense to you. Or you can not do that. You don't

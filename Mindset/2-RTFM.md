@@ -1,4 +1,7 @@
-One of the key parts of the mindset we are trying to develop is sharing
+# RTFM
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/YfNfkFW2ZNo?wmode=opaque" width="640"></iframe>One
+of the key parts of the mindset we are trying to develop is sharing
 knowledge with others. A great quote on the subject is 'There is nothing
 noble in being superior to your fellow man; true nobility is being
 superior to your former self.'
@@ -32,7 +35,10 @@ learning how to understand them. Right now, you don't have the knowledge
 to be expected to understand how they work, and that is fine. There is
 no pressure to know anything, but there is pressure to learn.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/788/f8c/2d7/1629584543368.jpg)](https://xkcd.com/293/)
+<a href="https://xkcd.com/293/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/788/f8c/2d7/1629584543368.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/788/f8c/2d7/1629584543368.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/788/f8c/2d7/1629584543368.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/788/f8c/2d7/1629584543368.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 # In Defense of RTFM
 
@@ -95,10 +101,14 @@ Some absolute legends at the Internet Archive are constantly backing up
 the internet (and everything else). When URLs break and websites go
 down, the pretty much magical Wayback Machine has your back!
 
-Check out how you can use it to look at old versions of sites:
-[https://web.archive.org/web/20200801000000\*/https://dfirdiva.com](https://web.archive.org/web/20200801000000*/https://dfirdiva.com)
+Check out how you can use it to look at old versions of sites: <a
+href="https://web.archive.org/web/20200801000000*/https://dfirdiva.com"
+rel="noopener"
+target="_blank">https://web.archive.org/web/20200801000000*/https://dfirdiva.com</a>
 
 For some bonus content, here's me working with Jason Scott, one of the
 Internet Archivists! Cool dude and a sweet mission.
+
+<iframe allowfullscreen="true" data-tweet-id="872489715647336448" scrolling="no" src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3NwYWNlX2NhcmQiOnsiYnVja2V0Ijoib2ZmIiwidmVyc2lvbiI6bnVsbH19&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=872489715647336448&amp;lang=en&amp;origin=https%3A%2F%2Facademy.hoppersroppers.org%2Fmod%2Fpage%2Fview.php%3Fid%3D663%26forceview%3D1&amp;sessionId=da077e77738dd534e7e9b23c391eecabd1c6ff38&amp;siteScreenName=hoppersroppers&amp;theme=light&amp;widgetsVersion=1890d59c%3A1627936082797&amp;width=550px" title="Twitter Tweet"></iframe>
 
   

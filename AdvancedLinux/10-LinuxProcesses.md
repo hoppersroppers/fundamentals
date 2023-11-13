@@ -1,5 +1,8 @@
-Suggested Soundtrack: [Don't Fear the
-Reaper](https://www.youtube.com/watch?v=FS8p_F0Stog). Put it on loop.
+# Linux Processes
+
+Suggested Soundtrack:
+<a href="https://www.youtube.com/watch?v=FS8p_F0Stog" rel="noopener"
+target="_blank">Don't Fear the Reaper</a>. Put it on loop.
 
 # Here be dragons!
 
@@ -55,7 +58,11 @@ second terminal. We can also see "pts/1" for the TTY that ran the `ps`
 command. 'pts' stands for "pseudo terminal slave" and generally is a tab
 or SSH connection in a terminal.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/4af/393/de1/1629596157617.jpg)](https://en.wikipedia.org/wiki/File:Termios-script-diagram.svg)
+<a href="https://en.wikipedia.org/wiki/File:Termios-script-diagram.svg"
+rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/4af/393/de1/1629596157617.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/4af/393/de1/1629596157617.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/4af/393/de1/1629596157617.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/4af/393/de1/1629596157617.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 (***Note:*** The use of racially charged terminology such as
 "master/slave" and "whitelist/blacklist" have been identified as not
@@ -322,11 +329,11 @@ communication". Interprocess communication is the mechanism the OS
 provides so that processes are able to work with each other. It is all
 very complicated, so we are not going to worry about them too much,
 other than to tell you that they exist and give you a few examples. If
-you are deeply interested in them, check out [this
-resource](https://www.tutorialspoint.com/inter_process_communication/index.htm),
-but I don't recommend anything IPC for beginners: 99.5% of technical
-jobs will never even to know that IPC exists, but now you do, so...
-hooray?
+you are deeply interested in them, check out <a
+href="https://www.tutorialspoint.com/inter_process_communication/index.htm"
+rel="noopener" target="_blank">this resource</a>, but I don't recommend
+anything IPC for beginners: 99.5% of technical jobs will never even to
+know that IPC exists, but now you do, so... hooray?
 
 Signals are notifications to a process that an event has occurred. There
 are a large number of signals, and you can look them up if you ever need

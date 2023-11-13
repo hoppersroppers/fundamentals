@@ -1,3 +1,5 @@
+# Search
+
 More Grep
 
 We already played with `grep` a bit, let's do a little bit more. First,

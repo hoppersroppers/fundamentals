@@ -1,3 +1,5 @@
+# Resizing Your VM
+
 While we are on the topic of storage and drives, let's spend a little
 time on one of the more stressful and complicated parts of computing,
 modifying hard drives.
@@ -43,12 +45,15 @@ means our first action is to expand our Virtual Disc size. This will
 change based off of your Virtualization software, so here are some
 links. For now, let's just increase your VM disk size by 2 GB.
 
-1.  [VMWare
-    Expand](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-73BEB4E6-A1B9-41F4-BA37-364C4B067AA8.html)
-2.  [VirtualBox
-    Expand](https://askubuntu.com/questions/88647/how-do-i-increase-the-hard-disk-size-of-the-virtual-machine)
-3.  [HyperV
-    Expand](https://www.nakivo.com/blog/increase-disk-size-hyper-v-complete-guide/)
+1.  <a
+    href="https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/16.0/com.vmware.player.win.using.doc/GUID-73BEB4E6-A1B9-41F4-BA37-364C4B067AA8.html"
+    rel="noopener" target="_blank">VMWare Expand</a>
+2.  <a
+    href="https://askubuntu.com/questions/88647/how-do-i-increase-the-hard-disk-size-of-the-virtual-machine"
+    rel="noopener" target="_blank">VirtualBox Expand</a>
+3.  <a
+    href="https://www.nakivo.com/blog/increase-disk-size-hyper-v-complete-guide/"
+    rel="noopener" target="_blank">HyperV Expand</a>
 
 It's all pretty straightforward for the virtualization software, but you
 will notice you have to turn off the VM. Once you're done, your virtual
@@ -66,8 +71,10 @@ So even though you resized the disc, your partition is still the same
 size and you'll still have out of disk space errors. The next step to
 fix this is to expand the partition out to fill the entire space.
 
-As a side note, there's a [Maryland hackerspace named Unallocated
-Space](https://www.unallocatedspace.org/) and they're really cool folks.
+As a side note, there's a
+<a href="https://www.unallocatedspace.org/" rel="noopener"
+target="_blank">Maryland hackerspace named Unallocated Space</a> and
+they're really cool folks.
 
 # Expanding Your Partition
 
@@ -75,25 +82,32 @@ Now there are hundreds of ways to expand your partition, most of which
 involve `gparted` which would be my recommendation if you were doing
 something more complicated... but we are not.
 
-For now, we will use [this sequence of
-commands](https://askubuntu.com/questions/116351/increase-partition-size-on-which-ubuntu-is-installed),
-which I found in a StackOverflow post. To the best of my knowledge, this
-is the easiest way to expand your partition out there.
+For now, we will use <a
+href="https://askubuntu.com/questions/116351/increase-partition-size-on-which-ubuntu-is-installed"
+rel="noopener" target="_blank">this sequence of commands</a>, which I
+found in a StackOverflow post. To the best of my knowledge, this is the
+easiest way to expand your partition out there.
 
 1.  Use `df -h` to find the name of your partition. Look for the one
     that is the largest.
 2.  enter the command `cfdisk`.
 3.  Choose the partition to extend and select "Resize".
 
-![SO
-Resize](https://files.cdn.thinkific.com/file_uploads/429463/images/e25/1d7/f70/1629595615154.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/e25/1d7/f70/1629595615154.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/e25/1d7/f70/1629595615154.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/e25/1d7/f70/1629595615154.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/e25/1d7/f70/1629595615154.jpg?width=1920&amp;dpr=3 3x"
+alt="SO Resize" />
 
 3.  Set the "New size", filling up the rest of the available area.
 4.  After pressing enter, you'll see screen with the following note
     "Partition \[someNumber\] resized":
 
-![SO
-Resized](https://files.cdn.thinkific.com/file_uploads/429463/images/ca9/661/fd8/1629595615632.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/ca9/661/fd8/1629595615632.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/ca9/661/fd8/1629595615632.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/ca9/661/fd8/1629595615632.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/ca9/661/fd8/1629595615632.jpg?width=1920&amp;dpr=3 3x"
+alt="SO Resized" />
 
 5.  Next you'll need to "Write" to save your changes. Type "yes".
 

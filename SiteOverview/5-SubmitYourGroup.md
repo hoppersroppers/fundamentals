@@ -1,3 +1,5 @@
+# Submit Your Group
+
 Earlier I asked you to find fellow students to work with for
 accountability throughout this course. You don't need to know them well
 now, but hopefully by the end of this you will be friends and have

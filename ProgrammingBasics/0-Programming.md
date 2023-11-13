@@ -1,3 +1,5 @@
+# Programming
+
 There are plenty of people out there who say you can be good at
 computers and cyber security without knowing how to program. Those
 people are wrong. I don't mind being a jerk about it because it ain't
@@ -20,10 +22,14 @@ This is important. Try to really understand the breadth of what
 programming languages are.
 
 1.  Introduction to Programming Languages
-    -   [https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming](https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming)
+    -   <a
+        href="https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming"
+        rel="noopener"
+        target="_blank">https://en.wikiversity.org/wiki/Introduction_to_Programming/About_Programming</a>
 2.  Hello World in a variety of Languages. Check out bash, python, c,
     assembly, and perl.
-    [https://rosettacode.org/wiki/Hello_world/Text](https://rosettacode.org/wiki/Hello_world/Text)
+    <a href="https://rosettacode.org/wiki/Hello_world/Text" rel="noopener"
+    target="_blank">https://rosettacode.org/wiki/Hello_world/Text</a>
 
   
 
@@ -61,4 +67,5 @@ read. This is an expert programmer's article on what it takes to learn
 how to program, with a good discussion of a lot of the ideas that I lean
 into throughout this course.
 
-[https://norvig.com/21-days.html](https://norvig.com/21-days.html)
+<a href="https://norvig.com/21-days.html" rel="noopener"
+target="_blank">https://norvig.com/21-days.html</a>

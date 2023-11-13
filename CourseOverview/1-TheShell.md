@@ -1,3 +1,5 @@
+# The Shell
+
 What is a shell? Basically, it is the command line interface that power
 users (from this point forward, that includes you) control their
 computer's operating system with. Windows has a shell, Macs have a
@@ -10,7 +12,11 @@ by Brian Fox, who is just a generally badass guy. [His Wikipedia page is
 worth a
 read](https://en.wikipedia.org/wiki/Brian_Fox_(computer_programmer)). 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/abe/437/3e1/1643681800739.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/abe/437/3e1/1643681800739.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/abe/437/3e1/1643681800739.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/abe/437/3e1/1643681800739.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/abe/437/3e1/1643681800739.jpg?width=1920&amp;dpr=3 3x"
+style="width: 300px;" />
 
   
 
@@ -24,6 +30,8 @@ little bit about the underlying computer hardware.
 So let's get into how the real hacker uses the command line, starting
 with a scene from The Matrix, an all-time great hacker movie.
 
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/0PxTAn4g20U?wmode=opaque" width="640"></iframe>  
+
   
 
 That scene is actually pretty realistic, and a lot of the commands she
@@ -33,7 +41,9 @@ Let's get into the format of commands. First, there is either going to
 be a $ or a \#. Going forward, I will use a $ to indicate the beginning
 of a command.
 
-    $ 
+``` default
+$ 
+```
 
 This indicates that you are in a shell of some format where you will be
 able to type a command.
@@ -74,20 +84,44 @@ Browser! The Shell in the Browser I will have you use for this section
 is a small Linux operating system with most of the same functionality as
 a fully featured shell. 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/9c0/24e/0f8/1673123595296.jpg)
+  
 
-1\. Visit our online shell: [Linux in the
-Browser](https://www.hoppersroppers.org/shell/).
+<iframe height="500px" id="iframe" src="https://darin755.github.io/browser-linux?embed=true" width="750px">
+</iframe>
+<script>
+// @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&dn=gpl-2.0.txt GPL-2.0
+//load embeded
+function start_vm()
+{
+document.getElementById("iframe").setAttribute("src", "https://darin755.github.io/browser-linux?embed=true");
+}
+//basic set message function
+function sendMsg(msg)
+{
+document.getElementById("iframe").contentWindow.postMessage(msg);
+}
+// @license-end
+window.onload = start_vm();
 
- Sometimes it takes a bit to load (\~10 seconds), if it takes longer,
-just press refresh. How it works and understanding what we are doing
-doesn't matter right now but by the end of the course, I guarantee
-you'll get it.
+</script>
+
+1\. There is a shell embedded in this page right above this which should
+have finished loading by now. The same shell also lives here:
+<https://www.hoppersroppers.org/shell/src/> 
+
+Sometimes it takes a bit to load (\~10 seconds), if it takes longer than
+30 seconds, just press refresh. How it works and understanding what we
+are doing doesn't matter right now but by the end of the course, I
+guarantee you'll get it.
 
 2\. Once your in-browser Linux operating system has loaded, click into
 the terminal and enter your first command, 'whoami' and press enter. 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/1d4/c52/439/whoami.PNG)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/1d4/c52/439/whoami.PNG"
+class="fr-fic fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/1d4/c52/439/whoami.PNG?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/1d4/c52/439/whoami.PNG?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/1d4/c52/439/whoami.PNG?width=1920&amp;dpr=3 3x"
+style="width: 492px;" />
 
 It should return "root", which is the name on the Linux operating system
 for the most powerful user on the system! On your journey through
@@ -99,18 +133,29 @@ but for now, let's run a few more commands to see what is going on.
 world is the classic programming introduction demo, so congrats on
 officially making it!
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/ac7/798/ec3/1658453614618.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/ac7/798/ec3/1658453614618.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/ac7/798/ec3/1658453614618.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/ac7/798/ec3/1658453614618.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/ac7/798/ec3/1658453614618.jpg?width=1920&amp;dpr=3 3x"
+style="width: 432px;" />
 
 3\. Next, type the command 'ls' (like LS, but lowercase, then hit the
-Enter key) to list all the files in the
-directory. ![](https://files.cdn.thinkific.com/file_uploads/429463/images/0ff/f17/2d2/ls.PNG)  
+Enter key) to list all the files in the directory. <img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/0ff/f17/2d2/ls.PNG"
+class="fr-fic fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/0ff/f17/2d2/ls.PNG?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/0ff/f17/2d2/ls.PNG?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/0ff/f17/2d2/ls.PNG?width=1920&amp;dpr=3 3x"
+style="width: 459px;" />  
 
 4\. Let's take that one step further now and add a flag to that 'ls'
 command with 'ls -l'. (the -l is a lowercase L, not an i!)  The '-l'
 flag allows you to see the long information printout for the files
 listed. 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/a08/5ad/a5d/1658453363362.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/a08/5ad/a5d/1658453363362.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/a08/5ad/a5d/1658453363362.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/a08/5ad/a5d/1658453363362.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/a08/5ad/a5d/1658453363362.jpg?width=1920&amp;dpr=3 3x"
+style="width: 487px;" />
 
   
 
@@ -120,7 +165,11 @@ and then use the '\>' to redirect the words into a file we named. You'll
 learn all about redirection and what we can do with that in this course,
 but for now, create the new file and run 'ls -l' again.
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/5d8/79c/4d4/1658453725438.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/5d8/79c/4d4/1658453725438.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/5d8/79c/4d4/1658453725438.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/5d8/79c/4d4/1658453725438.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/5d8/79c/4d4/1658453725438.jpg?width=1920&amp;dpr=3 3x"
+style="width: 429px;" />
 
 You should be able to see the new file and the updated time! (That time
 is off because the Linux operating system these commands are running in
@@ -129,13 +178,21 @@ completely different subject we'll ignore for right now)
 
 6\. There's a command named 'cat' on Linux which we can use to read
 files from the terminal. Use 'cat newfile.txt' to read the file you just
-created! ![](https://files.cdn.thinkific.com/file_uploads/429463/images/2da/f8c/9c6/1658453988075.jpg)
+created! <img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/2da/f8c/9c6/1658453988075.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/2da/f8c/9c6/1658453988075.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/2da/f8c/9c6/1658453988075.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/2da/f8c/9c6/1658453988075.jpg?width=1920&amp;dpr=3 3x"
+style="width: 300px;" />
 
 7\. Run the command 'ls -al'. The "-a" flag makes it so you can see all
 files, and the "-l" flag allows you to see the long information printout
 for the files listed. Combined, they create this view.
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/9fe/328/b62/1658453896209.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/9fe/328/b62/1658453896209.jpg"
+class="fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/9fe/328/b62/1658453896209.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/9fe/328/b62/1658453896209.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/9fe/328/b62/1658453896209.jpg?width=1920&amp;dpr=3 3x"
+style="width: 447px;" />
 
 Whoah! Now we can see a hidden file named ".ash_history". Linux hides
 files with a . in front of them from the normal "ls", but you can find
@@ -143,7 +200,11 @@ them with "ls -a".
 
 5\.  Let's use 'cat' to read the hidden file with 'cat .ash_history'. 
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/c26/784/d40/catash.PNG)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/c26/784/d40/catash.PNG"
+class="fr-fic fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/c26/784/d40/catash.PNG?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/c26/784/d40/catash.PNG?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/c26/784/d40/catash.PNG?width=1920&amp;dpr=3 3x"
+style="width: 522px;" />
 
 Now we can see all the commands that we ran so far!!! 
 

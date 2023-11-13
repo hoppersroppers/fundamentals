@@ -1,3 +1,5 @@
+# Permissions and Umask
+
 When a file is created in Linux, the default permissions for it is
 "666". For a directory, the default permissions are "777". That is
 basically always fine, but if you need to for some reason, you can

@@ -1,4 +1,6 @@
-#  Alright, forget about computers for a second, you only get one body and there are some pretty straightforward things you can build into habits to help future you out. Your behavior is the sum of your habits. Do the hard things and take care of yourself.
+# General Wellness
+
+# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/0OJTuJxwFSs?wmode=opaque" width="640"></iframe> Alright, forget about computers for a second, you only get one body and there are some pretty straightforward things you can build into habits to help future you out. Your behavior is the sum of your habits. Do the hard things and take care of yourself.
 
 #### Hydrate Constantly
 
@@ -18,9 +20,9 @@
     a night for months on end... guess what? It's not just stupid, it's
     actively hurting you in a variety of ways. Plus it doesn't make
     anyone think you are cool
--   Sleep for seven or more hours a night if you can and [basically
-    everything](https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency)
-    improves
+-   Sleep for seven or more hours a night if you can and <a
+    href="https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency"
+    rel="noopener" target="_blank">basically everything</a> improves
 
 #### Nutrition
 
@@ -49,10 +51,13 @@ Our brains let us do amazing things, and the hacker community is known
 for our neurodiversity. Here are some resources to help understand what
 you or other people experience every day.
 
--   [Autism Spectrum
-    Disorders](https://www.nimh.nih.gov/health/topics/autism-spectrum-disorders-asd/index.shtml)
--   [Attention Deficit Hyperactivity
-    Disorder](https://www.helpguide.org/articles/add-adhd/adhd-attention-deficit-disorder-in-adults.htm)
+-   <a
+    href="https://www.nimh.nih.gov/health/topics/autism-spectrum-disorders-asd/index.shtml"
+    rel="noopener" target="_blank">Autism Spectrum Disorders</a>
+-   <a
+    href="https://www.helpguide.org/articles/add-adhd/adhd-attention-deficit-disorder-in-adults.htm"
+    rel="noopener" target="_blank">Attention Deficit Hyperactivity
+    Disorder</a>
 
 #### Mental Health 
 
@@ -62,28 +67,34 @@ general suicide prevention and depression training. It's not fun, but it
 is worth having all the resources you can. Read all of these. Help
 yourself or help your friends.
 
--   [Depression](https://www.nimh.nih.gov/health/topics/depression/index.shtml)
--   [Suicide
-    Prevention](https://www.nimh.nih.gov/health/topics/suicide-prevention/index.shtml)
+-   <a href="https://www.nimh.nih.gov/health/topics/depression/index.shtml"
+    rel="noopener" target="_blank">Depression</a>
+-   <a
+    href="https://www.nimh.nih.gov/health/topics/suicide-prevention/index.shtml"
+    rel="noopener" target="_blank">Suicide Prevention</a>
 
-Visit [this link](https://www.psychologytoday.com/us/therapists) for
-resources on how to find a therapy provider. A ton of my friends say
-therapy can be life changing.
+Visit
+<a href="https://www.psychologytoday.com/us/therapists" rel="noopener"
+target="_blank">this link</a> for resources on how to find a therapy
+provider. A ton of my friends say therapy can be life changing.
 
 If you are interested in more things like this there is a group named
-the [Mental Health Hackers](https://twitter.com/hackershealth) who are
-pretty cool and worth a look.
+the <a href="https://twitter.com/hackershealth" rel="noopener"
+target="_blank">Mental Health Hackers</a> who are pretty cool and worth
+a look.
 
 #### More
 
--   [National Sexual Assault Hotline](https://www.rainn.org/)
+-   <a href="https://www.rainn.org/" rel="noopener" target="_blank">National
+    Sexual Assault Hotline</a>
 -   National Domestic Violence Hotline
     -   If you have any concerns that your internet activity may be
         monitored, call 800.799.SAFE (7233) for the National DV Hotline
     -   For more information about internet safety in the context of DV,
-        [click
-        here](https://www.thehotline.org/plan-for-safety/internet-safety/)
--   [Trans Lifeline](https://translifeline.org/)
+        <a href="https://www.thehotline.org/plan-for-safety/internet-safety/"
+        rel="noopener" target="_blank">click here</a>
+-   <a href="https://translifeline.org/" rel="noopener"
+    target="_blank">Trans Lifeline</a>
 
 If you have recommendations for other links or improved resources, let
 me know at d.m.devey@gmail.com.

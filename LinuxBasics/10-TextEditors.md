@@ -1,3 +1,5 @@
+# Text Editors
+
 When we write programs, edit config files, or even take notes to study
 later, we will do that with a text editor. Echoing and cating text only
 gets you so far.
@@ -67,8 +69,11 @@ each other if emacs or vim was better. Nobody won, everyone wasted time,
 and if you hear anybody today talking about why one is better than the
 other, ignore them. Even me.
 
-![XKCD
-Programmers](https://files.cdn.thinkific.com/file_uploads/429463/images/6a8/7bf/fdb/1629593920148.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/6a8/7bf/fdb/1629593920148.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/6a8/7bf/fdb/1629593920148.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/6a8/7bf/fdb/1629593920148.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/6a8/7bf/fdb/1629593920148.jpg?width=1920&amp;dpr=3 3x"
+alt="XKCD Programmers" />
 
 What makes vi/vim/emacs/other terminal-based text editors special is
 their extensibility and keyboard based shortcuts. By offering powerful

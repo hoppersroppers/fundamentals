@@ -1,4 +1,6 @@
-## Introduction
+# Virtualization
+
+## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/1eMWmHEp8cw?wmode=opaque" width="640"></iframe>Introduction
 
 Building your own home lab is important for a lot of reasons, but most
 importantly it is fun and teaches you a bunch of valuable information.
@@ -18,7 +20,12 @@ Guest OS or OSs are able to pass through to the Hosts hardware. By
 abstracting away from the hardware, it appears to the Guest OSs that
 they are all on their own dedicated machines.
 
-[![](https://files.cdn.thinkific.com/file_uploads/429463/images/898/df4/839/1629587185005.jpg)](https://en.wikiversity.org/wiki/IT_Fundamentals/2014/Virtualization)
+<a
+href="https://en.wikiversity.org/wiki/IT_Fundamentals/2014/Virtualization"
+rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/898/df4/839/1629587185005.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/898/df4/839/1629587185005.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/898/df4/839/1629587185005.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/898/df4/839/1629587185005.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 Virtualization software is known as a hypervisor. Hypervisors are
 programs used for running and operating the Guest OSs, which we refer to

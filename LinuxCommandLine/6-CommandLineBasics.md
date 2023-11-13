@@ -1,5 +1,10 @@
-[  
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/c81/328/713/1629593411662.jpg)](https://xkcd.com/196/)
+# Command Line Basics
+
+<a href="https://xkcd.com/196/" rel="noopener" target="_blank"><br />
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/c81/328/713/1629593411662.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/c81/328/713/1629593411662.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/c81/328/713/1629593411662.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/c81/328/713/1629593411662.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 To start this off, pull up your terminal and let's get after it! If you
 already have a Virtual Machine installed, feel free to use that. If you

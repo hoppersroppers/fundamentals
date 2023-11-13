@@ -1,3 +1,5 @@
+# What Course Next?
+
 If you have come this far, we believe you are ready for the next step in
 your journey.
 

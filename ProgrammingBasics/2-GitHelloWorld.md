@@ -1,3 +1,5 @@
+# Git Hello World
+
 ## Open Source
 
 You might have heard of Open Source before, as there has been an
@@ -8,7 +10,9 @@ Open source and hacking go hand in hand. You might not feel strongly
 about it now, but you probably will eventually.
 
 What is Open Source?
-[https://opensource.com/resources/what-open-source](https://opensource.com/resources/what-open-source)
+<a href="https://opensource.com/resources/what-open-source"
+rel="noopener"
+target="_blank">https://opensource.com/resources/what-open-source</a>
 
 ## Git
 
@@ -56,23 +60,25 @@ drive home how that works.
 # Tutorial
 
 First, make a github account at
-[https://github.com](https://github.com/)
+<a href="https://github.com/" rel="noopener"
+target="_blank">https://github.com</a>
 
 Then ensure git is installed on your computer with "git status". If it
 is not, install git.
 
 Once you have verified that you have git on your computer and made a
 Github account, it is time to 'fork' my repository
-[https://github.com/hoppersroppers/demoHtml](https://github.com/hoppersroppers/demoHtml).
-Forking is the cool programmer word for making a personal copy of a
-repo.
+<a href="https://github.com/hoppersroppers/demoHtml" rel="noopener"
+target="_blank">https://github.com/hoppersroppers/demoHtml</a>. Forking
+is the cool programmer word for making a personal copy of a repo.
 
 There are multiple ways you can do this, but the way we will do it here,
 will combine the Github Web Interface and some CLI action. First, "fork"
-[https://github.com/hoppersroppers/demoHtml](https://github.com/hoppersroppers/demoHtml)
-via the Github website by clicking the fork button in the top right.
- Now you can refer to your repo as a fork of mine, which honestly sounds
-cool, plus it makes sense! 
+<a href="https://github.com/hoppersroppers/demoHtml" rel="noopener"
+target="_blank">https://github.com/hoppersroppers/demoHtml</a> via the
+Github website by clicking the fork button in the top right.  Now you
+can refer to your repo as a fork of mine, which honestly sounds cool,
+plus it makes sense! 
 
 Now, let's clone your fork to your computer.
 

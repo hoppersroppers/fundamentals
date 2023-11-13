@@ -1,4 +1,7 @@
-So far I've only shown you the exact match operator for grep which uses
+# Regex
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DA-rkfIwHmg?wmode=opaque" width="640"></iframe>So
+far I've only shown you the exact match operator for grep which uses
 parentheses, but grep has the ability to do many other forms of pattern
 matching described in the manpage. One of the most useful is regex.
 Regex stands for "Regular Expression" (hey remember that from the grep
@@ -12,13 +15,13 @@ implemented in most text editors and programming languages. Regex is
 very complicated, very powerful, and basically a programming language in
 itself.
 
-To make things even more complicated, [there are multiple competing
-regex
-syntaxes](https://en.wikipedia.org/wiki/Regular_expression#Standards),
-all of which are slightly different. Any time you find yourself doing
-regex, make sure to check which standard is being complied with and
-modify your regex accordingly. Posix and Perl standards, despite both
-starting with p are NOT the same!
+To make things even more complicated,
+<a href="https://en.wikipedia.org/wiki/Regular_expression#Standards"
+rel="noopener" target="_blank">there are multiple competing regex
+syntaxes</a>, all of which are slightly different. Any time you find
+yourself doing regex, make sure to check which standard is being
+complied with and modify your regex accordingly. Posix and Perl
+standards, despite both starting with p are NOT the same!
 
 I'd love to try and teach you, but learning regex is something I don't
 wish on anyone, and more importantly, you don't need to learn regex...
@@ -34,10 +37,11 @@ section an expert on Regex, more just be confident you can deal with it
 if you need to. You won't use it often enough to justify the headache of
 "learning" it, I promise.
 
-First, read this blog on ['The Absolute Bare Minimum Every Programmer
-Should Know about Regular
-Expressions'](https://web.archive.org/web/20090209182018/http://immike.net/blog/2007/04/06/the-absolute-bare-minimum-every-programmer-should-know-about-regular-expressions/).
-It is considered by many to be the best regex intro on the internet.
+First, read this blog on <a
+href="https://web.archive.org/web/20090209182018/http://immike.net/blog/2007/04/06/the-absolute-bare-minimum-every-programmer-should-know-about-regular-expressions/"
+rel="noopener" target="_blank">'The Absolute Bare Minimum Every
+Programmer Should Know about Regular Expressions'</a>. It is considered
+by many to be the best regex intro on the internet.
 
 ### Example 1: Cheatsheet
 
@@ -47,8 +51,9 @@ give you everything you usually need to figure out Regex stuff. The hard
 part is tying all the things on this cheatsheet together.
 
 Look through these examples from
-[https://cs.lmu.edu/\~ray/notes/regex/](https://cs.lmu.edu/~ray/notes/regex/)
-to get an idea of how regex works:
+<a href="https://cs.lmu.edu/~ray/notes/regex/" rel="noopener"
+target="_blank">https://cs.lmu.edu/~ray/notes/regex/</a> to get an idea
+of how regex works:
 
 -   gr\[ae\]y = contains {gray, grey}
 -   b\[aeiou\]bble = contains {babble, bebble, bibble, bobble, bubble}
@@ -85,8 +90,9 @@ But how do we know we did it right?
 You know to use the cheatsheet, but how do you nail down your Regex to
 be sure you are getting all the results? Anytime you need to do
 something complicated, pull up a helpful site like this Regex tester
-([https://regex101.com/](https://regex101.com/)) and get your regex
-query working on some test data.
+(<a href="https://regex101.com/" rel="noopener"
+target="_blank">https://regex101.com/</a>) and get your regex query
+working on some test data.
 
 For the query you just wrote, open up Regex101 and enter it into the top
 line.
@@ -133,7 +139,10 @@ Wikipedia?
 
 How about google for a regex that matches emails?
 
-[https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression)
+<a
+href="https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression"
+rel="noopener"
+target="_blank">https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression</a>
 
 Hell to the yeah.
 

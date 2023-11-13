@@ -1,3 +1,5 @@
+# Advanced Bash Shell
+
  On the surface, the bash shell and all the things you can do with it
 seem very complicated. In what should be unsurprising at this point in
 the course, it's even more complicated when you try to understand why
@@ -199,9 +201,9 @@ care about modifying your .bashrc (as we will do later).
 Open up your .bashrc and add the appropriate lines to the end of it in
 order to permanently alias one command and set a permanent variable. If
 you are looking for motivation to make a more complicated one If you are
-interested in dotfiles, check out [this
-link](https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c)
-for more info.
+interested in dotfiles, check out <a
+href="https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c"
+rel="noopener" target="_blank">this link</a> for more info.
 
 A .bashrc can be as complicated or simple as you like, and there is near
 endless customization possible. You will be able to carry this around

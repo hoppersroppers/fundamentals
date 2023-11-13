@@ -1,3 +1,5 @@
+# Basic Bash Scripting
+
 Bash has a built in scripting language, which I guess is pretty cool.
 These days, you should just use Python for most things instead of
 writing Bash scripts, but you would be horrified if you knew how much of

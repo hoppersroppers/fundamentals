@@ -1,4 +1,6 @@
-# Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.
+# Basics of Networking
+
+# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/F43P_yAcscE?wmode=opaque" width="640"></iframe>Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.
 
 I am going to handwave a bunch of things, just trust me, what I'm
 handwaving doesn't matter that much for now. This is all part of some
@@ -31,9 +33,9 @@ it is non-routable.
 You should have at least one more IP address listed, likely in the
 format 10.x.x.x, 192.168.x.x, or 172.x.x.x. These address ranges are
 known as "local" addresses. Long story short, there aren't enough IPV4
-addresses. If you want to read more about this, [the wikipedia
-article](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) is
-decent.
+addresses. If you want to read more about this,
+<a href="https://en.wikipedia.org/wiki/IPv4_address_exhaustion"
+rel="noopener" target="_blank">the wikipedia article</a> is decent.
 
 To get around the lack of IPV4 addresses, most private networks use
 these local addresses for all the computers on it, so that they don't
@@ -69,8 +71,9 @@ protocols to do cool things)
 
 So what does google see you as when you make a request?
 
-I recommend a quick trip to a website to find that out! [Click here to
-find your public IP](https://nordvpn.com/what-is-my-ip/).
+I recommend a quick trip to a website to find that out!
+<a href="https://nordvpn.com/what-is-my-ip/" rel="noopener"
+target="_blank">Click here to find your public IP</a>.
 
 As you can see, your public IP is completely different than what your
 local IP is when you run `ip addr`.
@@ -120,11 +123,15 @@ you aren't using it). It's possible to fix Hyper-V issues by "disable
 network interfaces hyper-v" (there's your search term), but it's mostly
 a pain that pops up every once in a while.
 
--   [VMWare](https://www.vmware.com/support/ws45/doc/network_configure_ws.html)
--   [Virtual
-    Box](https://wiki.dave.eu/index.php/VirtualBox_Network_Configuration)
--   [Hyper
-    V](https://docs.microsoft.com/en-us/archive/blogs/virtual_pc_guy/using-hyper-v-with-a-wireless-network-adapter)
+-   <a
+    href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html"
+    rel="noopener" target="_blank">VMWare</a>
+-   <a
+    href="https://wiki.dave.eu/index.php/VirtualBox_Network_Configuration"
+    rel="noopener" target="_blank">Virtual Box</a>
+-   <a
+    href="https://docs.microsoft.com/en-us/archive/blogs/virtual_pc_guy/using-hyper-v-with-a-wireless-network-adapter"
+    rel="noopener" target="_blank">Hyper V</a>
     -   Don't try to do the HyperV one, it's a nightmare. Just install
         VMWare.
 
@@ -237,8 +244,9 @@ course) to download a file from the terminal, but I prefer to teach curl
 as it is able to support the most protocols (and can upload too if you
 need it). Curl is super useful to quickly grab resources if you have the
 URL. There are a ton of flags to let you do whatever you need, but don't
-worry, there are also plenty of great cheat sheets like [this
-one](https://devhints.io/curl)
+worry, there are also plenty of great cheat sheets like
+<a href="https://devhints.io/curl" rel="noopener" target="_blank">this
+one</a>
 
 If you do not have curl installed, you will have to install it using
 apt-get. I think you can do that by yourself now.

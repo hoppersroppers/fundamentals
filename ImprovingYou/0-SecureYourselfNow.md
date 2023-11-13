@@ -1,4 +1,6 @@
-# You signed up for this course to improve yourself, to learn how to secure yourself online, and to help others. That's what this section is dedicated to. If you finish this section and don't do anything else, your participation in this course will be a success in my eyes.
+# Secure Yourself Now
+
+# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/rnBzjAl5h64?wmode=opaque" width="640"></iframe>You signed up for this course to improve yourself, to learn how to secure yourself online, and to help others. That's what this section is dedicated to. If you finish this section and don't do anything else, your participation in this course will be a success in my eyes.
 
 Of course, I would prefer you to continue in the course, but I'm glad
 you are here, and I hope you stick around.
@@ -29,21 +31,24 @@ most likely threat that you have online.
 If you don't like trusting random internet people who tell you to
 download things in the first 5 minutes they know you, good call: I
 respect that. If you trust me, I recommend using
-[LastPass](https://lastpass.com/). There's plenty of other great
-password managers out there, but I've been using this one forever and
-that is the main reason I recommend it. Convince your friends and family
-to use password managers. Again, I totally get if you don't want to do
-this now, just skip it. If you want to learn more about password
-managers, check [this
-link](https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/)
-out.
+<a href="https://lastpass.com/" rel="noopener"
+target="_blank">LastPass</a>. There's plenty of other great password
+managers out there, but I've been using this one forever and that is the
+main reason I recommend it. Convince your friends and family to use
+password managers. Again, I totally get if you don't want to do this
+now, just skip it. If you want to learn more about password managers,
+check <a
+href="https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/"
+rel="noopener" target="_blank">this link</a> out.
 
 Your second task, if you do not already have one installed, is to
 install an ad-blocking extension. Ad-blockers do what they say they do,
 making your web experience more visually attractive and faster, but also
 block trackers and lessen the chance of getting malware-laden ads. For
-Chrome, I recommend uBlock Origin:
-[https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en).
+Chrome, I recommend uBlock Origin: <a
+href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
+rel="noopener"
+target="_blank">https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en</a>.
 I don't use Firefox, but it has an ad-blocker built in which makes it
 one of the best choices for the privacy and security conscious. I also
 recommend installing Chrome and ad-blockers (or Firefox) on as many
@@ -60,9 +65,9 @@ really recommend adding 3rd party antivirus solutions, so the best I can
 tell you is to avoid installing sketchy programs. If you believe that
 your computer has some sort of malware on it but Windows Defender isn't
 removing it, run
-[MalwareBytes](https://www.malwarebytes.com/mwb-download/) and see what
-if anything is detected. If MalwareBytes and Windows says you're good,
-you're probably good.
+<a href="https://www.malwarebytes.com/mwb-download/" rel="noopener"
+target="_blank">MalwareBytes</a> and see what if anything is detected.
+If MalwareBytes and Windows says you're good, you're probably good.
 
 I don't care much for VPNs because I don't care about ad tracking and
 I'm not in a country where I worry about my internet browsing being

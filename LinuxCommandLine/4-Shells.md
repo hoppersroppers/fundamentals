@@ -1,3 +1,5 @@
+# Shells
+
 Both Linux and Windows have CLIs that we will be operating with as power
 users.
 
@@ -40,8 +42,9 @@ search bar. 
 
 # Command Layout
 
-1\. Visit this online shell: [JS Linux Browser
-Shell](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
+1\. Visit this online shell: <a
+href="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&amp;mem=192"
+rel="noopener noreferrer" target="_blank">JS Linux Browser Shell</a>
 
 2\. Once it has loaded, use the command "ls" to list all the files in
 the directory. 

@@ -1,3 +1,5 @@
+# Python
+
 It's time for you to learn your first programming language! Sort of! I
 don't want to teach you programming as part of this course, it doesn't
 fit into what I want to accomplish. 
@@ -6,7 +8,11 @@ What I want to accomplish is getting you exposure to things that will
 open your mind to what is out there and give you the skills to get
 things done, and the programming language Python is perfect for that.
 
-![](https://files.cdn.thinkific.com/file_uploads/429463/images/4c5/305/f54/1654961982864.jpg)
+<img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/4c5/305/f54/1654961982864.jpg"
+class="fr-fic fr-dib"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/4c5/305/f54/1654961982864.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/4c5/305/f54/1654961982864.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/4c5/305/f54/1654961982864.jpg?width=1920&amp;dpr=3 3x"
+style="width: 300px;" />
 
 Python is a programming language that has found incredible success,
 largely due to the fact that code written in it is readable and things
@@ -85,7 +91,9 @@ box. Check this by running the command `python` from the command line.
 
 If it responds with Python2 or the program is not installed, install a
 modern Python version with
-[https://docs.python.org/3/using/unix.html#on-linux](https://docs.python.org/3/using/unix.html#on-linux)
+<a href="https://docs.python.org/3/using/unix.html#on-linux"
+rel="noopener"
+target="_blank">https://docs.python.org/3/using/unix.html#on-linux</a>
 
 When you run `python` from the command line it brings up something
 called an interpreter. The Python interpreter is neat because you can

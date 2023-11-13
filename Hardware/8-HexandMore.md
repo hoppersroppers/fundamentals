@@ -1,3 +1,6 @@
+# Hex and More
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DWge4-gMdLk?wmode=opaque" width="640"></iframe>
 We've talked about enough hardware, but let's go back to the people side
 of computing. All things considered, you can avoid binary and worrying
 about CPU stuff most of the time, so let's not focus on them too hard or
@@ -14,7 +17,9 @@ you stand out.
 
 From the same site as the binary tutorial (gee, sure hope you liked it)
 we have an introduction to hexadecimal.
-[https://learn.sparkfun.com/tutorials/hexadecimal](https://learn.sparkfun.com/tutorials/hexadecimal)
+<a href="https://learn.sparkfun.com/tutorials/hexadecimal"
+rel="noopener"
+target="_blank">https://learn.sparkfun.com/tutorials/hexadecimal</a>
 
 Now, back to the terminal.
 
@@ -25,8 +30,10 @@ $ echo "Hello!" > file4 $ xxd file4
 xxd is able to convert a file into its hexadecimal representation. If
 you do not have it installed, install it with apt-get.
 
-Download this image using wget or curl:
-[https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/\_layouts/compass.png](https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/_layouts/compass.png)
+Download this image using wget or curl: <a
+href="https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/_layouts/compass.png"
+rel="noopener"
+target="_blank">https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/_layouts/compass.png</a>
 
 Open the file with xxd and check out what is in it. Shouldn't make much
 sense, but it should at least look cool.
@@ -39,7 +46,8 @@ Read through the .png format RFC and find where the file signature, aka
 the "magic number" is defined. Don't even think about reading the whole
 specification, just look for what you need and move on!
 
-[https://tools.ietf.org/html/rfc2083](https://tools.ietf.org/html/rfc2083)
+<a href="https://tools.ietf.org/html/rfc2083" rel="noopener"
+target="_blank">https://tools.ietf.org/html/rfc2083</a>
 
 Nobody has this content memorized, but when they deep dive into a format
 or protocol, the RFC has the answers. You'll spend plenty of time
@@ -101,7 +109,8 @@ This will display the differences between the two files. `diff` is
 great, you will use it all the time. There are GUI versions of diff, but
 I also really like using online ones in browsers. Saves some time when
 you need it, and usually very good. I recommend
-[https://www.diffchecker.com/](https://www.diffchecker.com/).
+<a href="https://www.diffchecker.com/" rel="noopener"
+target="_blank">https://www.diffchecker.com/</a>.
 
 To fix this mangled file header, we will use a hex-editor. Hex-editors
 do a similar thing to xxd, but also give us the ability to edit in a
@@ -155,7 +164,8 @@ Assignment:
 It is annoying to do that by hand, but it does help in the long run. ...
 but here is a tool so that you never have to do that again as my apology
 for making you do it.
-[https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/).
+<a href="https://gchq.github.io/CyberChef/" rel="noopener"
+target="_blank">https://gchq.github.io/CyberChef/</a>.
 
 Fun fact, it is released by GCHQ, Britain's version of the NSA. Great
 tool and very useful for converting encodings/encryption, but there is

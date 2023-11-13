@@ -1,5 +1,8 @@
-Read this:
-[https://jamesclear.com/motivation](https://jamesclear.com/motivation)
+# Maintaining Motivation
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/njZHOUktMuI?wmode=opaque" width="640"></iframe>Read
+this: <a href="https://jamesclear.com/motivation" rel="noopener"
+target="_blank">https://jamesclear.com/motivation</a>
 
 This section is a work in progress, but it breaks down to a few key
 ideas:

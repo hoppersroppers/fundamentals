@@ -1,4 +1,6 @@
-  
+# How to Learn
+
+<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/KCZFBKu9kKM?wmode=opaque" width="640"></iframe>  
 
   
 
@@ -24,8 +26,9 @@ material itself, but rather, how much material there is. When you look
 at a list of resources your eyes will glaze over and no matter how well
 you are able to visualize where you want to end up, you will struggle to
 find the next step forward, Azeria, a badass reverse engineer, wrote an
-article on this phenomenon named [The Paradox of
-Choice](https://azeria-labs.com/paradox-of-choice?roppers). In it she
+article on this phenomenon named
+<a href="https://azeria-labs.com/paradox-of-choice?roppers"
+rel="noopener" target="_blank">The Paradox of Choice</a>. In it she
 describes the situation you are in right now, with big goals and
 infinite paths forward in front of you, as well as describing a
 mechanism for choosing which resources will get you towards your desired
@@ -42,10 +45,11 @@ route. If at any point you get lost, or confused, or just need more
 motivation, there are mentors and tons of other people taking the course
 available to help.
 
-Another great piece by Azeria describes [The Process of Mastering a
-Skill](https://azeria-labs.com/the-process-of-mastering-a-skill?roppers/).
-It is a wonderful intro to the psychology of learning and who you are as
-a student, currently dipping your toes into the Apprenticeship stage. I
+Another great piece by Azeria describes <a
+href="https://azeria-labs.com/the-process-of-mastering-a-skill?roppers/"
+rel="noopener" target="_blank">The Process of Mastering a Skill</a>. It
+is a wonderful intro to the psychology of learning and who you are as a
+student, currently dipping your toes into the Apprenticeship stage. I
 want to really drive home some things she says in here:
 
 1.  "Move toward resistance and pain, avoid the easy path". The original
