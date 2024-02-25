@@ -1,7 +1,10 @@
 # Computers are Deterministic
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/svCsYWE7bRM?wmode=opaque" width="640"></iframe>All
-that I want you to take away from the next few sections is that
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/svCsYWE7bRM?wmode=opaque" width="640"></iframe>
+
+  
+
+All that I want you to take away from the next few sections is that
 computers are, by definition not random, and they are not magic.
 
 There are some very powerful applications of physics, hidden under

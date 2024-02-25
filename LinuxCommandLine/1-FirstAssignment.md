@@ -1,6 +1,8 @@
 # First Assignment
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/C7AayPISwGU?wmode=opaque" width="640"></iframe>First Assignment
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/C7AayPISwGU?wmode=opaque" width="640"></iframe>
+
+## First Assignment
 
 Right now, I'm not expecting you to have any prior knowledge. If you do,
 some of the stuff here might be a bit basic, but I guarantee even an
@@ -46,7 +48,11 @@ for the resources yourself. Learning to pick out and use trusted
 resources is a major skill to learn. In this case, I gave you the
 resource.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/xc3VG9JZM6I" title="YouTube video player" width="560"></iframe>
+  
+
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/xc3VG9JZM6I" title="YouTube video player" width="560"></iframe>
+
+  
 
 Looking at Wikipedia, there is a ton of information there, and each
 sentence has linked resources. In order to understand what is going on,

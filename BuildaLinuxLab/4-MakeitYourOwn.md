@@ -31,7 +31,7 @@ work, troubleshoot. If you're not on Ubuntu there is a very strong
 chance that you have a different default Desktop (aka GUI) environment
 on your OS and it doesn't use 'gsettings'. Google around to figure out
 which Desktop environment you have and what you need to do to change
-your background from the command line.
+your background from the command line. 
 
 Alright, you don't need to keep it like that, go make it whatever
 background you want!

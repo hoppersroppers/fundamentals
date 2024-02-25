@@ -1,12 +1,17 @@
 # Starting an Infosec Career
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DjRlL9JW-q8?wmode=opaque" width="640"></iframe>There
-are hundreds, maybe even thousands of resources on the subject of
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/DjRlL9JW-q8?wmode=opaque" width="640"></iframe>
+
+  
+
+There are hundreds, maybe even thousands of resources on the subject of
 starting an infosec career. Hell,
 <a href="https://www.hoppersroppers.org/library/breakIntoSecurity.html"
 rel="noopener" target="_blank">even I wrote one</a>.
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/KzoJCTc-3YQ?wmode=opaque" width="640"></iframe>  
+  
+
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/KzoJCTc-3YQ?wmode=opaque" width="640"></iframe>  
 
 There are even more on what it takes to be a hacker, how to get a job,
 what to learn, where to learn it, how to learn it....

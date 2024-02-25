@@ -1,13 +1,19 @@
 # Bits and Binary
 
- <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/rrjqVaspsLY?wmode=opaque" width="640"></iframe>You
-might have seen bits or binary or 01100010 01101001 01101110 01100001
-01110010 01111001 before and got a little intimidated... but now it's
-time to double down and learn what bits are. In the process of learning
-bits, you will learn binary. Once you learn binary, you're a computer.
-Ipso facto, this is your last chance to stop before becoming a computer.
+ <iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/rrjqVaspsLY?wmode=opaque" width="640"></iframe>
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/DGhhOzzlS7w" title="YouTube video player" width="560">
+  
+
+You might have seen bits or binary or 01100010 01101001 01101110
+01100001 01110010 01111001 before and got a little intimidated... but
+now it's time to double down and learn what bits are. In the process of
+learning bits, you will learn binary. Once you learn binary, you're a
+computer. Ipso facto, this is your last chance to stop before becoming a
+computer.
+
+  
+
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/DGhhOzzlS7w" title="YouTube video player" width="560">
 </iframe>
 
 # Binary Basics

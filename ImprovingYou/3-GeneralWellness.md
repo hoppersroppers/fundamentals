@@ -1,6 +1,14 @@
 # General Wellness
 
-# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/0OJTuJxwFSs?wmode=opaque" width="640"></iframe> Alright, forget about computers for a second, you only get one body and there are some pretty straightforward things you can build into habits to help future you out. Your behavior is the sum of your habits. Do the hard things and take care of yourself.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/0OJTuJxwFSs?wmode=opaque" width="640"></iframe>
+
+  
+
+  
+Alright, forget about computers for a second, you only get one body and
+there are some pretty straightforward things you can build into habits
+to help future you out. Your behavior is the sum of your habits. Do the
+hard things and take care of yourself.
 
 #### Hydrate Constantly
 

@@ -1,8 +1,11 @@
 # Hacker Ethic
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/n-EhM4K7ozQ?wmode=opaque" width="640"></iframe>Similar
-to the Hacker Attitude, something named the 'Hacker Ethic' came from the
-famous book *Hackers: Heroes of the Computer Revolution*.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/n-EhM4K7ozQ?wmode=opaque" width="640"></iframe>
+
+  
+
+Similar to the Hacker Attitude, something named the 'Hacker Ethic' came
+from the famous book *Hackers: Heroes of the Computer Revolution*.
 
 As defined by the author of the book Steven Levy,
 <a href="https://en.wikipedia.org/wiki/Hacker_ethic" rel="noopener"

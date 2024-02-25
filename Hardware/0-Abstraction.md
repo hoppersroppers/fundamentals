@@ -1,7 +1,10 @@
 # Abstraction
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/VQPUyGpXvo0?wmode=opaque" width="640"></iframe>We
-have learned about learning and the hacker mindset, and have begun to
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/VQPUyGpXvo0?wmode=opaque" width="640"></iframe>
+
+  
+
+We have learned about learning and the hacker mindset, and have begun to
 learn about Linux and set up our new virtual machine. You finished
 Bandit, and should feel fairly comfortable reading something technical,
 taking that new information, and then immediately applying it to solve a

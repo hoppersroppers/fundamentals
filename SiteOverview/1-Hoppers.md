@@ -1,8 +1,11 @@
 # Hopper's...
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/l0sDzuLUu0s?wmode=opaque" width="640"></iframe>This
-curriculum was initially built for my old school's competitive Cyber
-Security Team.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/l0sDzuLUu0s?wmode=opaque" width="640"></iframe>
+
+  
+
+This curriculum was initially built for my old school's competitive
+Cyber Security Team.
 
 I wound up naming the site after Grace Hopper because she is our
 favorite person in computing history. You might have heard of her

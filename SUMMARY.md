@@ -51,7 +51,6 @@
 * [Learning Linux Commands](LinuxCommandLine/5-LearningLinuxCommands.md)
 * [Command Line Basics](LinuxCommandLine/6-CommandLineBasics.md)
 * [Bash Internals and Unix Philosophy](LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md)
-* [Command Line Review](LinuxCommandLine/9-CommandLineReview.md)
 
 ## Build a Linux Lab
 
@@ -91,9 +90,8 @@
 * [Fetch Decode Execute](Hardware/4-FetchDecodeExecute.md)
 * [Machine Code and Assembly](Hardware/5-MachineCodeandAssemblyCode.md)
 * [Hardware History](Hardware/6-HardwareHistory.md)
-* [Hardware History](Hardware/7-HardwareHistory.md)
-* [Modern Hardware](Hardware/8-ModernHardware.md)
-* [Hex and More](Hardware/9-HexandMore.md)
+* [Modern Hardware](Hardware/7-ModernHardware.md)
+* [Hex and More](Hardware/8-HexandMore.md)
 
 ## Advanced Linux
 

@@ -1,6 +1,14 @@
 # Computer Related Health
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/VTQZ2_N1LEQ?wmode=opaque" width="640"></iframe> If you're going to be working through this course, competing in a Capture the Flag (CTF), or just binging Netflix because you deserve it, these are a few changes you can put into your life that will make you a happier and healthier person.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/VTQZ2_N1LEQ?wmode=opaque" width="640"></iframe>
+
+  
+
+  
+If you're going to be working through this course, competing in a
+Capture the Flag (CTF), or just binging Netflix because you deserve it,
+these are a few changes you can put into your life that will make you a
+happier and healthier person.
 
 ## Ergonomics
 

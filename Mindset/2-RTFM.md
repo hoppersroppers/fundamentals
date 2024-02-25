@@ -1,7 +1,10 @@
 # RTFM
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/YfNfkFW2ZNo?wmode=opaque" width="640"></iframe>One
-of the key parts of the mindset we are trying to develop is sharing
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/YfNfkFW2ZNo?wmode=opaque" width="640"></iframe>
+
+  
+
+One of the key parts of the mindset we are trying to develop is sharing
 knowledge with others. A great quote on the subject is 'There is nothing
 noble in being superior to your fellow man; true nobility is being
 superior to your former self.'

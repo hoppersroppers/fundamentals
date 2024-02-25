@@ -1,11 +1,18 @@
 # Learning Linux Commands
 
 <a href="https://xkcd.com/1168/" rel="noopener"
-target="_blank"><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/1UpsB68yyEs?wmode=opaque" width="640"></iframe><br />
-<img
+target="_blank"><iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/1UpsB68yyEs?wmode=opaque" width="640"></iframe><br />
+</a>
+
+<a href="https://xkcd.com/1168/" rel="noopener" target="_blank"><br />
+</a>
+
+<a href="https://xkcd.com/1168/" rel="noopener" target="_blank"><img
 src="https://files.cdn.thinkific.com/file_uploads/429463/images/28e/9be/d20/1629593366331.jpg"
 class="fr-fic fr-dii"
 srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/28e/9be/d20/1629593366331.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/28e/9be/d20/1629593366331.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/28e/9be/d20/1629593366331.jpg?width=1920&amp;dpr=3 3x" /></a>
+
+  
 
 Over the next few sections you will be learning the basic commands
 required to operate from the terminal in Linux.

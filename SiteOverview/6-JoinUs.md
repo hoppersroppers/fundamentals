@@ -1,6 +1,8 @@
 # Join Us!
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/4YBZp_tcOiM?wmode=opaque" width="640"></iframe>Slack
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/4YBZp_tcOiM?wmode=opaque" width="640"></iframe>
+
+## Slack
 
 Instant group messaging has been a cultural staple of the internet
 community since its inception, as it is truly one of the most important

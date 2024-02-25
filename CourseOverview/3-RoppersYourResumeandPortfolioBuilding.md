@@ -1,6 +1,12 @@
 # Roppers, Your Resume, and Portfolio Building
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/XGF_BzUVlEU?wmode=opaque" width="640"></iframe> While many people take this course to scratch an itch, some people are here so that they can learn the skills required to get a job and make a living in a technical field.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/XGF_BzUVlEU?wmode=opaque" width="640"></iframe>  
+
+  
+
+While many people take this course to scratch an itch, some people are
+here so that they can learn the skills required to get a job and make a
+living in a technical field.
 
 However, in this day and age, knowing is not enough, you have to prove
 you know things.
@@ -42,7 +48,7 @@ this course.
 
 ## Resumes and Portfolio Website
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/AIcjMQh9RlU?wmode=opaque" width="640"></iframe>  
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/AIcjMQh9RlU?wmode=opaque" width="640"></iframe>  
 
 You can't just sit here and watch videos to earn these certs. This is a
 practical, hands-on challenge that will fill out as many of the weak

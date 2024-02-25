@@ -1,6 +1,8 @@
 # Install Ubuntu
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/vGq5KkuufV8?wmode=opaque" width="640"></iframe>Install the Linux operating system Ubuntu using your virtualization software of choice!
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/vGq5KkuufV8?wmode=opaque" width="640"></iframe>
+
+## Install the Linux operating system Ubuntu using your virtualization software of choice!
 
 We are going to use Ubuntu because it is largely agreed upon to be the
 most beginner-friendly and stable of all the Linux operating systems.
@@ -9,7 +11,8 @@ the same thing, but I strongly recommend you using Ubuntu to learn.
 
 **If you already have a VM with a Linux image on it, you don't need to
 download a new one just for this course. It will not change any aspect
-of your experience and there is no need to waste time or space.**
+of your experience and there is no need to waste time or space. Just
+skip this section.**
 
 An image is what we refer to an Operating System when packaged into a
 format that can be run off of a disc, usually having a .iso extension.

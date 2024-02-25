@@ -1,6 +1,10 @@
 # Learning Hard Things
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/wh5HcwPHPLI?wmode=opaque" width="640"></iframe>Brainwashing
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/wh5HcwPHPLI?wmode=opaque" width="640"></iframe>
+
+  
+
+## Brainwashing
 
 As we said before, hacking is a mindset, not a skillset. We are trying
 to cultivate that mindset, and yes, we are going to try to subtly

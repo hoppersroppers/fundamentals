@@ -1,6 +1,8 @@
 # Linux History and Ubuntu
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/pryAZi8YGVo?wmode=opaque" width="640"></iframe>History of the Linux Kernel
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/pryAZi8YGVo?wmode=opaque" width="640"></iframe>
+
+## History of the Linux Kernel
 
 A kernel is the lowest level of the operating system that interacts with
 the hardware. You can consider the kernel the heart of the operating

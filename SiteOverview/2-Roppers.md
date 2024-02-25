@@ -1,11 +1,14 @@
 # ... Roppers
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/E5gBN28NkMg?wmode=opaque" width="640"></iframe>While
-there was a chance you guessed what Hopper's meant, it is very unlikely
-that you have had any idea what Roppers meant, mostly because it is a
-word I made up to describe a group of people who ROP. And if you have
-never heard of ROP, or Return Oriented Programming before.... that is
-not just okay, that is expected, because why on earth would you have
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/E5gBN28NkMg?wmode=opaque" width="640"></iframe>
+
+  
+
+While there was a chance you guessed what Hopper's meant, it is very
+unlikely that you have had any idea what Roppers meant, mostly because
+it is a word I made up to describe a group of people who ROP. And if you
+have never heard of ROP, or Return Oriented Programming before.... that
+is not just okay, that is expected, because why on earth would you have
 known about that obscure hacking technique before this exact moment in
 time.
 

@@ -1,7 +1,10 @@
 # Over the Wire: Bandit 5-9
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/NKntPHbXhAw?wmode=opaque" width="640"></iframe>Back
-to OverTheWire again!
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/NKntPHbXhAw?wmode=opaque" width="640"></iframe>
+
+  
+
+Back to OverTheWire again!
 
 You finished the first five levels, time to go back for 5-9! Pay
 attention to the "Commands you might need to solve this level", but

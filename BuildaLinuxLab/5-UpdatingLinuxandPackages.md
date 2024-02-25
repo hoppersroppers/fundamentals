@@ -1,7 +1,10 @@
 # Updating Linux and Packages
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/iPwi-aTnlls?wmode=opaque" width="640"></iframe>Just
-like on any operating system, one of the first things you should do
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/iPwi-aTnlls?wmode=opaque" width="640"></iframe>
+
+  
+
+Just like on any operating system, one of the first things you should do
 after installing Ubuntu is to make sure all the software is updated.
 This minimizes the number of bugs we encounter, as well as helps to
 patch our computer against vulnerabilities. Make sure to update your

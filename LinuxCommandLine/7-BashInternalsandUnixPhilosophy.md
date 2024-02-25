@@ -4,10 +4,13 @@
 
   
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/q5Le85VOkSs?wmode=opaque" width="640"></iframe>The
-Unix philosophy is a loose idea on how Unix OSs should be written and
-operate. In order to understand the Bash shell, an appreciation of this
-philosophy is recommended. To be clear, this is not written down
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/q5Le85VOkSs?wmode=opaque" width="640"></iframe>
+
+  
+
+The Unix philosophy is a loose idea on how Unix OSs should be written
+and operate. In order to understand the Bash shell, an appreciation of
+this philosophy is recommended. To be clear, this is not written down
 anywhere in an official capacity, but is more of an oral tradition.
 
 From Doug McIlroy, an early Unix developer: *"This is the Unix

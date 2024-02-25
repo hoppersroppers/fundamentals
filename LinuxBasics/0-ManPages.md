@@ -1,7 +1,10 @@
 # Man-Pages
 
-<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/SMo441TzRsY?wmode=opaque" width="640"></iframe>At
-one point, this was the first assignment in the course. That's how
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/SMo441TzRsY?wmode=opaque" width="640"></iframe>
+
+  
+
+At one point, this was the first assignment in the course. That's how
 important I believe man-pages are.
 
 I've since moved it back a bit until you have access to a Linux command

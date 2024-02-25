@@ -1,12 +1,15 @@
 # Virtualization Software
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/4UvXPgQv-1w?wmode=opaque" width="640"></iframe>The
-major step we need to take is to begin using Linux in our everyday life
-so that we can get comfortable in the environment we will be working
-from. If you are already using a Linux box as your home operating
-system, or already have a VM installed, skip this section: we are only
-building a VM so that we can learn in it. We will not do anything in
-this course that will break anything.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/4UvXPgQv-1w?wmode=opaque" width="640"></iframe>
+
+  
+
+The major step we need to take is to begin using Linux in our everyday
+life so that we can get comfortable in the environment we will be
+working from. If you are already using a Linux box as your home
+operating system, or already have a VM installed, skip this section: we
+are only building a VM so that we can learn in it. We will not do
+anything in this course that will break anything.
 
 ## Windows: 
 

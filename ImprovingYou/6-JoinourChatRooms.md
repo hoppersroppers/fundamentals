@@ -1,20 +1,10 @@
 # Join our Chat Room(s)
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/Ugb8drmwQG4?wmode=opaque" width="640"></iframe>Click here to register for our Slack where you can ask questions and meet other students! Say hi to everyone in \#helloworld!
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/Ugb8drmwQG4?wmode=opaque" width="640"></iframe>
+
+## Click here to register for our Slack where you can ask questions and meet other students! Say hi to everyone in \#helloworld!
 
 <https://join.slack.com/t/hoppersroppers/shared_invite/zt-uqpgyl1e-wbZxSflcPsxQHmauT3TnNA>
-
-  
-
-# Thinkific Community
-
-Only students enrolled in this course have access to this exclusive
-community. Check in and say hello, as well as ask any questions you
-have!
-
-<https://roppers.thinkific.com/communities/Q29tbXVuaXR5LTE2MjU5>
-
-  
 
 ## Checking In
 

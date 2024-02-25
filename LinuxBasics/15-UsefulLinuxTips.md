@@ -1,7 +1,10 @@
 # Useful Linux Tips
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/OcXmPsvxkRA?wmode=opaque" width="640"></iframe>There
-are a ton of commands out there to make you more efficient on the
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/OcXmPsvxkRA?wmode=opaque" width="640"></iframe>
+
+  
+
+There are a ton of commands out there to make you more efficient on the
 command line, but let's highlight some of the best right now!
 
 ### Tab Autocomplete

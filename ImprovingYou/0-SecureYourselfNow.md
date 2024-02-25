@@ -1,6 +1,15 @@
 # Secure Yourself Now
 
-# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/rnBzjAl5h64?wmode=opaque" width="640"></iframe>You signed up for this course to improve yourself, to learn how to secure yourself online, and to help others. That's what this section is dedicated to. If you finish this section and don't do anything else, your participation in this course will be a success in my eyes.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/rnBzjAl5h64?wmode=opaque" width="640"></iframe>
+
+  
+
+  
+
+You signed up for this course to improve yourself, to learn how to
+secure yourself online, and to help others. That's what this section is
+dedicated to. If you finish this section and don't do anything else,
+your participation in this course will be a success in my eyes.
 
 Of course, I would prefer you to continue in the course, but I'm glad
 you are here, and I hope you stick around.

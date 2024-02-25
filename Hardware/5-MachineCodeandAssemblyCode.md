@@ -1,6 +1,10 @@
-# Machine Code and Assembly
+# Machine Code and Assembly Code
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/_YP1EBDFWjU?wmode=opaque" width="640"></iframe>In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called 'Machine Code' and consists of 1s and 0s. As a note, there are various families of CPU "architectures" which require different machine codes to operate properly. Don't worry about this now.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/_YP1EBDFWjU?wmode=opaque" width="640"></iframe>
+
+## In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called 'Machine Code' and consists of 1s and 0s. As a note, there are various families of CPU "architectures" which require different machine codes to operate properly. Don't worry about this now.
+
+  
 
 <a href="https://wikipedia.org/" rel="noopener" target="_blank"><img
 src="https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg"
@@ -17,8 +21,10 @@ that can be executed.
 
 I like this video:
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/wA2oMRmbrfo" title="YouTube video player" width="560">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/wA2oMRmbrfo" title="YouTube video player" width="560">
 </iframe>
+
+  
 
 Assemblers do a 1 for 1 translation from assembly to binary, but what if
 we are looking for something that can optimize or simplify the work
@@ -76,7 +82,7 @@ the first compiler:</a>
 
 Then watch this:
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/IhC7sdYe-Jg" title="YouTube video player" width="560">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/IhC7sdYe-Jg" title="YouTube video player" width="560">
 </iframe>
 
 Some day, you might write a compiler so all of the things you just

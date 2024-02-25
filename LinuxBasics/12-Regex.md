@@ -1,7 +1,10 @@
 # Regex
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DA-rkfIwHmg?wmode=opaque" width="640"></iframe>So
-far I've only shown you the exact match operator for grep which uses
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/DA-rkfIwHmg?wmode=opaque" width="640"></iframe>
+
+  
+
+So far I've only shown you the exact match operator for grep which uses
 parentheses, but grep has the ability to do many other forms of pattern
 matching described in the manpage. One of the most useful is regex.
 Regex stands for "Regular Expression" (hey remember that from the grep

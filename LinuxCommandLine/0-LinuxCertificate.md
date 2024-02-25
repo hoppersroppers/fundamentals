@@ -1,7 +1,10 @@
 # Linux Certificate
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/mthISmGL5e4?wmode=opaque" width="640"></iframe>Welcome
-to the Linux section of the Ropper's Fundamentals course.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/mthISmGL5e4?wmode=opaque" width="640"></iframe>
+
+  
+
+Welcome to the Linux section of the Ropper's Fundamentals course.
 
 This is one of the longest sections, but I consider it the hump you need
 to get over for you to go from being someone who wants to learn things

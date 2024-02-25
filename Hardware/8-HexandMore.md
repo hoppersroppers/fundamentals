@@ -1,6 +1,7 @@
 # Hex and More
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/DWge4-gMdLk?wmode=opaque" width="640"></iframe>
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/DWge4-gMdLk?wmode=opaque" width="640"></iframe> 
+
 We've talked about enough hardware, but let's go back to the people side
 of computing. All things considered, you can avoid binary and worrying
 about CPU stuff most of the time, so let's not focus on them too hard or

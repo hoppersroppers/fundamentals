@@ -1,6 +1,6 @@
 # Course Layout
 
-## <iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/9pXs41HpO_s?wmode=opaque" width="640"></iframe> 
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/9pXs41HpO_s?wmode=opaque" width="640"></iframe> 
 
 ## This self-guided course is designed to take around 100 hours and teach the most important things required to move on with your journey into computing and security. It is easy to get bogged down in details, but this course attempts to follow the most efficient path possible towards being able to accomplish whatever you need to do with Linux and programming.
 

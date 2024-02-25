@@ -1,6 +1,8 @@
 # Virtualization
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/1eMWmHEp8cw?wmode=opaque" width="640"></iframe>Introduction
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/1eMWmHEp8cw?wmode=opaque" width="640"></iframe>
+
+## Introduction
 
 Building your own home lab is important for a lot of reasons, but most
 importantly it is fun and teaches you a bunch of valuable information.

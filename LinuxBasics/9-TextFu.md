@@ -1,8 +1,11 @@
 # Text-Fu
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/NmrFM1_9K74?wmode=opaque" width="640"></iframe>You've
-already done a little pipelining text-fu in the last section, so let's
-learn a few more commands that can be used to view and modify text
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/NmrFM1_9K74?wmode=opaque" width="640"></iframe>
+
+  
+
+You've already done a little pipelining text-fu in the last section, so
+let's learn a few more commands that can be used to view and modify text
 streams. I'll give you some info about the commands, but in general, any
 time you want to learn more about these tools, just use the man pages.
 

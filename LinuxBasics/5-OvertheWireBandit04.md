@@ -1,7 +1,10 @@
 # Over the Wire: Bandit 0-4
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/8ShdVhAv6ro?wmode=opaque" width="640"></iframe>You
-might have heard of
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/8ShdVhAv6ro?wmode=opaque" width="640"></iframe>
+
+  
+
+You might have heard of
 <a href="http://overthewire.org/wargames/bandit/" rel="noopener"
 target="_blank">Over the Wire</a> before, it is a very famous online
 wargame.

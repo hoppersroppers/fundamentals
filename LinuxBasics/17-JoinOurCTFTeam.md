@@ -15,7 +15,8 @@ help!
 
 Request to join our team here! <https://www.roppers.org/pages/ctf-team> 
 
-In our Slack, check out the \#ctftime channel to join the party. 
+In our Slack, check out the \#ctftime channel to join the party. Someone
+there will direct you to the not-so-secret Roppers Discord.
 
   
 

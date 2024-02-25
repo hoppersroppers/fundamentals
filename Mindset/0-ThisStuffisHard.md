@@ -1,7 +1,10 @@
 # This Stuff is Hard
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/Aq7sSIGi9b0?wmode=opaque" width="640"></iframe>I'm
-beating a dead horse here, but I want to make sure that you won't be
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/Aq7sSIGi9b0?wmode=opaque" width="640"></iframe>
+
+  
+
+I'm beating a dead horse here, but I want to make sure that you won't be
 surprised.
 
 There is an idea out there known as "Effort Shock" popularized by an

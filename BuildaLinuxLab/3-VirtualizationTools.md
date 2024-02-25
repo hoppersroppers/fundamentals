@@ -1,11 +1,15 @@
 # Virtualization Tools
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/ziLexImGDQw?wmode=opaque" width="640"></iframe>Virtualization
-tools are pieces of software that connect your host OS with your new VM.
-You need this for a lot of critical usability things, and usually it
-doesn't come pre-installed. These virtualization tools are responsible
-for passing files and clipboard material back and forth, adjusting
-monitors, and overall ensuring the Host-VM experience is stable.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/ziLexImGDQw?wmode=opaque" width="640"></iframe>
+
+  
+
+Virtualization tools are pieces of software that connect your host OS
+with your new VM. You need this for a lot of critical usability things,
+and usually it doesn't come pre-installed. These virtualization tools
+are responsible for passing files and clipboard material back and forth,
+adjusting monitors, and overall ensuring the Host-VM experience is
+stable.
 
 I'll be honest, getting this working can be kind of difficult sometimes,
 but you have to figure your own way through this. Again, if you have any

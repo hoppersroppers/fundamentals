@@ -1,6 +1,8 @@
 # Installing Programs
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/YaDfRNHcf38?wmode=opaque" width="640"></iframe>Personalize
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/YaDfRNHcf38?wmode=opaque" width="640"></iframe>
+
+## Personalize
 
 Now that the VM is yours, it is time to personalize it. Going forward, I
 strongly recommend that you do everything in your Linux VM. That means

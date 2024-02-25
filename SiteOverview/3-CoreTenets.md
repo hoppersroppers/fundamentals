@@ -1,14 +1,11 @@
 # Core Tenets
 
-## <img
-src="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg"
-title="img3" class="fr-fic fr-dii"
-srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=3 3x"
-alt="alt text" />
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/j3zXTthcaWo?wmode=opaque" width="640"></iframe>
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/j3zXTthcaWo?wmode=opaque" width="640"></iframe>This
-site is designed around a series of ideas that we think will make your
-experience as a learner as positive as possible.
+  
+
+This site is designed around a series of ideas that we think will make
+your experience as a learner as positive as possible.
 
 1.  No initial expectation of knowledge
 2.  Everyone moves at their own pace
@@ -26,6 +23,14 @@ core tenets, let me know so I can fix it. We made as many possible
 mechanisms for you to help us improve our approach, the content, and the
 community of this site as possible. This site is a living entity and
 changes on a regular basis so that we can improve your experience.
+
+  
+
+# <img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg"
+title="img3" class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/112/986/19a/1629584074426.jpg?width=1920&amp;dpr=3 3x"
+alt="alt text" /> 
 
 # So What is ROP?
 

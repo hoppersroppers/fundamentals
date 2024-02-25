@@ -1,4 +1,9 @@
- [![](https://files.cdn.thinkific.com/file_uploads/429463/images/db7/d2f/a8a/1629595944831.jpg)](https://xkcd.com/538/)
+# Passwords and Hashing On Linux
+
+ <a href="https://xkcd.com/538/" rel="noopener" target="_blank"><img
+src="https://files.cdn.thinkific.com/file_uploads/429463/images/db7/d2f/a8a/1629595944831.jpg"
+class="fr-fic fr-dii"
+srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/db7/d2f/a8a/1629595944831.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/db7/d2f/a8a/1629595944831.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/db7/d2f/a8a/1629595944831.jpg?width=1920&amp;dpr=3 3x" /></a>
 
 A good deal of security is based around the idea of confidentiality,
 that someone who is not authorized to read something can't read it. We
@@ -146,7 +151,8 @@ dennis:$6$iU9KjTeD$5myyo4W7zppTOEdVUeP8/E6Kmjl7CtYYFqIIyes.fnNHy1fR0gJLb0q2KLhjA
 ```
 
 Briefly read through the man page for "shadow" and see the breakdown:
-[man shadow](https://linux.die.net/man/5/shadow)
+<a href="https://linux.die.net/man/5/shadow" rel="noopener"
+target="_blank">man shadow</a>
 
 The most notable part of this is the password field, field \#2. To break
 it out, we can see that it is represented by:

@@ -1,7 +1,10 @@
 # Digital Logic
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/7maGneQ0thQ?wmode=opaque" width="640"></iframe>The
-coolest part of digital logic is that starting from the absolute
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/7maGneQ0thQ?wmode=opaque" width="640"></iframe>
+
+  
+
+The coolest part of digital logic is that starting from the absolute
 smallest pieces of circuitry we are able to build anything. From a
 single gate, we can build complex logic, and from that complex logic, we
 can structure them together to create the ability to process programs.

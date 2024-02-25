@@ -63,9 +63,7 @@ Saves the last PWD so that you can return to it using the `cd -`
 command. Super useful if you cd deep into something and want to cd back
 out no without "../../../../"-ing. Try it out!
 
-####  
-
-!
+#### !
 
 ! saves your last command so that you can access it for a variety of
 reasons, one of my favorites being the classic !`!` command which reruns

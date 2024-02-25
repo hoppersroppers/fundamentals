@@ -1,6 +1,10 @@
 # Basics of Networking
 
-# <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/F43P_yAcscE?wmode=opaque" width="640"></iframe>Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/F43P_yAcscE?wmode=opaque" width="640"></iframe>
+
+  
+
+# Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.
 
 I am going to handwave a bunch of things, just trust me, what I'm
 handwaving doesn't matter that much for now. This is all part of some
@@ -126,6 +130,9 @@ a pain that pops up every once in a while.
 -   <a
     href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html"
     rel="noopener" target="_blank">VMWare</a>
+    -   If setting up VMWare bridging doesn't work, try the
+        troubleshooting steps here! 
+        -   <https://www.minitool.com/backup-tips/vmware-bridged-network-not-working.html>
 -   <a
     href="https://wiki.dave.eu/index.php/VirtualBox_Network_Configuration"
     rel="noopener" target="_blank">Virtual Box</a>

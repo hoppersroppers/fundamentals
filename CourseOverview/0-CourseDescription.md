@@ -1,7 +1,6 @@
 # Course Description
 
-# Hey! <a href="https://www.hoppersroppers.org/about.html" rel="noopener"
-style="font-size: 16px;" target="_blank">I'm Dennis</a>, the person behind Hopper's Roppers.
+# Hey! I'm Dennis, and I'm the person behind Hopper's Roppers.
 
 This is our free introductory course, teaching everything, and I mean
 everything, that a student needs to know about computers to have a
@@ -44,7 +43,7 @@ are looking to get into some more difficult material.
 If you're still reading and know you want to build the foundation for
 the rest of your career, you're at the right place!
 
-<iframe allowfullscreen height="360" src="https://www.youtube.com/embed/Us3_KsP7HvA?wmode=opaque" width="640"></iframe>  
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/Us3_KsP7HvA?wmode=opaque" width="640"></iframe>  
 
 Everybody asks for videos, but I don't find them very useful at all for
 teaching information. Students learn from doing, researching, and

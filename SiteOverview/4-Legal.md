@@ -1,6 +1,8 @@
 # Legal
 
-## <iframe allowfullscreen height="360" src="https://www.youtube.com/embed/o-Hi5ot81Es?wmode=opaque" width="640"></iframe>Community Guidelines
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/o-Hi5ot81Es?wmode=opaque" width="640"></iframe>
+
+## Community Guidelines
 
 Our community guidelines are available here:
 <a href="https://www.hoppersroppers.org/guidelines.html" rel="noopener"
