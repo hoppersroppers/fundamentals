@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1473,29 +1443,29 @@
 <p>More Grep</p>
 <p>We already played with <code>grep</code> a bit, let&apos;s do a little bit more. First,
 let&apos;s learn what grep stands for: Global Regular Expression Print.</p>
-<pre class="language-"><code class="lang-default">$ cat animals | grep &quot;dog&quot; $ grep &quot;dog&quot; animals
+<pre><code class="lang-default">$ cat animals | grep &quot;dog&quot; $ grep &quot;dog&quot; animals
 </code></pre>
 <p>Both of those do the same thing. We can also search an entire directory
 by using the &quot;*&quot; symbol, often known as a wildcard. This wildcard will
 open every file in a directory.</p>
-<pre class="language-"><code class="lang-default">$ grep &quot;dog&quot; *
+<pre><code class="lang-default">$ grep &quot;dog&quot; *
 </code></pre>
 <p>As a note, you can also <code>cat *</code> in case you ever want to print every
 file in a directory. Many other commands use the wildcard operator.</p>
 <p>If you only want to know which files in a directory have the target
 word, use &quot;-l&quot;.</p>
-<pre class="language-"><code class="lang-default">$ grep -l &quot;dog&quot; *
+<pre><code class="lang-default">$ grep -l &quot;dog&quot; *
 </code></pre>
 <p>If you want to know the file name and line number, use &quot;-n&quot;.</p>
-<pre class="language-"><code class="lang-default">$ grep -n &quot;dog&quot; *
+<pre><code class="lang-default">$ grep -n &quot;dog&quot; *
 </code></pre>
 <p>If you only want to see the lines in the file which don&apos;t have the term
 you are greping for, use &quot;-v&quot;.</p>
-<pre class="language-"><code class="lang-default">$ grep -v &quot;dog&quot; animals
+<pre><code class="lang-default">$ grep -v &quot;dog&quot; animals
 </code></pre>
 <p>This defaults to showing line numbers and file names, so if you only
 want to see the filenames, use &quot;-l&quot;.</p>
-<pre class="language-"><code class="lang-default">$ grep -l &quot;dog&quot; animals
+<pre><code class="lang-default">$ grep -l &quot;dog&quot; animals
 </code></pre>
 <p>Play around with a few of the grep settings to see what else is
 possible, but don&apos;t worry about memorizing them, stick to cheatsheets.
@@ -1506,7 +1476,7 @@ searching through files, <code>find</code> only cares about file information!</p
 <p>Here are some example uses of <code>find</code>. There are a ton of flags for this,
 so use man anytime you need to do look for something you don&apos;t know the
 flags for</p>
-<pre class="language-"><code class="lang-default">$ find directoryName -name secret 
+<pre><code class="lang-default">$ find directoryName -name secret 
 &gt; find all files named secret in a folder named directoryName 
 $ find directoryName -type f -name &quot;*.txt&quot; 
 &gt; find all .txt files. Note the &quot;*&quot; wildcard 
@@ -1528,7 +1498,7 @@ Kind of useful from a forensics standpoint, though timestamps are unreliable!
 </code></pre>
 <p>This ain&apos;t everything but should be enough to help.</p>
 <h2 id="assignment">Assignment</h2>
-<pre class="language-"><code class="lang-default">Questions:
+<pre><code class="lang-default">Questions:
 1. Write a command that will find all .html files on a computer that are 12 bytes in size, owned by &quot;jake&quot;. 
    * You can make an example file by putting the contents &quot;is this html&quot; into a file and saving it as a .html file. 
    * However, getting the owner to be named Jake would require you to create a new user on your system and that is a bit of work
@@ -1538,7 +1508,7 @@ Kind of useful from a forensics standpoint, though timestamps are unreliable!
 Resources:
 0. Google
 </code></pre>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1581,7 +1551,7 @@ Resources:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Search","level":"7.11","depth":1,"next":{"title":"Regex","level":"7.12","depth":1,"path":"LinuxBasics/12-Regex.md","ref":"LinuxBasics/12-Regex.md","articles":[]},"previous":{"title":"Text Editors","level":"7.10","depth":1,"path":"LinuxBasics/10-TextEditors.md","ref":"LinuxBasics/10-TextEditors.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/11-Search.md","mtime":"2023-11-13T00:36:18.692Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Search","level":"7.11","depth":1,"next":{"title":"Regex","level":"7.12","depth":1,"path":"LinuxBasics/12-Regex.md","ref":"LinuxBasics/12-Regex.md","articles":[]},"previous":{"title":"Text Editors","level":"7.10","depth":1,"path":"LinuxBasics/10-TextEditors.md","ref":"LinuxBasics/10-TextEditors.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/11-Search.md","mtime":"2024-02-25T20:45:27.028Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

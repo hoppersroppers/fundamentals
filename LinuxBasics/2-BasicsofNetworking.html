@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1470,7 +1440,11 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="basics-of-networking">Basics of Networking</h1>
-<h1 id="networking-is-complicated-and-how-it-all-works-is-saved-for-an-entirely-different-course-but-for-now-there-are-a-few-main-tools-you-need-to-learn-in-order-to-take-your-first-steps-towards-becoming-a-guru"><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/F43P_yAcscE?wmode=opaque" width="640"></iframe>Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.</h1>
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/F43P_yAcscE?wmode=opaque" width="640"></iframe>
+
+
+
+<h1 id="networking-is-complicated-and-how-it-all-works-is-saved-for-an-entirely-different-course-but-for-now-there-are-a-few-main-tools-you-need-to-learn-in-order-to-take-your-first-steps-towards-becoming-a-guru">Networking is complicated and how it all works is saved for an entirely different course, but for now there are a few main tools you need to learn in order to take your first steps towards becoming a guru.</h1>
 <p>I am going to handwave a bunch of things, just trust me, what I&apos;m
 handwaving doesn&apos;t matter that much for now. This is all part of some
 kind of plan.</p>
@@ -1514,7 +1488,7 @@ be confident that it works.</p>
 <p>Let&apos;s trace our route to google.com to confirm that routing is working
 properly. In linux, this uses the command <code>traceroute</code>. Windows uses
 <code>tracert</code>.</p>
-<pre class="language-"><code class="lang-default">$ traceroute google.com
+<pre><code class="lang-default">$ traceroute google.com
 </code></pre>
 <p>You should see a nice fancy print out of all the servers you&apos;ve hopped
 across, starting with your gateway router and ending with the google.com
@@ -1566,7 +1540,14 @@ you aren&apos;t using it). It&apos;s possible to fix Hyper-V issues by &quot;dis
 network interfaces hyper-v&quot; (there&apos;s your search term), but it&apos;s mostly
 a pain that pops up every once in a while.</p>
 <ul>
-<li><a href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html" rel="noopener" target="_blank">VMWare</a></li>
+<li><a href="https://www.vmware.com/support/ws45/doc/network_configure_ws.html" rel="noopener" target="_blank">VMWare</a><ul>
+<li>If setting up VMWare bridging doesn&apos;t work, try the
+troubleshooting steps here! <ul>
+<li><a href="https://www.minitool.com/backup-tips/vmware-bridged-network-not-working.html" target="_blank">https://www.minitool.com/backup-tips/vmware-bridged-network-not-working.html</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="https://wiki.dave.eu/index.php/VirtualBox_Network_Configuration" rel="noopener" target="_blank">Virtual Box</a></li>
 <li><a href="https://docs.microsoft.com/en-us/archive/blogs/virtual_pc_guy/using-hyper-v-with-a-wireless-network-adapter" rel="noopener" target="_blank">Hyper V</a><ul>
 <li>Don&apos;t try to do the HyperV one, it&apos;s a nightmare. Just install
@@ -1590,7 +1571,7 @@ are going to save learning how they work for later. </p>
 can choose the input that is sent via the network, as well as what we do
 with the data once we receive them. On the command line we can use <code>nc</code>
 as a short name for the netcat program.</p>
-<pre class="language-"><code class="lang-default">$ echo &apos;Hello World&apos; | nc 127.0.0.1 1337
+<pre><code class="lang-default">$ echo &apos;Hello World&apos; | nc 127.0.0.1 1337
 </code></pre>
 <p>When we run this first commnd, we take the STDOUT of echo and pipe it as
 the STDIN of netcat. The first argument for netcat is the IP address we
@@ -1604,7 +1585,7 @@ they have to know the correct IP address and port to send data to. </p>
 127.0.0.1 to port 1337. IP address 127.0.0.1 is often known as
 localhost, and is our current computer. You can also write that command
 as:</p>
-<pre class="language-"><code class="lang-default">$ echo &apos;Hello World&apos; | nc localhost 1337
+<pre><code class="lang-default">$ echo &apos;Hello World&apos; | nc localhost 1337
 </code></pre>
 <p>If you noticed, nothing happened, which is kind of expected. How can we
 see if data was sent without setting up something to listen? Now we get
@@ -1613,7 +1594,7 @@ listener on localhost port 1337 with this command. (As a note, there are
 multiple versions of netcat, all named the same thing. Sometime they
 behave differently and have slightly different flags. The following
 command should work for all versions of netcat.)</p>
-<pre class="language-"><code class="lang-default">$ nc -lp 1337
+<pre><code class="lang-default">$ nc -lp 1337
 </code></pre>
 <p>Now you have set up a listener, go and run the first command again from
 your other terminal to send &apos;Hello World&apos;.</p>
@@ -1663,12 +1644,12 @@ one</a></p>
 <p>If you do not have curl installed, you will have to install it using
 apt-get. I think you can do that by yourself now.</p>
 <p>Most of the time, this is all the command you need to download a file.</p>
-<pre class="language-"><code class="lang-default">$ curl  -o image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
+<pre><code class="lang-default">$ curl  -o image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
 </code></pre>
 <p>If you don&apos;t have curl on a system, the easiest way to download a file
 is <code>wget</code>. There are a lot fewer features, but that doesn&apos;t mean it
 won&apos;t work. Note the capital O vice lowercase o.</p>
-<pre class="language-"><code class="lang-default">$ wget  -O image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
+<pre><code class="lang-default">$ wget  -O image.png https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/master/_layouts/compass.png
 </code></pre>
 <h2 id="see-what-is-doing-what">See What Is Doing What</h2>
 <p>For something I am going to hand-wave, but at least is very interesting,
@@ -1678,9 +1659,9 @@ cool but a bit overkill for what we are doing right now.</p>
 <p>Before we run them, set up a nc listener and connect to it. After you
 run the commands, go look for the nc processes... You should be able to
 find them!</p>
-<pre class="language-"><code class="lang-default">$ netstat --inet -ap
+<pre><code class="lang-default">$ netstat --inet -ap
 </code></pre>
-<pre class="language-"><code class="lang-default">$ lsof -i
+<pre><code class="lang-default">$ lsof -i
 </code></pre>
 <p>For a pro-tip, anytime you want to look like a hacker, run these
 commands and you&apos;ll have a very cool looking display up.</p>
@@ -1691,7 +1672,7 @@ unauthenticated. It&apos;s a hacker&apos;s dream!</p>
 <p>Too bad you don&apos;t see many of them these days, but they are common in
 CTFs, and on critical infrastructure (jokes?).</p>
 <p>Here&apos;s a fun telnet demo to show what it is capable of:</p>
-<pre class="language-"><code class="lang-default">$ telnet towel.blinkenlights.nl
+<pre><code class="lang-default">$ telnet towel.blinkenlights.nl
 </code></pre>
 <p>Hackers gonna hack. And bored people... well they&apos;re gonna bored people.</p>
 <h2 id="ssh">SSH</h2>
@@ -1716,7 +1697,7 @@ The networking course will have more info on keys and SSH.</p>
 <p>To use ssh, simply run the command: <code>ssh username@domain.com</code>. There are
 plenty more options, but this one will get you through 90% of use cases.</p>
 <p>Now, let&apos;s move on to the next section and use SSH.</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1759,7 +1740,7 @@ plenty more options, but this one will get you through 90% of use cases.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Basics of Networking","level":"7.3","depth":1,"next":{"title":"Hacker Ethic","level":"7.4","depth":1,"path":"LinuxBasics/3-HackerEthic.md","ref":"LinuxBasics/3-HackerEthic.md","articles":[]},"previous":{"title":"More ManPages","level":"7.2","depth":1,"path":"LinuxBasics/1-MoreManPages.md","ref":"LinuxBasics/1-MoreManPages.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/2-BasicsofNetworking.md","mtime":"2023-11-13T00:36:18.692Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Basics of Networking","level":"7.3","depth":1,"next":{"title":"Hacker Ethic","level":"7.4","depth":1,"path":"LinuxBasics/3-HackerEthic.md","ref":"LinuxBasics/3-HackerEthic.md","articles":[]},"previous":{"title":"More ManPages","level":"7.2","depth":1,"path":"LinuxBasics/1-MoreManPages.md","ref":"LinuxBasics/1-MoreManPages.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/2-BasicsofNetworking.md","mtime":"2024-02-25T20:45:27.028Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

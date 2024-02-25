@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1470,9 +1440,12 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="text-fu">Text-Fu</h1>
-<p><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/NmrFM1_9K74?wmode=opaque" width="640"></iframe>You&apos;ve
-already done a little pipelining text-fu in the last section, so let&apos;s
-learn a few more commands that can be used to view and modify text
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/NmrFM1_9K74?wmode=opaque" width="640"></iframe>
+
+
+
+<p>You&apos;ve already done a little pipelining text-fu in the last section, so
+let&apos;s learn a few more commands that can be used to view and modify text
 streams. I&apos;ll give you some info about the commands, but in general, any
 time you want to learn more about these tools, just use the man pages.</p>
 <p>Let&apos;s start with viewing, because that is pretty straight forward.</p>
@@ -1516,7 +1489,7 @@ your animals file from earlier, otherwise make it again.</p>
 manpages to get an idea what else they can do besides the basic
 functionality.</p>
 <h3 id="cut">cut</h3>
-<pre class="language-"><code class="lang-default">Man Page Description: 
+<pre><code class="lang-default">Man Page Description: 
 Remove sections from each line of files. 
 Print selected parts of lines from each FILE to standard output.
 </code></pre>
@@ -1527,10 +1500,10 @@ represented by &quot; &quot;.</p>
 <p>&quot;-f&quot; is used to describe what columns we want, numbered from the
 delimiter. We can also represent &quot;1,2&quot; as &quot;1-2&quot;. Play around with cut to
 see what else you can do.</p>
-<pre class="language-"><code class="lang-default">$ cat animals | cut -d &quot; &quot; -f 1,2
+<pre><code class="lang-default">$ cat animals | cut -d &quot; &quot; -f 1,2
 </code></pre>
 <h3 id="awk">awk</h3>
-<pre class="language-"><code class="lang-default">Man Page Description: 
+<pre><code class="lang-default">Man Page Description: 
 The awk utility shall execute programs written in the awk programming language,
  which is specialized for textual data manipulation. 
 An awk program is a sequence of patterns and corresponding actions. 
@@ -1542,19 +1515,19 @@ space. using the brackets (your first bash script! Don&apos;t forget there is
 most of a programming language hidden in bash) we can choose to print
 however many items we want. Don&apos;t worry too much about how the variables
 (preceded by &quot;$&quot;&quot; ) work, or how the script works, just send itttt.</p>
-<pre class="language-"><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos;
+<pre><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos;
 </code></pre>
 <h3 id="sed">sed</h3>
-<pre class="language-"><code class="lang-default">Man Page Description: Sed is a stream editor. A stream editor is used to perform basic 
+<pre><code class="lang-default">Man Page Description: Sed is a stream editor. A stream editor is used to perform basic 
 text transformations on an input stream (a file or input from a pipeline).
 </code></pre>
 <p>The command <code>sed</code> lets us do fancy targeted replacements of words using
 the format shown below. Play around with changing the words in the &quot;/&quot;
 to match different things.</p>
-<pre class="language-"><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | sed &apos;s/dog/anon/&apos;
+<pre><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | sed &apos;s/dog/anon/&apos;
 </code></pre>
 <h3 id="tr">tr</h3>
-<pre class="language-"><code class="lang-default">Man Page Description: 
+<pre><code class="lang-default">Man Page Description: 
 Translate, squeeze, and/or delete characters from standard input, 
 writing to standard output.
 </code></pre>
@@ -1562,10 +1535,10 @@ writing to standard output.
 swap of one character, or a range of characters to another. This is very
 useful for things like removing junk text or new lines (represented by
 &quot;\n&quot;)</p>
-<pre class="language-"><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | tr &apos;d&apos; &apos;a&apos;  $ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | tr &apos;do&apos; &apos;pi&apos;
+<pre><code class="lang-default">$ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | tr &apos;d&apos; &apos;a&apos;  $ cat animals |  awk &apos;{print $1&quot; &quot;$2&quot; &quot;$3}&apos; | tr &apos;do&apos; &apos;pi&apos;
 </code></pre>
 <h3 id="grep">grep</h3>
-<pre class="language-"><code class="lang-default">Man Page Description: 
+<pre><code class="lang-default">Man Page Description: 
 grep searches the named input FILEs (or standard input if no files are named, 
 or if a single hyphen-minus (-) is given as file name) for lines containing a 
 match to the given PATTERN. By default, grep prints the matching lines.
@@ -1579,7 +1552,7 @@ search for a string and then print the line the string is in to STDOUT.
 Combined with the many flags it has and ability to do complex searches,
 and piped into other commands it is exceptionally powerful. Check the
 manpage to see some of its other functionality.</p>
-<pre class="language-"><code class="lang-default">$ cat animals | grep &quot;dog&quot;
+<pre><code class="lang-default">$ cat animals | grep &quot;dog&quot;
 </code></pre>
 <h3 id="bringing-it-all-together">Bringing it all Together</h3>
 <p>Now on the /var/sys/log we looked at earlier, we can bring it all
@@ -1590,19 +1563,19 @@ these tools together to go through our logs and anonymize them for us.</p>
 <p>In this case I am using &quot;dennis&quot; in the script for name of the user I
 want to replace with &quot;anon&quot;. If you don&apos;t know your username, run
 <code>whoami</code>, to return the current user and put it into the script.</p>
-<pre class="language-"><code class="lang-default">$ cat /var/log/syslog | grep &quot;systemd&quot; | awk &apos;{print $3&quot; &quot;$4&quot; &quot;$5&quot; &quot; $10&quot; &quot;$11&quot; &quot; $12&quot; &quot;$13&quot; &quot;$14}&apos; | sed &apos;s/dennis/anon/&apos;
+<pre><code class="lang-default">$ cat /var/log/syslog | grep &quot;systemd&quot; | awk &apos;{print $3&quot; &quot;$4&quot; &quot;$5&quot; &quot; $10&quot; &quot;$11&quot; &quot; $12&quot; &quot;$13&quot; &quot;$14}&apos; | sed &apos;s/dennis/anon/&apos;
 </code></pre>
 <p>Think about what just happened. For your assignment, write out what
 STDIN, STDOUT, and STDERR are and what is happening for each of the
 commands. (Hint: Don&apos;t forget about
 <a href="https://explainshell.com/" rel="noopener" target="_blank">https://explainshell.com/</a>, but be sure to fill in
 more of your answer using the man pages) Answer in the usual format.</p>
-<pre class="language-"><code class="lang-default">Questions:
+<pre><code class="lang-default">Questions:
 1. grep 
 2. awk 
 3. sed
 </code></pre>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1645,7 +1618,7 @@ more of your answer using the man pages) Answer in the usual format.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"TextFu","level":"7.9","depth":1,"next":{"title":"Text Editors","level":"7.10","depth":1,"path":"LinuxBasics/10-TextEditors.md","ref":"LinuxBasics/10-TextEditors.md","articles":[]},"previous":{"title":"Maintaining Motivation","level":"7.8","depth":1,"path":"LinuxBasics/8-MaintainingMotivation.md","ref":"LinuxBasics/8-MaintainingMotivation.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/9-TextFu.md","mtime":"2023-11-13T00:36:18.692Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"TextFu","level":"7.9","depth":1,"next":{"title":"Text Editors","level":"7.10","depth":1,"path":"LinuxBasics/10-TextEditors.md","ref":"LinuxBasics/10-TextEditors.md","articles":[]},"previous":{"title":"Maintaining Motivation","level":"7.8","depth":1,"path":"LinuxBasics/8-MaintainingMotivation.md","ref":"LinuxBasics/8-MaintainingMotivation.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxBasics/9-TextFu.md","mtime":"2024-02-25T20:45:27.028Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

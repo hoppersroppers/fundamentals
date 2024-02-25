@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -74,7 +70,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="9-CommandLineReview.html" />
+    <link rel="next" href="../BuildaLinuxLab/0-Virtualization.html" />
     
     
     <link rel="prev" href="6-CommandLineBasics.html" />
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="9-CommandLineReview.html">
-            
-                <a href="9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1471,10 +1441,13 @@
                                 
                                 <h1 id="bash-internals-and-unix-philosophy">Bash Internals and Unix Philosophy</h1>
 <h2 id="unix-philosophy">Unix Philosophy</h2>
-<p><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/q5Le85VOkSs?wmode=opaque" width="640"></iframe>The
-Unix philosophy is a loose idea on how Unix OSs should be written and
-operate. In order to understand the Bash shell, an appreciation of this
-philosophy is recommended. To be clear, this is not written down
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/q5Le85VOkSs?wmode=opaque" width="640"></iframe>
+
+
+
+<p>The Unix philosophy is a loose idea on how Unix OSs should be written
+and operate. In order to understand the Bash shell, an appreciation of
+this philosophy is recommended. To be clear, this is not written down
 anywhere in an official capacity, but is more of an oral tradition.</p>
 <p>From Doug McIlroy, an early Unix developer: <em>&quot;This is the Unix
 philosophy: Write programs that do one thing and do it well. Write
@@ -1587,7 +1560,7 @@ now that we know what we are doing.</p>
 <p>Again, use a VM if you have it, otherwise, visit this online shell:
 <a href="https://www.hoppersroppers.org/shell/" target="_blank">https://www.hoppersroppers.org/shell/</a> </p>
 <p>In a new directory with nothing in it, run these commands.</p>
-<pre class="language-"><code class="lang-default">$ echo Hello World! &gt; file1 
+<pre><code class="lang-default">$ echo Hello World! &gt; file1 
 $ echo Goodbye &gt;&gt; file1
 </code></pre>
 <p>Use <code>cat</code> to see what this looks like. Hopefully you aren&apos;t surprised
@@ -1629,12 +1602,12 @@ append (<code>&gt;&gt;</code>) we do not overwrite the original file.</p>
 <p><strong><em>Hint: Use the Up Arrow key on your keyboard to see the last command
 you typed. Then all you have to do is change a small amount of the
 command instead of retyping it</em></strong></p>
-<pre class="language-"><code class="lang-default">$ echo cat dog sheep cow dog cat &gt; animals 
+<pre><code class="lang-default">$ echo cat dog sheep cow dog cat &gt; animals 
 $ echo cat dog sheep cow dog cat &gt;&gt; animals 
 $ echo cats &gt;&gt; animals
 </code></pre>
 <p>To repeat a command, press the up arrow once and press enter. </p>
-<pre class="language-"><code class="lang-default">This will show: $ echo cats &gt;&gt; animals
+<pre><code class="lang-default">This will show: $ echo cats &gt;&gt; animals
 </code></pre>
 <p>Use <code>cat</code> to verify what is in animals. You should see two lines of with
 the long list of animals, and two lines with just cats.</p>
@@ -1642,7 +1615,7 @@ the long list of animals, and two lines with just cats.</p>
 <code>uniq</code>. Use <code>man uniq</code> to learn what it does. Notably, it only checks
 for matching lines adjacently. Luckily, in animals right now, our
 matching lines are adjacent! So let&apos;s try out our first pipeline.</p>
-<pre class="language-"><code class="lang-default">$ cat animals | uniq
+<pre><code class="lang-default">$ cat animals | uniq
 </code></pre>
 <p>The STDOUT of animals (four lines) is redirected to the STDIN of <code>uniq</code>
 which then checks for adjacent matches and removes them, leaving only
@@ -1658,7 +1631,7 @@ matching. This is because uniq only sorts adjacent lines. To get around
 this, we can sort our lines ahead of time, using the command, <code>sort</code>.
 Check the man page for sort if you want to learn more, then run the
 pipeline with <code>sort</code> in the middle.</p>
-<pre class="language-"><code class="lang-default">$ cat animals | sort | uniq
+<pre><code class="lang-default">$ cat animals | sort | uniq
 </code></pre>
 <p>Now we got what we are hoping for! Only two lines, and both are unique.
 We can pipeline as many commands as we want together, which gives us a
@@ -1667,7 +1640,7 @@ commands (or get comfortable using ones you don&apos;t know from cheatsheets)
 you will become more and more capable.</p>
 <p>For one more bit of fun &quot;\&lt;&quot; redirects the other way, passing a file to
 STDIN. This means we can do something like:</p>
-<pre class="language-"><code class="lang-default">$ sort &lt; animals | uniq
+<pre><code class="lang-default">$ sort &lt; animals | uniq
 </code></pre>
 <p>This gives us the same results as if we used <code>cat</code> on animals and
 redirected STDOUT to <code>sort</code>. Funky right?</p>
@@ -1677,18 +1650,18 @@ T-shaped piping in real world plumbing. What it does is pass the STDIN
 from another command&apos;s output through, while also writing a copy to a
 file.</p>
 <p>Usage would look like this:</p>
-<pre class="language-"><code class="lang-default">$ cat animals | tee unsorted.txt | sort | uniq &gt; sorted.txt
+<pre><code class="lang-default">$ cat animals | tee unsorted.txt | sort | uniq &gt; sorted.txt
 </code></pre>
 <p>Think about what just happened. For your assignment, write out what
 STDIN, STDOUT, and STDERR are and what they are doing for each of the
 commands. Answer in the usual format.</p>
-<pre class="language-"><code class="lang-default">Questions:
+<pre><code class="lang-default">Questions:
 1. cat 
 2. tee 
 3. sort 
 4. uniq
 </code></pre>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1720,7 +1693,7 @@ commands. Answer in the usual format.</p>
                 </a>
                 
                 
-                <a href="9-CommandLineReview.html" class="navigation navigation-next " aria-label="Next page: Command Line Review">
+                <a href="../BuildaLinuxLab/0-Virtualization.html" class="navigation navigation-next " aria-label="Next page: Virtualization">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1731,7 +1704,7 @@ commands. Answer in the usual format.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Bash Internals and Unix Philosophy","level":"5.8","depth":1,"next":{"title":"Command Line Review","level":"5.9","depth":1,"path":"LinuxCommandLine/9-CommandLineReview.md","ref":"LinuxCommandLine/9-CommandLineReview.md","articles":[]},"previous":{"title":"Command Line Basics","level":"5.7","depth":1,"path":"LinuxCommandLine/6-CommandLineBasics.md","ref":"LinuxCommandLine/6-CommandLineBasics.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","mtime":"2023-11-13T00:36:18.692Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Bash Internals and Unix Philosophy","level":"5.8","depth":1,"next":{"title":"Virtualization","level":"6.1","depth":1,"path":"BuildaLinuxLab/0-Virtualization.md","ref":"BuildaLinuxLab/0-Virtualization.md","articles":[]},"previous":{"title":"Command Line Basics","level":"5.7","depth":1,"path":"LinuxCommandLine/6-CommandLineBasics.md","ref":"LinuxCommandLine/6-CommandLineBasics.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","mtime":"2024-02-25T20:45:27.028Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="7-ModernHardware.html">
             
-                <a href="7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="8-ModernHardware.html">
-            
-                <a href="8-ModernHardware.html">
+                <a href="7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="8-HexandMore.html">
             
-                <a href="9-HexandMore.html">
+                <a href="8-HexandMore.html">
             
                     
                     Hex and More
@@ -1469,8 +1439,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="machine-code-and-assembly">Machine Code and Assembly</h1>
-<h2 id="in-order-to-be-executed-on-a-cpu-code-must-be-written-in-a-way-that-is-understood-by-the-cpu-this-is-called-machine-code-and-consists-of-1s-and-0s-as-a-note-there-are-various-families-of-cpu-architectures-which-require-different-machine-codes-to-operate-properly-dont-worry-about-this-now"><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/_YP1EBDFWjU?wmode=opaque" width="640"></iframe>In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called &apos;Machine Code&apos; and consists of 1s and 0s. As a note, there are various families of CPU &quot;architectures&quot; which require different machine codes to operate properly. Don&apos;t worry about this now.</h2>
+                                <h1 id="machine-code-and-assembly-code">Machine Code and Assembly Code</h1>
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/_YP1EBDFWjU?wmode=opaque" width="640"></iframe>
+
+<h2 id="in-order-to-be-executed-on-a-cpu-code-must-be-written-in-a-way-that-is-understood-by-the-cpu-this-is-called-machine-code-and-consists-of-1s-and-0s-as-a-note-there-are-various-families-of-cpu-architectures-which-require-different-machine-codes-to-operate-properly-dont-worry-about-this-now">In order to be executed on a CPU, code must be written in a way that is understood by the CPU. This is called &apos;Machine Code&apos; and consists of 1s and 0s. As a note, there are various families of CPU &quot;architectures&quot; which require different machine codes to operate properly. Don&apos;t worry about this now.</h2>
 <p><a href="https://wikipedia.org/" rel="noopener" target="_blank"><img src="https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg" class="fr-fic fr-dii" srcset="https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920 1x, https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920&amp;dpr=2 2x, https://files.cdn.thinkific.com/file_uploads/429463/images/966/d65/0dd/1629595071719.jpg?width=1920&amp;dpr=3 3x"></a></p>
 <p>Humans don&apos;t like 1s and 0s as much as computers so we prefer to
 abstract ourselves away from the bits as far as possible. We do this
@@ -1480,8 +1452,10 @@ CPUs run off of. An assembler is a piece of code written for a specific
 type of CPU that does a 1 for 1 translation of assembly code into binary
 that can be executed.</p>
 <p>I like this video:</p>
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/wA2oMRmbrfo" title="YouTube video player" width="560">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/wA2oMRmbrfo" title="YouTube video player" width="560">
 </iframe>
+
+
 
 <p>Assemblers do a 1 for 1 translation from assembly to binary, but what if
 we are looking for something that can optimize or simplify the work
@@ -1501,11 +1475,11 @@ want you to be aware of it.</p>
 <p>As an example, here is a simple program that prints out &quot;hello, world&quot;
 in C, assembly, and machine code.</p>
 <h3 id="c">C</h3>
-<pre class="language-"><code class="lang-default">#include <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>stdio.h</span><span class="token punctuation">&gt;</span></span>
+<pre><code class="lang-default">#include &lt;stdio.h&gt;
 int main(void) {    printf(&quot;hello, world\n&quot;); }
 </code></pre>
 <h3 id="assembly">Assembly</h3>
-<pre class="language-"><code class="lang-default">   global  _main   
+<pre><code class="lang-default">   global  _main   
    extern  _printf   
    section .text
 _main:  
@@ -1523,7 +1497,7 @@ right?</p>
 <p>Read <a href="https://web.archive.org/web/20210304184039/https://history-computer.com/grace-hopper-history-of-the-first-compiler-a-0-system/" rel="noopener" target="_blank">this about our namesake Grace Hopper and
 the first compiler:</a></p>
 <p>Then watch this:</p>
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="315" src="https://www.youtube.com/embed/IhC7sdYe-Jg" title="YouTube video player" width="560">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="fr-draggable" height="315" src="https://www.youtube.com/embed/IhC7sdYe-Jg" title="YouTube video player" width="560">
 </iframe>
 
 <p>Some day, you might write a compiler so all of the things you just
@@ -1547,7 +1521,7 @@ course when you feel the urge, but for now, just move on.</p>
 <li>Describe machine code and assembly.</li>
 <li>What was Grace Hopper&apos;s primary contribution to computing?</li>
 </ol>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1590,7 +1564,7 @@ course when you feel the urge, but for now, just move on.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Machine Code and Assembly","level":"8.6","depth":1,"next":{"title":"Hardware History","level":"8.7","depth":1,"path":"Hardware/6-HardwareHistory.md","ref":"Hardware/6-HardwareHistory.md","articles":[]},"previous":{"title":"Fetch Decode Execute","level":"8.5","depth":1,"path":"Hardware/4-FetchDecodeExecute.md","ref":"Hardware/4-FetchDecodeExecute.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"Hardware/5-MachineCodeandAssemblyCode.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Machine Code and Assembly","level":"8.6","depth":1,"next":{"title":"Hardware History","level":"8.7","depth":1,"path":"Hardware/6-HardwareHistory.md","ref":"Hardware/6-HardwareHistory.md","articles":[]},"previous":{"title":"Fetch Decode Execute","level":"8.5","depth":1,"path":"Hardware/4-FetchDecodeExecute.md","ref":"Hardware/4-FetchDecodeExecute.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"Hardware/5-MachineCodeandAssemblyCode.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

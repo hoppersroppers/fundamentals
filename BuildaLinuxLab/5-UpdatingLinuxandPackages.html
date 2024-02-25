@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1470,8 +1440,11 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="updating-linux-and-packages">Updating Linux and Packages</h1>
-<p><iframe allowfullscreen height="360" src="https://www.youtube.com/embed/iPwi-aTnlls?wmode=opaque" width="640"></iframe>Just
-like on any operating system, one of the first things you should do
+<iframe allowfullscreen class="fr-draggable" height="360" src="https://www.youtube.com/embed/iPwi-aTnlls?wmode=opaque" width="640"></iframe>
+
+
+
+<p>Just like on any operating system, one of the first things you should do
 after installing Ubuntu is to make sure all the software is updated.
 This minimizes the number of bugs we encounter, as well as helps to
 patch our computer against vulnerabilities. Make sure to update your
@@ -1553,7 +1526,7 @@ release software.</p>
 <p>We will use apt-get because it has slightly more features (and it&apos;s what
 I&apos;m used to). When dealing with packages, 99% of the time we will only
 need three commands.</p>
-<pre class="language-"><code class="lang-default">$ sudo apt-get update
+<pre><code class="lang-default">$ sudo apt-get update
 </code></pre>
 <p>As a first note, any time you are working with packages you will want to
 use sudo in order to ensure you have the permissions to install new
@@ -1565,7 +1538,7 @@ software, rather it updates the saved locations and version numbers of
 all the software that is saved on our computer. There&apos;s a little more
 complexity than this, but don&apos;t worry about it for now.</p>
 <p>Run the command now to update.</p>
-<pre class="language-"><code class="lang-default">$ sudo apt-get upgrade
+<pre><code class="lang-default">$ sudo apt-get upgrade
 </code></pre>
 <p>This command will check the list of packages that you just updated with
 <code>apt-get update</code> and then download and upgrade any packages on your
@@ -1577,14 +1550,14 @@ system is fully up to date, but be warned, it can take a while.</p>
 programming joke that just means a placeholder word. If you see
 &quot;foobar&quot;, &quot;foo&quot;, or &quot;bar&quot; anywhere, it almost always means it&apos;s a
 placeholder for something else.</p>
-<pre class="language-"><code class="lang-default">$ sudo apt-get install foobar
+<pre><code class="lang-default">$ sudo apt-get install foobar
 </code></pre>
 <p>This command would install the most recently updated version of the
 program &quot;foobar&quot;, if the program &quot;foobar&quot; existed. Again, always ensure
 to run update first or you might get an old version.</p>
 <p>In the next section we will actually use it for real.</p>
 <p>Continue when all your updates are complete.</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1627,7 +1600,7 @@ to run update first or you might get an old version.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Updating Linux and Packages","level":"6.6","depth":1,"next":{"title":"Installing Programs","level":"6.7","depth":1,"path":"BuildaLinuxLab/6-InstallingPrograms.md","ref":"BuildaLinuxLab/6-InstallingPrograms.md","articles":[]},"previous":{"title":"Make it Your Own","level":"6.5","depth":1,"path":"BuildaLinuxLab/4-MakeitYourOwn.md","ref":"BuildaLinuxLab/4-MakeitYourOwn.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Updating Linux and Packages","level":"6.6","depth":1,"next":{"title":"Installing Programs","level":"6.7","depth":1,"path":"BuildaLinuxLab/6-InstallingPrograms.md","ref":"BuildaLinuxLab/6-InstallingPrograms.md","articles":[]},"previous":{"title":"Make it Your Own","level":"6.5","depth":1,"path":"BuildaLinuxLab/4-MakeitYourOwn.md","ref":"BuildaLinuxLab/4-MakeitYourOwn.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

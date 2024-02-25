@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1490,7 +1460,7 @@ computers, and this is &quot;why&quot; shells work.</p>
 <p>Using the command <code>printenv</code> we can print out all of our set
 environmental variables. Most of these aren&apos;t all that exciting or
 important, but a few are worth noting. </p>
-<p>We can also use <code>echo $<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>env_var_name</span><span class="token punctuation">&gt;</span></span></code>and that will print out the
+<p>We can also use <code>echo $&lt;env_var_name&gt;</code>and that will print out the
 content of the env var.</p>
 <h4 id="shell">SHELL</h4>
 <p>It was mentioned before in the class, but yeah, there are a ton of
@@ -1514,8 +1484,7 @@ is what tells the shell where you are.</p>
 <p>Saves the last PWD so that you can return to it using the <code>cd -</code>
 command. Super useful if you cd deep into something and want to cd back
 out no without &quot;../../../../&quot;-ing. Try it out!</p>
-<h4 id=""> </h4>
-<p>!</p>
+<h4 id="">!</h4>
 <p>! saves your last command so that you can access it for a variety of
 reasons, one of my favorites being the classic !<code>!</code> command which reruns
 your previous command. It is particularly useful if you try to run a
@@ -1535,7 +1504,7 @@ it finds a binary named <code>cat</code>. More on that next.</p>
 <p>So as stated before, when you run a command it will search through the
 list of directories for the first binary that matches the name and
 execute it in your current &quot;context&quot;.</p>
-<pre class="language-"><code class="lang-default">$ export PATH=$PATH:/home/dennis/bin
+<pre><code class="lang-default">$ export PATH=$PATH:/home/dennis/bin
 </code></pre>
 <p>This command will set the PATH variable equal to the old PATH with
 &quot;:/home/dennis/bin&quot; appended to the end. Now when I run a command, if a
@@ -1582,7 +1551,7 @@ your brain hurt too much, because mine sure hurts from writing it.</p>
 <p>Much like setting variables, we are going to set an alias for a
 frequently typed command. Aliases are the Linux term for when we modify
 the ENV so that running a user-defined command runs a custom command.</p>
-<pre class="language-"><code class="lang-default">$ alias lsa=&#x2019;ls -a&#x2019; $ lsa
+<pre><code class="lang-default">$ alias lsa=&#x2019;ls -a&#x2019; $ lsa
 </code></pre>
 <h2 id="set-permanent-aliases">Set Permanent Aliases</h2>
 <p>All of the things we just did were temporary and will disappear the next
@@ -1658,7 +1627,7 @@ processes.</p>
 <p>For your assignment, discuss the process of what happens when you run
 &apos;ls&apos;, especially how the shell knows what location to print the contents
 of. Use the usual format.</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1701,7 +1670,7 @@ of. Use the usual format.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Advanced Bash Shell","level":"9.12","depth":1,"next":{"title":"Submit a Writeup and Get a Certificate","level":"9.13","depth":1,"path":"AdvancedLinux/13-SubmitaWriteupandGetaCertificate.md","ref":"AdvancedLinux/13-SubmitaWriteupandGetaCertificate.md","articles":[]},"previous":{"title":"Over the Wire 1015","level":"9.11","depth":1,"path":"AdvancedLinux/11-OvertheWire1015.md","ref":"AdvancedLinux/11-OvertheWire1015.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/12-AdvancedBashShell.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Advanced Bash Shell","level":"9.12","depth":1,"next":{"title":"Submit a Writeup and Get a Certificate","level":"9.13","depth":1,"path":"AdvancedLinux/13-SubmitaWriteupandGetaCertificate.md","ref":"AdvancedLinux/13-SubmitaWriteupandGetaCertificate.md","articles":[]},"previous":{"title":"Over the Wire 1015","level":"9.11","depth":1,"path":"AdvancedLinux/11-OvertheWire1015.md","ref":"AdvancedLinux/11-OvertheWire1015.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/12-AdvancedBashShell.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

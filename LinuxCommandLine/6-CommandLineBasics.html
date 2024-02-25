@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="9-CommandLineReview.html">
-            
-                <a href="9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1479,73 +1449,73 @@ will get to it!</p>
 <p>Visit this online shell: <a href="https://www.hoppersroppers.org/shell/" target="_blank">https://www.hoppersroppers.org/shell/</a> </p>
 <p>First command we are going to type will tell us who we are, which is
 clearly a badass.</p>
-<pre class="language-"><code class="lang-default">$ whoami
+<pre><code class="lang-default">$ whoami
 </code></pre>
 <p>The next command will tell us our path within directory, also known as
 our working directory. On Linux, we call folders directories because it
 sounds cooler, don&apos;t get thrown off.</p>
-<pre class="language-"><code class="lang-default">$ pwd
+<pre><code class="lang-default">$ pwd
 </code></pre>
 <p>Lets print out the long names of everything in our current working
 directory with <code>ls -l</code>. The -l is a flag that tells ls to print the
 &quot;long&quot; file information.</p>
-<pre class="language-"><code class="lang-default">$ ls -l
+<pre><code class="lang-default">$ ls -l
 </code></pre>
 <p>This showed everything in our directory. Now let&apos;s go make a new
 directory inside this one to play in.</p>
-<pre class="language-"><code class="lang-default">$ mkdir linuxPlayground
+<pre><code class="lang-default">$ mkdir linuxPlayground
 </code></pre>
 <p>To enter this newly created directory, use the &quot;change directory&quot;
 command. Instead of typing out all of &quot;linuxPlayground&quot; use bash&apos;s
 autocomplete feature by pressing tab once you have a few characters
 typed, then press enter. This is super helpful, you can use autocomplete
 for basically anything.</p>
-<pre class="language-"><code class="lang-default">$ cd linuxPlayground
+<pre><code class="lang-default">$ cd linuxPlayground
 </code></pre>
 <p>Check where you are with <code>pwd</code>.</p>
 <p>List out the files in this new directory with <code>ls -l</code>. Unsurprisingly,
 it&apos;s empty.</p>
 <p>To get back to the previous directory, type the command.</p>
-<pre class="language-"><code class="lang-default">$ cd ..
+<pre><code class="lang-default">$ cd ..
 </code></pre>
 <p>The &quot;..&quot; is a strange concept but basically means &quot;go up one level&quot;. If
 you wanted to go up two levels, you would type <code>cd ../..</code></p>
 <p>Alright, <code>cd</code> back into the linuxPlayground directory.</p>
 <p>Once you are in there, let&apos;s print something to the terminal.</p>
-<pre class="language-"><code class="lang-default">$ echo Hello World!
+<pre><code class="lang-default">$ echo Hello World!
 </code></pre>
 <p>This is nice, but now let&apos;s save it to a new file.</p>
-<pre class="language-"><code class="lang-default">$ echo Hello World! &gt; file1.txt
+<pre><code class="lang-default">$ echo Hello World! &gt; file1.txt
 </code></pre>
 <p>That arrow is known as a redirector and can be used to redirect the
 output of commands to files.</p>
 <p>Now use <code>ls</code> to check how many files there are, you should see file1.</p>
 <p>Use the new command <code>cat</code> to read the contents of file1. Use the tab
 autocomplete so you don&apos;t have to type the whole thing.</p>
-<pre class="language-"><code class="lang-default">$ cat file1.txt
+<pre><code class="lang-default">$ cat file1.txt
 </code></pre>
 <p>Sweeeeet. We&apos;re starting to go somewhere.</p>
 <p>Now let&apos;s append (that means add to the back of) file1.</p>
-<pre class="language-"><code class="lang-default">$ echo Goodbye! &gt;&gt; file1.txt
+<pre><code class="lang-default">$ echo Goodbye! &gt;&gt; file1.txt
 </code></pre>
 <p>As a note, we used two redirectors there. If we only use one it makes a
 new file, but two redirectors tells the bash shell to append to the back
 of an existing file.</p>
 <p>Use <code>cat</code> to read file1. What do you see?</p>
 <p>Lets now make a copy of file1.</p>
-<pre class="language-"><code class="lang-default">$ cp file1.txt file2.txt
+<pre><code class="lang-default">$ cp file1.txt file2.txt
 </code></pre>
 <p>Use <code>ls</code> to print out all files in your directory , then <code>cat</code> file2.
 Now use <code>mkdir</code> to make a new folder named folder1. We&apos;ll save this for
 later.</p>
 <p>Now let&apos;s learn how to delete file1.</p>
-<pre class="language-"><code class="lang-default">$ rm file1
+<pre><code class="lang-default">$ rm file1
 </code></pre>
 <p>Use <code>ls -l</code> and voila! file1 is gone! (you should also see folder1 now)</p>
 <p>While you have the results of <code>ls -l</code> up, look at what information is
 being shown for file2.</p>
 <p>The output of <code>ls -l</code> should look like this:</p>
-<pre class="language-"><code class="lang-default">drwxr-x--- 2 username groupname 4096 Jan 21 14:02 folder1 
+<pre><code class="lang-default">drwxr-x--- 2 username groupname 4096 Jan 21 14:02 folder1 
 -rwxr-x--- 1 username groupname 15 Jan 21 14:02 file2
 </code></pre>
 <p>We won&apos;t beat this up too hard for now, but know that we can see:</p>
@@ -1584,17 +1554,17 @@ Google &quot;what does ls -l show&quot;... you&apos;ll probably get a better
 description than mine!</p>
 <p>Back to the command line!!!!!</p>
 <p>Run the <code>touch</code> command to update the timestamp on file2.</p>
-<pre class="language-"><code class="lang-default">$ touch file2.txt
+<pre><code class="lang-default">$ touch file2.txt
 </code></pre>
 <p>Use <code>ls -l</code> to verify the timestamp was updated.</p>
 <p>Touch also has the ability to make a new empty file with the timestamp
 set for now.</p>
-<pre class="language-"><code class="lang-default">$ touch file3.txt
+<pre><code class="lang-default">$ touch file3.txt
 </code></pre>
 <p>Use <code>ls -l</code> to verify the new file exists.</p>
 <p>We will use the command <code>mv</code> to move file3 into folder1.</p>
 <p>Use <code>ls -l</code> to verify the folder was created.</p>
-<pre class="language-"><code class="lang-default">$ mv file3.txt folder1/
+<pre><code class="lang-default">$ mv file3.txt folder1/
 </code></pre>
 <p>Use <code>cd</code> into folder1 and use <code>ls</code> to verify file3 is in there.</p>
 <p>Alright, now let&apos;s delete folder1. Before trying to delete folder1, make
@@ -1619,7 +1589,7 @@ them on the screen.</p>
 <p>Then work through it and take notes on what you still don&apos;t understand
 about what was described in this section. Submit anything you are
 confused about.</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1662,7 +1632,7 @@ confused about.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Command Line Basics","level":"5.7","depth":1,"next":{"title":"Bash Internals and Unix Philosophy","level":"5.8","depth":1,"path":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","ref":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","articles":[]},"previous":{"title":"Learning Linux Commands","level":"5.6","depth":1,"path":"LinuxCommandLine/5-LearningLinuxCommands.md","ref":"LinuxCommandLine/5-LearningLinuxCommands.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxCommandLine/6-CommandLineBasics.md","mtime":"2023-11-13T00:36:18.692Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Command Line Basics","level":"5.7","depth":1,"next":{"title":"Bash Internals and Unix Philosophy","level":"5.8","depth":1,"path":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","ref":"LinuxCommandLine/7-BashInternalsandUnixPhilosophy.md","articles":[]},"previous":{"title":"Learning Linux Commands","level":"5.6","depth":1,"path":"LinuxCommandLine/5-LearningLinuxCommands.md","ref":"LinuxCommandLine/5-LearningLinuxCommands.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"LinuxCommandLine/6-CommandLineBasics.md","mtime":"2024-02-25T20:45:27.028Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

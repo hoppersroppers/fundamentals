@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1496,7 +1466,7 @@ and kill them, so that is what we will do.</p>
 <h2 id="ps--top">ps &amp; top</h2>
 <p>The most common way to view processes is by running the <code>ps</code> command. To
 list all the processes owned by a username, run this command:</p>
-<pre class="language-"><code class="lang-default">$ ps -u <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>username</span><span class="token punctuation">&gt;</span></span>
+<pre><code class="lang-default">$ ps -u &lt;username&gt;
 </code></pre>
 <p>This will return results in the format:</p>
 <p><code>PID TTY          TIME CMD</code></p>
@@ -1525,7 +1495,7 @@ than it already is.)</p>
 multiple &apos;pts&apos; inside it. Finally, if we see a &apos;?&apos; it just means the TTY
 is unknown.</p>
 <p>The more common way you will see the <code>ps</code> command is this:</p>
-<pre class="language-"><code class="lang-default">$ ps aux
+<pre><code class="lang-default">$ ps aux
 </code></pre>
 <p>This returns all the data about all the processes running on the
 computer. You can check out in the man pages to see exactly what the
@@ -1567,24 +1537,24 @@ been running.</p>
 all the arguments that a process was executed with.</p>
 <p>If we only want to look for a single type of process, we can grep for it
 using a pipe!</p>
-<pre class="language-"><code class="lang-default">$ ps aux | grep bash
+<pre><code class="lang-default">$ ps aux | grep bash
 </code></pre>
 <p>If we only care about who is using the most resources, we can use a new
 command <code>top</code> to check them out!</p>
-<pre class="language-"><code class="lang-default">$ top
+<pre><code class="lang-default">$ top
 </code></pre>
 <p>This is especially useful if you are locking up and need to kill a
 memory hog... speaking of, how do we do that?</p>
 <h2 id="killing-processes">Killing Processes</h2>
 <p>If you have the process ID, you can simply type <code>kill</code> followed by the
 PID. <code>top</code>, or <code>ps | grep</code> are great for finding those PIDs.</p>
-<pre class="language-"><code class="lang-default">$ kill 1234
+<pre><code class="lang-default">$ kill 1234
 </code></pre>
 <p>If you want to kill all processes with a certain name, <code>pkill</code> is very
 useful and gets the job done. Great for killing netcat listeners or
 python scripts when you are doing a bunch of things in a bunch of
 terminals.</p>
-<pre class="language-"><code class="lang-default">$ pkill nc
+<pre><code class="lang-default">$ pkill nc
 </code></pre>
 <p>Once you&apos;ve killed a process, run <code>ps</code> again to make sure you got it. If
 something went wrong you might need a different kill option, or worse,
@@ -1592,7 +1562,7 @@ made a zombie!</p>
 <h2 id="types-of-processes">Types of Processes</h2>
 <p>Alright, before we get to zombies, let&apos;s talk about parent and child
 processes.</p>
-<pre class="language-"><code class="lang-default">$ ps -ef
+<pre><code class="lang-default">$ ps -ef
 </code></pre>
 <p>Running this we see a bunch of similar columns as before, but now we see
 a column labled PPID, or &quot;Parent Process ID&quot;. This is the PID of the
@@ -1600,12 +1570,12 @@ process that spawned the process listed, so we can use it to understand
 who is calling who (especially if we see processes and don&apos;t know where
 they came from).</p>
 <p>An ever better way to visualize this is this command:</p>
-<pre class="language-"><code class="lang-default">$  ps -e -o pid,args --forest
+<pre><code class="lang-default">$  ps -e -o pid,args --forest
 </code></pre>
 <p>We can see a very interesting output that shows the parents, children,
 and grandchildren, and even further down. We can even see the command
 and the arguments we passed to display this.</p>
-<pre class="language-"><code class="lang-default">23453  \_ /usr/libexec/gnome-terminal-server 
+<pre><code class="lang-default">23453  \_ /usr/libexec/gnome-terminal-server 
  5868  |   \_ bash 
 26785  |   |   \_ ps -e -o pid,args --forest 
 22769  |   \_ bash 
@@ -1660,7 +1630,7 @@ to us.</p>
 <p>The output should look like [1] 23867, with the trailing number being,
 you guessed it, a PID. We can now check out with <code>ps aux</code> to see what
 these two PIDs look like.</p>
-<pre class="language-"><code class="lang-default">student  27347 0.0  0.0   8172  2184 pts/3    S+   11:06   0:00 nc -l 1338 
+<pre><code class="lang-default">student  27347 0.0  0.0   8172  2184 pts/3    S+   11:06   0:00 nc -l 1338 
 student  27389 0.0  0.0   8172  2188 pts/3    S    11:03   0:00 nc -l 1337
 </code></pre>
 <p>Besides PID and the command issued, a notable difference is that the
@@ -1688,7 +1658,7 @@ they are in a different parent process, so <code>jobs</code> won&apos;t find the
 (Remember, computers are not magic). Once we navigate to the tab we ran
 the backgrounded process in we can use the <code>fg</code> command to bring them
 forward. With no args <code>fg</code> will take the first item, otherwise we can
-specify with <code>fg `%<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>job</span> <span class="token attr-name">#</span><span class="token punctuation">&gt;</span></span></code>.</p>
+specify with <code>fg `%&lt;job #&gt;</code>.</p>
 <p>Now the backgrounded process is in the foreground, and we can check
 <code>jobs</code> and <code>ps</code> to show the status has changed.</p>
 <h2 id="signals">Signals</h2>
@@ -1740,7 +1710,7 @@ information. Now to make it even more complicated, the directories in
 sketchy from there, so we are going to mostly ignore it, but again, it
 is good for you to know.</p>
 <h1 id="assignment">Assignment:</h1>
-<pre class="language-"><code class="lang-default">Questions:
+<pre><code class="lang-default">Questions:
 1. Navigate /proc and look through a PID associated with a netcat listener. 
 Briefly, what can you find in there? 
 2. How can we tell a process is a zombie file in ps? (Hint: Process State Codes) 
@@ -1754,7 +1724,7 @@ dragons, so don&apos;t worry about it.</p>
 <p>&quot;Seasons don&apos;t fear the reaper Nor do the wind, the sun or the rain, we
 can be like they are Come on baby, don&apos;t fear the reaper...&quot;</p>
 <p><code>default</code></p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1797,7 +1767,7 @@ can be like they are Come on baby, don&apos;t fear the reaper...&quot;</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Linux Processes","level":"9.10","depth":1,"next":{"title":"Over the Wire 1015","level":"9.11","depth":1,"path":"AdvancedLinux/11-OvertheWire1015.md","ref":"AdvancedLinux/11-OvertheWire1015.md","articles":[]},"previous":{"title":"How to Type","level":"9.9","depth":1,"path":"AdvancedLinux/9-HowtoType.md","ref":"AdvancedLinux/9-HowtoType.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/10-LinuxProcesses.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Linux Processes","level":"9.10","depth":1,"next":{"title":"Over the Wire 1015","level":"9.11","depth":1,"path":"AdvancedLinux/11-OvertheWire1015.md","ref":"AdvancedLinux/11-OvertheWire1015.md","articles":[]},"previous":{"title":"How to Type","level":"9.9","depth":1,"path":"AdvancedLinux/9-HowtoType.md","ref":"AdvancedLinux/9-HowtoType.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/10-LinuxProcesses.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

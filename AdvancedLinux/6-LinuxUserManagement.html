@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1502,12 +1472,12 @@ against a file that is represented in the Linux filesystem as
 edited if you have the appropriate permissions. On rare occasions you
 might go into these files in &apos;vim&apos; to make edits.</p>
 <p>To view:</p>
-<pre class="language-"><code class="lang-default">$ cat /etc/passwd
+<pre><code class="lang-default">$ cat /etc/passwd
 </code></pre>
 <p>Here you will see a printout of all the users with accounts on your
 computer. The top one will be &apos;root&apos;, and will look like generally like
 this.</p>
-<pre class="language-"><code class="lang-default">root:x:0:0:root:/root:/bin/bash dennis:x:1337:1337:Dennis:/home/dennis:/bin/bash
+<pre><code class="lang-default">root:x:0:0:root:/root:/bin/bash dennis:x:1337:1337:Dennis:/home/dennis:/bin/bash
 </code></pre>
 <p>There will be many more entries than this, but let&apos;s ignore them for
 now.</p>
@@ -1547,11 +1517,11 @@ the default value.</li>
 <li>List of users - Manually specified users in the group</li>
 </ol>
 <h2 id="add-a-user-and-set-the-password">Add a User and Set the Password</h2>
-<pre class="language-"><code class="lang-default">$ sudo useradd -c &quot;User&apos;s Full Name&quot; account_name $ sudo passwd account_name
+<pre><code class="lang-default">$ sudo useradd -c &quot;User&apos;s Full Name&quot; account_name $ sudo passwd account_name
 </code></pre>
 <h2 id="delete-an-account">Delete an Account</h2>
 <p>To delete an account:</p>
-<pre class="language-"><code class="lang-default">$ userdel -r account_name
+<pre><code class="lang-default">$ userdel -r account_name
 </code></pre>
 <p>Userdel with the &quot;-r&quot; flag is final and will delete the user along with
 the user&apos;s home directory. Make sure you want to do this before running
@@ -1560,7 +1530,7 @@ the command.</p>
 <h2 id="set-passwords">Set Passwords</h2>
 <p>While usually you will use <code>passwd</code> to set passwords, there are many
 other uses. To check the status of a user account, use this format.</p>
-<pre class="language-"><code class="lang-default">$ passwd -S account_name
+<pre><code class="lang-default">$ passwd -S account_name
 </code></pre>
 <p>You can also do more complicated things using the command, but google
 for a cheatsheet to do that, or if you don&apos;t have internet access, use
@@ -1581,7 +1551,7 @@ separate line.<ul>
 write up what you saw and any problems you had doing this.</li>
 </ol>
 <p>Answer in the appropriate format.</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1624,7 +1594,7 @@ write up what you saw and any problems you had doing this.</li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Linux User Management","level":"9.7","depth":1,"next":{"title":"Passwords and Hashing","level":"9.8","depth":1,"path":"AdvancedLinux/8-PasswordsandHashingOnLinux.md","ref":"AdvancedLinux/8-PasswordsandHashingOnLinux.md","articles":[]},"previous":{"title":"Bored Yet","level":"9.6","depth":1,"path":"AdvancedLinux/5-BoredYet.md","ref":"AdvancedLinux/5-BoredYet.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/6-LinuxUserManagement.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Linux User Management","level":"9.7","depth":1,"next":{"title":"Passwords and Hashing","level":"9.8","depth":1,"path":"AdvancedLinux/8-PasswordsandHashingOnLinux.md","ref":"AdvancedLinux/8-PasswordsandHashingOnLinux.md","articles":[]},"previous":{"title":"Bored Yet","level":"9.6","depth":1,"path":"AdvancedLinux/5-BoredYet.md","ref":"AdvancedLinux/5-BoredYet.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/6-LinuxUserManagement.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1475,14 +1445,14 @@ from the command line.</p>
 <p>This only works if you are in a Gnome-based desktop environment, which
 you would have if you installed Ubuntu. I can&apos;t promise anything if you
 are in another OS, so run this: </p>
-<pre class="language-"><code class="lang-default">echo $XDG_CURRENT_DESKTOP
+<pre><code class="lang-default">echo $XDG_CURRENT_DESKTOP
 </code></pre>
 <p>If it doesn&apos;t say Gnome, just skip this section, or for bonus points,
 figure out how to change your wallpaper from the command line using
 Google.</p>
 <p>First we have to download an image, and then we will use the command to
 make it our background.</p>
-<pre class="language-"><code class="lang-default">$ wget -O ~/Downloads/wallpaper.jpg  &quot;https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/_layouts/constitution.jpg&quot; 
+<pre><code class="lang-default">$ wget -O ~/Downloads/wallpaper.jpg  &quot;https://raw.githubusercontent.com/hoppersroppers/hoppersroppers.github.io/main/_layouts/constitution.jpg&quot; 
 
 $ gsettings set org.gnome.desktop.background picture-uri file:////tmp/wallpaper.jpg
 </code></pre>
@@ -1491,11 +1461,11 @@ work, troubleshoot. If you&apos;re not on Ubuntu there is a very strong
 chance that you have a different default Desktop (aka GUI) environment
 on your OS and it doesn&apos;t use &apos;gsettings&apos;. Google around to figure out
 which Desktop environment you have and what you need to do to change
-your background from the command line.</p>
+your background from the command line. </p>
 <p>Alright, you don&apos;t need to keep it like that, go make it whatever
 background you want!</p>
 <h2 id="assignment">Assignment</h2>
-<pre class="language-"><code class="lang-default">Questions:
+<pre><code class="lang-default">Questions:
 1. Using the &apos;man&apos; command, describe what the command using wget and the -O flag did 
 2. Using the &apos;man&apos; command, describe what the command using gsettings did. 
 If that didn&apos;t work, explain what you did to get it to work. 
@@ -1505,7 +1475,7 @@ Resources:
 1. Google
 </code></pre>
 <p>Write up a few sentences for each of the questions. </p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1548,7 +1518,7 @@ Resources:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Make it Your Own","level":"6.5","depth":1,"next":{"title":"Updating Linux and Packages","level":"6.6","depth":1,"path":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","ref":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","articles":[]},"previous":{"title":"Virtualization Tools","level":"6.4","depth":1,"path":"BuildaLinuxLab/3-VirtualizationTools.md","ref":"BuildaLinuxLab/3-VirtualizationTools.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"BuildaLinuxLab/4-MakeitYourOwn.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Make it Your Own","level":"6.5","depth":1,"next":{"title":"Updating Linux and Packages","level":"6.6","depth":1,"path":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","ref":"BuildaLinuxLab/5-UpdatingLinuxandPackages.md","articles":[]},"previous":{"title":"Virtualization Tools","level":"6.4","depth":1,"path":"BuildaLinuxLab/3-VirtualizationTools.md","ref":"BuildaLinuxLab/3-VirtualizationTools.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"BuildaLinuxLab/4-MakeitYourOwn.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

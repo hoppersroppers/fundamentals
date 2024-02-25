@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
                 
             
@@ -628,19 +624,6 @@
             
         </li>
     
-        <li class="chapter " data-level="5.9" data-path="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                <a href="../LinuxCommandLine/9-CommandLineReview.html">
-            
-                    
-                    Command Line Review
-            
-                </a>
-            
-
-            
-        </li>
-    
 
     
         
@@ -1052,22 +1035,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.8" data-path="../Hardware/7-HardwareHistory.html">
+        <li class="chapter " data-level="8.8" data-path="../Hardware/7-ModernHardware.html">
             
-                <a href="../Hardware/7-HardwareHistory.html">
-            
-                    
-                    Hardware History
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="8.9" data-path="../Hardware/8-ModernHardware.html">
-            
-                <a href="../Hardware/8-ModernHardware.html">
+                <a href="../Hardware/7-ModernHardware.html">
             
                     
                     Modern Hardware
@@ -1078,9 +1048,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.10" data-path="../Hardware/9-HexandMore.html">
+        <li class="chapter " data-level="8.9" data-path="../Hardware/8-HexandMore.html">
             
-                <a href="../Hardware/9-HexandMore.html">
+                <a href="../Hardware/8-HexandMore.html">
             
                     
                     Hex and More
@@ -1496,7 +1466,7 @@ delete the snapshot. Look at you, following best practices.</p>
 <p>Starting from what we already know, let&apos;s think about this in terms of
 partitions. We know we only have one partition in our virtual disk right
 now. Let&apos;s say it looks like this.</p>
-<pre class="language-"><code class="lang-default">__ Virtual Disc: 20 GB_____________ 
+<pre><code class="lang-default">__ Virtual Disc: 20 GB_____________ 
 |__Ubuntu Partition __20 GB_______|
 </code></pre>
 <p>So all 20 GB of the virtual disc are occupied by our partition, which
@@ -1511,7 +1481,7 @@ links. For now, let&apos;s just increase your VM disk size by 2 GB.</p>
 <p>It&apos;s all pretty straightforward for the virtualization software, but you
 will notice you have to turn off the VM. Once you&apos;re done, your virtual
 hard drive will look something like this.</p>
-<pre class="language-"><code class="lang-default">__ Virtual Disc: 22 GB______________________ 
+<pre><code class="lang-default">__ Virtual Disc: 22 GB______________________ 
 |__Ubuntu Partition __20 GB_______| _______|
 </code></pre>
 <p>Those extra 2 GB hanging out are called &quot;unallocated space&quot;. Sounds
@@ -1555,7 +1525,7 @@ have changed yet.</p>
 <p>Now using the name you found for the filesystem, run the following
 command with <code>resize2fs</code>. This command will automatically match the size
 of the partition to the size of the available disc space. Magic!</p>
-<pre class="language-"><code class="lang-default"> $ resize2fs /dev/nameOfFilesystem 
+<pre><code class="lang-default"> $ resize2fs /dev/nameOfFilesystem 
 resize2fs 1.42.13 (17-May-2015) Filesystem at /dev/nameOfFilesystem is mounted on /; 
 on-line resizing required old_desc_blocks = 1, new_desc_blocks = 2 
 The filesystem on /dev/nameOfFilesystem is now 4854784 (4k) blocks long.
@@ -1564,7 +1534,7 @@ The filesystem on /dev/nameOfFilesystem is now 4854784 (4k) blocks long.
 <li>Then verify everything worked using <code>df -h</code> again to see the size
 change.</li>
 </ol>
-<pre class="language-"><code class="lang-default">__ Virtual Disc: 22 GB____________________ 
+<pre><code class="lang-default">__ Virtual Disc: 22 GB____________________ 
 |__Ubuntu Partition __22 GB_______________|
 </code></pre>
 <p>Now you have changed your VM size, which is a huge win for something
@@ -1590,7 +1560,7 @@ running?</li>
 your feelings and what you can find in 5 minutes of research than a
 perfect answer. Don&apos;t research this too deeply or you might lose your
 mind!</p>
-<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2021 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2023-11-13 00:36:18 </span> </footer>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Roppers Academy 2024 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2024-02-25 20:45:27 </span> </footer>
                                 
                                 </section>
                             
@@ -1633,7 +1603,7 @@ mind!</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Resizing Your VM","level":"9.3","depth":1,"next":{"title":"Linux Permissions","level":"9.4","depth":1,"path":"AdvancedLinux/3-LinuxPermissions.md","ref":"AdvancedLinux/3-LinuxPermissions.md","articles":[]},"previous":{"title":"Linux Filesystem Hierarchy","level":"9.2","depth":1,"path":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","ref":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2021","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/2-ResizingYourVM.md","mtime":"2023-11-13T00:36:18.688Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-13T00:37:23.475Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Resizing Your VM","level":"9.3","depth":1,"next":{"title":"Linux Permissions","level":"9.4","depth":1,"path":"AdvancedLinux/3-LinuxPermissions.md","ref":"AdvancedLinux/3-LinuxPermissions.md","articles":[]},"previous":{"title":"Linux Filesystem Hierarchy","level":"9.2","depth":1,"path":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","ref":"AdvancedLinux/1-LinuxFilesystemHierarchy.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","bibtex-indexed-cite","page-footer-ex","splitter","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/fundamentals/blob/master"},"page-footer-ex":{"copyright":"Roppers Academy 2024","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"fundamentals","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"","bib":[],"gitbook":"*"},"file":{"path":"AdvancedLinux/2-ResizingYourVM.md","mtime":"2024-02-25T20:45:27.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-02-25T20:46:05.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
