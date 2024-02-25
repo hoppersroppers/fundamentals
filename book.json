@@ -10,7 +10,6 @@
     "editlink",
     "ga",
     "-highlight",
-    "prism",
     "bibtex-indexed-cite",
     "page-footer-ex",
     "splitter",
@@ -43,17 +42,8 @@
     "ga": {
       "token": "UA-151638088-2"
     },
-    "prism": {
-      "ignore": [
-        "mermaid",
-        "eval-js"
-      ],
-      "css": [
-        "prismjs/themes/prism-solarizedlight.css"
-      ]
-    },
     "page-footer-ex": {
-      "copyright": "Roppers Academy 2021",
+      "copyright": "Roppers Academy 2024",
       "markdown": true,
       "update_label": "Date：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
